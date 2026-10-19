@@ -1,0 +1,37 @@
+/* Awake's spacious project gallery, adapted to Josh's paper and colour palette. */
+.hero-v8{padding-bottom:45px}
+.hero-bottom-v8{border-bottom:0;padding-bottom:0}
+.projects-v17{padding:90px var(--pad) 100px;background:#f4f3ed;border-top:1px solid #c6c7b8;color:#252820;overflow:visible}
+.projects-v17 .work-carousel-heading{display:block;padding:0 0 70px}
+.projects-v17 .work-carousel-heading h2{font-size:clamp(75px,12.6vw,200px);text-transform:uppercase;line-height:.9;font-weight:700;letter-spacing:-.075em;white-space:nowrap}
+.projects-v17 .work-carousel-heading h2>span{display:block;font:10px/1.4 Consolas,monospace;letter-spacing:.03em;margin:26px 0 0;color:#606653}
+.projects-v17 .work-carousel-heading>p{margin:20px 0 0 auto;max-width:44ch;color:#535b48;font-size:13px;padding:0;line-height:1.6}
+.projects-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:85px 35px;padding-bottom:65px}
+.projects-v17 .work-card{position:relative;inset:auto;width:100%;height:auto;border:0;background:transparent;box-shadow:none;border-radius:0;overflow:visible;transform:none;opacity:1;visibility:visible;transition:none;backface-visibility:visible}
+.projects-v17 .work-card:nth-child(even){top:65px}
+.projects-v17 .work-card>a{display:block;height:auto;color:inherit}
+.projects-v17 .work-card-art{height:auto;aspect-ratio:1 / 1.12;border-radius:16px;overflow:hidden;position:relative;isolation:isolate}
+.projects-v17 .work-card-art>div{height:100%;width:100%;transition:none}
+.projects-v17 .work-cover-index{top:24px;right:24px;font-size:10px}
+.projects-v17 .work-card-caption{display:grid;grid-template-columns:1fr auto;align-items:start;gap:10px 15px;border:0;padding:19px 0 0;background:transparent;min-height:0}
+.projects-v17 .work-card-title>p{font-size:10px;line-height:1.5;color:#59624d}
+.projects-v17 .work-card-caption h3{font-size:clamp(27px,2.7vw,43px);font-weight:500;line-height:1.1;margin:8px 0 0;letter-spacing:-.045em}
+.projects-v17 .work-card-description{grid-column:1;max-width:34ch!important;font-size:13px!important;line-height:1.5;color:#59624d!important}
+.projects-v17 .work-card-caption .work-card-open{grid-column:2;grid-row:1 / 3;align-self:center;font-size:0;gap:0;padding:0;border:1px solid #aeb5a1;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;color:#244edb}
+.projects-v17 .work-card-open>span{font-size:24px}
+.projects-v17 .carousel-george{padding:25px;background:#dce5b0}
+.projects-v17 .george-cover-title{left:7%;top:12%;padding:0}
+.projects-v17 .george-cover-title>span{font-size:clamp(60px,7.2vw,115px);line-height:.9}
+.projects-v17 .george-cover-title small{font-size:13px;margin-top:16px}
+.projects-v17 .carousel-george .george-cover-ui{right:5%;bottom:8%;width:69%;height:45%;max-height:none}
+.projects-v17 .carousel-george .george-cover-character{left:0;bottom:-3%;width:34%;height:53%}
+.projects-v17 .carousel-midnight{background:#cbd8ea;padding:10% 7%;display:grid;place-items:center}
+.projects-v17 .carousel-midnight img{width:100%;height:100%;max-width:100%;object-fit:contain;border:0;box-shadow:none;transform:rotate(-5deg);transition:none}
+.projects-v17 .carousel-web{background:#f17953;color:#352919;padding:10%;font-size:clamp(65px,7.7vw,120px);line-height:.95;justify-content:center}
+.projects-v17 .carousel-web span:last-child{color:inherit;align-self:flex-end}
+.projects-v17 .carousel-dots{background:#e1ddf0;padding:10%;display:grid;place-items:center}
+.projects-v17 .carousel-dots img{height:100%;width:100%;object-fit:contain}
+@media(hover:hover) and (pointer:fine){.projects-v17 .work-card>a:hover .work-card-open{background:#244edb;color:#fff;border-color:#244edb}}
+@media(min-width:1600px){.projects-v17 .george-cover-title>span{font-size:8vw}.projects-v17 .carousel-web{font-size:8vw}}
+@media(max-width:750px){.hero-v8{padding-bottom:35px}.projects-v17{padding:45px var(--pad) 55px}.projects-v17 .work-carousel-heading{padding-bottom:35px}.projects-v17 .work-carousel-heading h2{font-size:12.4vw;letter-spacing:-.065em}.projects-v17 .work-carousel-heading h2>span{font-size:9px;margin-top:18px}.projects-v17 .work-carousel-heading>p{display:block;margin:20px 0 0;font-size:12px;max-width:34ch}.projects-grid{grid-template-columns:1fr;gap:42px;padding-bottom:0}.projects-v17 .work-card:nth-child(even){top:auto}.projects-v17 .work-card-art{aspect-ratio:1/1.05;border-radius:12px}.projects-v17 .george-cover-title>span{font-size:21vw}.projects-v17 .george-cover-title small{font-size:11px;margin-top:12px}.projects-v17 .carousel-web{font-size:22vw}.projects-v17 .work-card-caption{padding-top:16px}.projects-v17 .work-card-caption h3{font-size:29px}.projects-v17 .work-card-description{font-size:12px!important}.projects-v17 .work-card-title>p{font-size:9px}.projects-v17 .work-cover-index{top:17px;right:17px;font-size:9px}}
+@media(prefers-reduced-motion:reduce){.projects-v17 .work-card-art>div,.projects-v17 .carousel-midnight img{transition:none}}

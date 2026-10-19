@@ -1,0 +1,26 @@
+/* Josh: type at poster scale, with a small working experiment in the margin. */
+.personal-hero{grid-template-columns:minmax(0,1.8fr) minmax(0,1fr);gap:24px 40px;padding:42px 0 38px;align-items:start}
+.personal-hero h1{display:contents}
+.personal-hero h1>span{font-size:clamp(90px,22vw,350px);font-weight:700;line-height:.79;letter-spacing:-.085em;display:block}
+.first-name{grid-column:1;grid-row:1;align-self:end}
+.last-name{grid-column:1/-1;grid-row:2;padding-bottom:15px}
+.name-stop{color:var(--orange)}
+.personal-hero .type-experiment{grid-column:2;grid-row:1;min-height:0;max-width:none;height:clamp(160px,18vw,285px);display:grid;grid-template-columns:1fr 1fr;grid-template-rows:auto 1fr;background:var(--orange)}
+.personal-hero .type-experiment-top{grid-column:1/-1;padding:10px 14px;font-size:9px}
+.personal-hero #type-play{grid-column:1;grid-row:2;height:100%;min-height:0}
+.personal-hero .type-experiment-bottom{grid-column:2;grid-row:2;border-top:0;border-left:1px solid #20211f70;flex-direction:column;align-items:flex-start;justify-content:space-between;padding:15px 12px;font-size:10px}
+.personal-hero .type-experiment button{padding:10px;font-size:10px;white-space:normal}
+.personal-intro{grid-column:1;grid-row:3;margin-top:15px}
+.personal-intro .eyebrow{margin-bottom:16px}
+.personal-hero .hero-intro{font-size:clamp(27px,3vw,46px);line-height:1.08;letter-spacing:-.045em}
+.intro-detail{font-size:14px;line-height:1.5;margin-top:18px;color:var(--muted)}
+.personal-hero .hero-actions{grid-column:2;grid-row:3;flex-direction:column;align-items:stretch;justify-content:flex-end;align-self:end;gap:10px;margin:0}
+.personal-hero .hero-actions .text-link{font-size:12px;min-height:44px;display:flex;align-items:center}
+.work>.section-heading{align-items:end;margin-bottom:50px}
+.work>.section-heading h2{font-size:clamp(54px,8vw,125px);letter-spacing:-.075em;line-height:.94}
+.work>.section-heading p{font-size:13px;padding-bottom:5px}
+.project.george .project-info h3,.project.jarvis .project-info h3{font-size:clamp(44px,5vw,77px);letter-spacing:-.065em}
+.project.creative-web h3,.project.six-million h3{font-size:clamp(35px,4vw,60px)}
+.contact-title{font-size:clamp(60px,10vw,154px)}
+@media(min-width:1600px){.personal-hero h1>span{font-size:350px}}
+@media(max-width:700px){.personal-hero{grid-template-columns:minmax(0,1fr);gap:20px;padding:34px 0 26px}.personal-hero h1{display:block;grid-column:1;grid-row:1;margin:0}.personal-hero h1>span{font-size:24vw;line-height:.86;letter-spacing:-.085em}.personal-hero .last-name{padding-bottom:0}.personal-hero .type-experiment{grid-column:1;grid-row:3;height:190px;margin-top:5px}.personal-hero .personal-intro{grid-column:1;grid-row:2;margin-top:5px}.personal-hero .hero-intro{font-size:30px}.personal-intro .eyebrow{font-size:9px;margin-bottom:12px}.intro-detail{font-size:12px;margin-top:12px}.personal-hero .hero-actions{grid-column:1;grid-row:4;flex-direction:row;align-items:center;gap:20px}.personal-hero .hero-actions .text-link{font-size:10px}.personal-hero .hero-actions .button{font-size:12px;padding:13px}.work>.section-heading h2{font-size:13vw}.work>.section-heading{display:block;margin-bottom:28px}.work>.section-heading p{margin-top:20px;font-size:12px}.project.george .project-info h3,.project.jarvis .project-info h3{font-size:38px}.project.creative-web h3,.project.six-million h3{font-size:34px}.contact-title{font-size:12.6vw}.contact-title>span{font-size:32px}.about h2{font-size:13vw}}

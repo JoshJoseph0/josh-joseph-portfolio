@@ -1,0 +1,3 @@
+Lenis 1.3.27
+Official package https://www.npmjs.com/package/lenis
+Repository https://github.com/darkroomengineering/lenis

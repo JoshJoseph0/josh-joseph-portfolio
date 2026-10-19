@@ -1,0 +1,41 @@
+/* Tall, condensed typography shared by every portfolio page. */
+@font-face{font-family:"Barlow Condensed";src:url("assets/BarlowCondensed-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Barlow Condensed";src:url("assets/BarlowCondensed-Medium.ttf") format("truetype");font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:"Barlow Condensed";src:url("assets/BarlowCondensed-SemiBold.ttf") format("truetype");font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:"Barlow Condensed";src:url("assets/BarlowCondensed-Bold.ttf") format("truetype");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:Anton;src:url("assets/anton.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
+:root{--display-font:Anton,"Arial Narrow",sans-serif;--text-font:"Barlow Condensed","Arial Narrow",sans-serif}
+body{font-family:var(--text-font);font-size:18px;line-height:1.55}
+button,input,select,textarea{font-family:var(--text-font)}
+h1,h2,h3,h4,.wordmark,.contact-title,.journey-bridge>p,.carousel-web,.george-cover-title>span{font-family:var(--display-font);font-weight:400;letter-spacing:-.015em}
+.work-carousel-heading h2,.play-invitation h2,.section-lead h2,footer .contact-title,footer .contact-title em{font-family:var(--display-font);font-weight:400;letter-spacing:-.015em}
+.work-carousel-heading h2>span:not(.selected-title){font-family:var(--text-font);font-size:14px;letter-spacing:.035em}
+.header nav{font-size:18px;font-weight:500;letter-spacing:.005em}.nav-count{font-size:12px}
+.chapter-label,.eyebrow{font-size:14px;font-weight:500;letter-spacing:.045em}
+.work-carousel-heading>p:not(.chapter-label){font-size:19px;line-height:1.45;max-width:41ch}
+.project-directory a{font-size:17px}.project-directory a>span:first-child{font-size:13px}
+.work-card-title>p{font-size:15px}.work-card-caption>p{font-size:18px;line-height:1.45}
+.play-invitation>p:not(.chapter-label),.about-v6>div>p:not(.large-copy){font-size:20px;line-height:1.55}
+.large-copy{letter-spacing:-.01em;line-height:1.25}
+#cv{font-size:18px}.cv-links a{font-size:17px}
+.footer-bottom,.motion-setting{font-size:15px}.hero-life-toggle{font-size:14px}
+.case-intro{letter-spacing:-.01em}.case-section p{font-size:20px;line-height:1.6}
+.case-meta{font-size:16px}figcaption{font-size:15px}
+.lab-lead{font-size:22px}.lab-toolbar,.lab-search,.lab-filters{font-size:17px}
+.code-dialog pre,.code-dialog code{font-family:Consolas,monospace}
+@media(max-width:700px){
+.header nav,.minimal-hero .header nav{font-size:15px;gap:12px}.header .nav-count{font-size:10px}
+.header .wordmark{font-size:19px}.minimal-hero .wordmark{font-size:18px}
+.chapter-label{font-size:13px}.work-carousel-heading>p:not(.chapter-label){font-size:18px}
+.work-card-caption>p{font-size:17px}.project-directory a{font-size:16px}
+.play-invitation>p:not(.chapter-label),.about-v6>div>p:not(.large-copy){font-size:19px}
+.case-section p{font-size:19px}.hero-life-toggle{font-size:13px}
+}
+
+/* Existing wide-face tracking needs more air with condensed letterforms. */
+body .lab-intro h1,body .case h1,body .case-section h2,body .lab-info h2,body .lab-sources h2{font-family:var(--display-font);font-weight:400;letter-spacing:-.015em;line-height:1.05}
+body .lab-intro .lab-lead p{font-size:20px;line-height:1.45}
+body .lab-filters button,body .lab-search label,body .lab-search button,body .lab-search input{font-size:15px}
+body .lab-note,body .lab-help,body .lab-count{font-size:15px;line-height:1.45}
+
+@media(max-width:700px){body.minimal-hero.name-flight-active .header nav{font-size:15px;padding-left:90px}body.minimal-hero .header nav{font-size:15px}}

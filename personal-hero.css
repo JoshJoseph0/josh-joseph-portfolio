@@ -1,0 +1,31 @@
+/* A personal opening: a maker's thought, a familiar face and a clear next step. */
+.hero-personal{padding:32px var(--pad) 30px;min-height:calc(100svh - var(--header-height));gap:28px;justify-content:space-between}
+.personal-hello{display:flex;justify-content:space-between;align-items:start;gap:25px}
+.personal-hello>p:first-child{display:flex;align-items:center;gap:8px;font-size:16px;letter-spacing:-.025em}
+.personal-hello strong{font-weight:700}.hello-dot{width:9px;height:9px;border-radius:50%;background:#244edb;margin-right:4px}
+.personal-hello>p:last-child{font-size:11px;line-height:1.5;text-align:right;color:#59624d}
+.personal-main{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(0,.85fr);align-items:center;gap:35px;padding:12px 0 15px}
+.hero-personal h1{font-size:clamp(85px,11.4vw,185px);line-height:.91;letter-spacing:-.075em;margin:0;white-space:normal;font-weight:700}
+.hero-personal h1 em{font-family:Georgia,serif;font-style:italic;font-weight:400;color:#244edb;letter-spacing:-.075em;position:relative;white-space:nowrap;display:inline-block;padding-bottom:9px}
+.maker-underline{position:absolute;left:1%;bottom:-7px;width:101%;height:22px;overflow:visible;transform:scaleX(.74);transform-origin:left;transition:transform 360ms cubic-bezier(.2,.8,.2,1)}
+.maker-underline path{fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:round}
+.personal-bio{font-size:17px;line-height:1.55;max-width:36ch;margin-top:37px;letter-spacing:-.015em}
+.personal-portrait{display:block;position:relative;text-decoration:none;align-self:center;color:#244edb;max-width:330px;justify-self:end;padding-top:5px}
+.personal-portrait img{width:100%;height:clamp(280px,31vw,450px);object-fit:contain;display:block}
+.personal-portrait>span{display:flex;justify-content:space-between;align-items:center;gap:15px;font-family:Georgia,serif;font-size:19px;font-style:italic;letter-spacing:-.025em;margin-top:9px;padding:8px 0;border-bottom:1px solid #b3bda3}
+.personal-portrait>span>span{font-family:Space,sans-serif;font-style:normal;font-size:26px;transition:transform 180ms cubic-bezier(.2,.8,.2,1)}
+.personal-footer{display:flex;justify-content:space-between;align-items:center;gap:35px;border-top:1px solid var(--flow-line);padding-top:22px}
+.personal-actions{display:flex;align-items:center;gap:30px;flex-wrap:wrap}
+.hero-primary{gap:30px;font-size:14px;color:#244edb}
+.hero-primary .journey-arrow{background:#244edb;color:#fff;border-color:#244edb}
+.hero-about{display:inline-flex;align-items:center;min-height:44px;font-size:12px;text-decoration:none;border-bottom:1px solid transparent}
+.hero-about:hover,.hero-about:focus-visible{border-color:currentColor}
+.personal-footer>p{font-size:11px;line-height:1.6;color:#59624d;text-align:right;max-width:44ch}
+.personal-footer>p strong{font-weight:400;color:#252820}
+/* One responsive ink gesture connects the maker statement to opening the work.
+   No automatic name animation, avatar bobbing or decorative loop. */
+@media(hover:hover) and (pointer:fine){.hero-personal:has(.hero-primary:hover) .maker-underline{transform:scaleX(1)}.personal-portrait:hover>span>span{transform:translate(-3px,3px)}}
+.hero-personal:has(.hero-primary:focus-visible) .maker-underline{transform:scaleX(1)}
+@media(max-width:750px){.hero-personal{padding-top:25px;padding-bottom:28px;gap:23px;min-height:calc(100svh - var(--header-height))}.personal-hello>p:first-child{font-size:13px;display:block;line-height:1.5}.hello-dot{display:inline-block;width:7px;height:7px;margin-right:5px}.personal-hello>p:last-child{font-size:9px}.personal-main{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:22px 12px;padding:8px 0}.personal-copy{display:contents}.hero-personal h1{grid-column:1/-1;font-size:18vw;line-height:.95;letter-spacing:-.07em}.hero-personal h1 em{padding-bottom:5px}.maker-underline{height:13px;bottom:-6px}.personal-bio{grid-column:1;grid-row:2;font-size:13px;line-height:1.55;max-width:23ch;margin:0;align-self:center}.personal-portrait{grid-column:2;grid-row:2;width:100%;max-width:180px;align-self:center;padding:0}.personal-portrait img{height:190px;width:100%}.personal-portrait>span{font-size:12px;line-height:1.2;margin-top:3px;padding:7px 0;gap:6px}.personal-portrait>span>span{font-size:18px}.personal-footer{display:block;padding-top:17px}.personal-actions{justify-content:space-between;gap:10px}.hero-primary{font-size:12px;gap:14px}.hero-primary .journey-arrow{width:42px;height:42px}.hero-about{font-size:11px}.personal-footer>p{text-align:left;margin-top:18px;max-width:none;font-size:10px}.personal-footer>p br:nth-child(2){display:none}}
+@media(prefers-reduced-motion:reduce){.maker-underline{transform:scaleX(1);transition:none!important}.personal-portrait>span>span{transition:none!important;transform:none!important}}
+html[data-input=keyboard] .maker-underline{transition:none!important}html[data-input=keyboard] .personal-portrait>span>span{transform:none!important}

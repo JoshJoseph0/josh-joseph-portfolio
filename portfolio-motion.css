@@ -1,0 +1,14 @@
+/* Main portfolio and case studies only. The playground keeps its own motion. */
+body{animation:none}
+.header nav a::after{transition:transform 120ms cubic-bezier(.2,.8,.2,1)}
+.header .mark,footer .contact-title>span{transition:none!important;transform:none!important}
+.play-invitation h2 span{transition:none!important;transform:none!important}
+.button{transition:background-color 120ms cubic-bezier(.2,.8,.2,1),color 120ms cubic-bezier(.2,.8,.2,1)}
+.work-card-open{transition:background-color 120ms cubic-bezier(.2,.8,.2,1),color 120ms cubic-bezier(.2,.8,.2,1),border-color 120ms cubic-bezier(.2,.8,.2,1)}
+.projects-v17 .work-card>a:focus-visible .work-card-open{background:#244edb;color:#fff;border-color:#244edb}
+.projects-v17 .work-card>a:active .work-card-open{background:#1539ad;color:#fff;border-color:#1539ad;transition-duration:80ms}
+/* The blue focus ring needs a light alternative on the blue footer. */
+footer a:focus-visible{outline-color:#f1f3e8}
+/* Preserve the immediate feedback even when keyboard/reduced-motion rules apply. */
+@media(hover:none){.projects-v17 .work-card>a:active .work-card-open{transition:none}}
+@media(prefers-reduced-motion:reduce){.work-card-open,.header nav a::after{transition:none}}

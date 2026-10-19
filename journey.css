@@ -1,0 +1,46 @@
+/* Existing paper, orange, blue and typography remain the visual reference. */
+.skip{z-index:100}
+.header nav{gap:clamp(16px,2.2vw,34px)}
+.header .contact-nav{margin-left:0}
+.header nav a{white-space:nowrap;min-height:44px}
+.header .nav-count{align-self:center;padding-top:0}
+.hero-cv{display:inline-flex;align-items:center;min-height:44px;margin-left:22px;font-size:13px}
+.semi-details>div{max-width:none}
+.cv-guidance{font-size:14px;line-height:1.6;margin-top:16px}
+.cv-links>a{min-height:44px;display:inline-flex;align-items:center}
+.case-contents{display:flex;flex-wrap:wrap;align-items:center;gap:4px 24px;border-block:1px solid var(--line);padding:12px 0;margin:0 0 32px;font-size:14px}
+.case-contents>span{font-size:12px;color:#505449;margin-right:8px}
+.case-contents a,.case-exit a{display:inline-flex;align-items:center;min-height:44px}
+.case-exit{display:flex;flex-wrap:wrap;gap:8px 32px;border-top:1px solid var(--line);padding:20px 0;font-size:14px}
+.case-section[id],.lab-card[id],#main{scroll-margin-top:calc(var(--header-height,110px) + 24px)}
+.case-section:focus,.lab-card:focus,#main:focus{outline:none}
+.copy-email{min-height:44px;border:1px solid currentColor;background:transparent;color:inherit;padding:8px 16px;font:inherit;font-size:13px;border-radius:0}
+.contact-tools{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin:0 0 24px}
+.contact-tools p{font-size:13px}
+.experiment-link{grid-column:1/-1;display:inline-flex;align-items:center;justify-self:start;min-height:44px;font-size:12px}
+.clear-experiments:disabled{opacity:.5;cursor:default}
+.code-dialog{overscroll-behavior:contain}
+html:has(.code-dialog[open]){overflow:hidden}
+.footer-bottom>div{flex-wrap:wrap;gap:8px 24px}
+.footer-bottom>a{overflow-wrap:anywhere}
+@media(max-width:750px){
+ .header{display:flex;flex-direction:column;align-items:stretch;gap:4px;padding:10px var(--pad) 6px}
+ .header .wordmark{align-self:flex-start;min-height:36px}
+ .header nav{display:flex;width:100%;justify-content:space-between;gap:4px;font-size:12px;flex-wrap:wrap}
+ .header nav a{min-height:44px;padding:8px 2px}
+ .header .contact-nav{margin:0}
+ .nav-count{display:none}
+ .hero-cv{margin-left:16px;font-size:12px}
+ .semi-details{max-width:100%}
+ .semi-kicker{max-width:32ch;line-height:1.5}
+ .case-contents{gap:0 18px;margin-bottom:24px}
+ .case-contents>span{flex-basis:100%;margin-bottom:6px}
+ .case-exit{gap:4px 24px}
+ .footer-bottom>div{flex-wrap:wrap}
+}
+@media(max-height:600px){
+ .semi-portfolio #intro.semi-intro{height:auto;min-height:0}
+ .semi-scene{position:relative;top:0;height:auto;min-height:520px}
+ .semi-copy{min-height:520px;height:auto}
+ .semi-scroll-note{display:none}
+}

@@ -1,0 +1,66 @@
+/* Project scene: reference-locked orange canvas, monumental type and four tilted covers. */
+.project-overview{position:relative;isolation:isolate;overflow:clip;padding:80px var(--pad) 90px}
+.project-overview .work-carousel-heading{padding:0;margin-bottom:70px;position:relative;z-index:2;pointer-events:none}
+.project-overview h2{font:400 clamp(100px,20vw,290px)/.84 Anton,sans-serif;letter-spacing:-.025em;transform:rotate(-4deg);transform-origin:left top;width:max-content;max-width:none}
+.project-heading-mask,.project-heading-line{display:block}.project-heading-mask{overflow:clip;padding:0 .05em .06em 0;margin-bottom:-.06em}.project-heading-line{will-change:transform}
+.project-overview .projects-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:3.5vw;padding:0 1vw 0 4vw;position:relative;z-index:3;align-items:start}
+.project-overview .work-card{--tilt:-7deg;--depth-y:0px;--depth-x:0px;--magnet-x:0px;--magnet-y:0px;--rotate-x:0deg;--rotate-y:0deg;transform:translate(var(--depth-x),var(--depth-y)) rotate(var(--tilt));transform-origin:50% 70%;min-width:0;will-change:transform}
+.project-overview .work-card:nth-child(2){--tilt:-5deg;margin-top:20px}.project-overview .work-card:nth-child(3){--tilt:-8deg;margin-top:8px}.project-overview .work-card:nth-child(4){--tilt:-7deg;margin-top:4px}
+.project-overview .work-card>a{position:relative;display:block;text-decoration:none;perspective:1000px;outline-offset:10px}
+.project-number{display:block;font:400 clamp(24px,2.5vw,42px)/1 Anton,sans-serif;letter-spacing:-.025em;margin-bottom:12px;margin-left:-6px;transform:rotate(calc(-1 * var(--tilt)));transform-origin:0 100%}
+.project-overview .work-card-art{height:auto;aspect-ratio:.78;border-radius:19px;overflow:hidden;background:#18211b;box-shadow:12px 20px 22px -18px #5821006b;transform:translate(var(--magnet-x),var(--magnet-y)) rotateX(var(--rotate-x)) rotateY(var(--rotate-y));transform-origin:50% 50%;will-change:transform;transition:box-shadow 180ms ease-out}
+.project-overview .work-card-art>div{width:100%;height:100%;transform:none;scale:1;transition:none}
+.project-cover{position:relative;overflow:hidden}.project-cover>img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 50%}
+.project-cover-jarvis{background:#d8d7d0}.project-cover-jarvis>img{position:absolute;top:29%;left:-42%;width:205%;height:59%;max-width:none;object-fit:cover;object-position:28% 28%;transform:rotate(8deg);box-shadow:0 15px 24px #1d222733}
+.project-cover-word{position:absolute;left:8%;right:8%;top:8%;font:500 clamp(25px,2.5vw,42px)/1 "Barlow Condensed",sans-serif;letter-spacing:-.025em;color:#1b211d}.project-cover-word>span{display:block;font:400 13px/1.4 "Barlow Condensed",sans-serif;letter-spacing:0;margin-top:6px}
+.project-overview .work-card-open{position:absolute;right:14px;bottom:14px;display:grid;place-items:center;width:42px;height:42px;border:1px solid #f2efe8b0;border-radius:50%;font:400 26px/1 "Barlow Condensed",sans-serif;color:#f3ece2;background:#181916c7;transition:background-color 160ms ease-out,transform 160ms ease-out}
+.project-overview .work-card-caption{display:block;border:0;padding:14px 0 0;transform:rotate(calc(-1 * var(--tilt)));transform-origin:0 0;opacity:.85;transition:opacity 160ms ease-out}
+.project-overview .work-card-caption h3{font:500 clamp(16px,1.4vw,22px)/1.2 "Barlow Condensed",sans-serif;letter-spacing:0;margin:0}.project-overview .work-card-caption p{font:400 12px/1.4 "Barlow Condensed",sans-serif;margin-top:4px}
+.project-overview .work-card>a:hover .work-card-art,.project-overview .work-card>a:focus-visible .work-card-art{scale:1;box-shadow:14px 28px 28px -17px #5821008c}.project-overview .work-card>a:hover .work-card-open,.project-overview .work-card>a:focus-visible .work-card-open{background:#181916;transform:rotate(45deg)}
+.project-overview .work-card>a:hover .work-card-caption,.project-overview .work-card>a:focus-visible .work-card-caption{opacity:1}
+.project-section-note{margin-top:70px;font-size:15px;line-height:1.4}
+.horizontal-active .project-overview#work{width:100vw;height:100%;inset:0;display:block;padding:0;overflow:visible;background:transparent}
+.horizontal-active .project-overview .work-carousel-heading{position:absolute;top:3%;left:5vw;width:91vw;height:auto;padding:0;margin:0;z-index:2}
+.horizontal-active .project-overview h2{font-size:min(20vw,26.5vh);line-height:.84;max-width:none;letter-spacing:-.025em}
+.horizontal-active .project-overview .projects-grid{position:absolute;top:55%;left:9.5vw;right:4vw;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:3.5vw;padding:0;align-items:start}
+.horizontal-active .project-overview .work-card{width:auto;flex:none}
+.horizontal-active .project-overview .work-card-art{height:calc((100svh - var(--header-height))*.35);aspect-ratio:auto}
+.horizontal-active .project-overview .work-card-caption{padding-top:12px;display:block}.horizontal-active .project-overview .work-card-caption h3{font-size:19px}.horizontal-active .project-overview .work-card-caption p{font-size:12px}
+.horizontal-active .project-overview .project-section-note{display:none}
+.horizontal-active .story-position{display:flex;align-items:center;justify-content:space-between;left:var(--pad);right:var(--pad);bottom:17px;pointer-events:none;font-size:14px}
+.story-scroll{display:flex;align-items:center;gap:12px}.story-scroll>span{display:grid;place-items:center;width:34px;height:34px;border:1px solid #18191670;border-radius:50%;font-size:20px}
+.project-progress{display:flex;align-items:center;gap:16px;position:absolute;width:34vw;left:50%;transform:translateX(-50%)}.project-progress>span{font-size:12px}.project-progress-track{height:1px;flex:1;background:#18191650}.project-progress-track>i{display:block;height:1px;width:100%;transform-origin:0 50%;transform:scaleX(var(--project-progress,.01));background:var(--ink)}
+.project-progress-name{font-size:13px;min-width:110px;text-align:right}
+body.project-scene-view .crowd-move{left:auto;right:var(--pad);bottom:10px}body.project-scene-view .crowd-cancel{left:auto;right:calc(var(--pad) + 100px)}
+.project-opening .work-card-art{border-radius:0;aspect-ratio:auto;background:#181916}.project-opening .project-cover{width:100%;height:100%}.project-opening .project-cover>img{width:100%;height:100%;object-fit:cover}.project-opening .work-card-open{display:none}.project-opening .project-cover-word{font-size:clamp(36px,5vw,80px)}.project-opening .project-cover-jarvis>img{width:100%;height:100%;left:0;top:0;object-fit:contain;transform:none;box-shadow:none}.project-opening .project-cover-jarvis .project-cover-word{display:none}
+@media(max-height:760px) and (min-width:901px){.horizontal-active .project-overview .projects-grid{top:54%}.horizontal-active .project-overview .work-card-art{height:calc((100svh - var(--header-height))*.32)}.horizontal-active .project-overview .work-card-caption p{display:none}.project-number{font-size:28px;margin-bottom:8px}}
+@media(max-width:900px){.project-overview{padding:64px var(--pad) 76px}.project-overview h2{font-size:21vw;line-height:.88}.project-overview .projects-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:62px 7vw;padding:0 3vw}.project-overview .work-carousel-heading{margin-bottom:64px}.project-number{font-size:30px}.project-overview .work-card-caption p{font-size:13px}.project-cover-word{font-size:28px}.project-overview .project-section-note{margin-top:60px}.project-overview .work-card:nth-child(3){margin-top:0}.project-overview .work-card:nth-child(4){margin-top:20px}body.project-scene-view .crowd-move{left:var(--pad);right:auto}body.project-scene-view .crowd-cancel{left:calc(var(--pad) + 100px);right:auto}}
+@media(max-width:500px){.project-overview .projects-grid{gap:60px 26px;padding:0 5px}.project-overview .work-card-art{border-radius:12px;aspect-ratio:.75}.project-overview .work-card-open{width:32px;height:32px;bottom:9px;right:9px;font-size:22px}.project-overview .work-card-caption h3{font-size:17px}.project-overview .work-card-caption p{font-size:12px;max-width:16ch}.project-cover-word{font-size:25px;top:9%}.project-cover-word>span{font-size:11px}.project-overview .work-carousel-heading{margin-bottom:60px}.project-overview .work-card:nth-child(2){margin-top:15px}.project-overview .work-card:nth-child(4){margin-top:15px}.project-overview .project-section-note{font-size:14px}}
+@media(prefers-reduced-motion:reduce){.project-overview .work-card,.project-overview h2{transform:none}.project-overview .work-card-art{transform:none;will-change:auto}.project-overview .work-card-caption{transform:none}.project-number{transform:none}.project-heading-line{will-change:auto}}
+html[data-reduced-motion="true"] .project-overview .work-card,html[data-reduced-motion="true"] .project-overview h2,html[data-reduced-motion="true"] .project-overview .work-card-caption,html[data-reduced-motion="true"] .project-number{transform:none}
+
+.project-overview#work .work-carousel-heading h2>.project-heading-mask{font:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin-top:0}
+.project-overview .work-card.is-current .project-number{opacity:1}
+
+/* A quiet solid edge and perspective give the covers depth without moving the link targets. */
+.project-overview .work-card{--rest-x:4deg;--rest-y:-9deg}.project-overview .work-card:nth-child(2){--rest-x:5deg;--rest-y:7deg}.project-overview .work-card:nth-child(3){--rest-x:3deg;--rest-y:-6deg}.project-overview .work-card:nth-child(4){--rest-x:5deg;--rest-y:8deg}
+.project-overview .work-card>a{perspective:1000px;transform-style:preserve-3d}
+.project-overview .work-card-art{transform:translate(var(--magnet-x),var(--magnet-y)) rotateX(calc(var(--rest-x) + var(--rotate-x))) rotateY(calc(var(--rest-y) + var(--rotate-y)));box-shadow:4px 5px 0 #442e2450,12px 24px 24px -18px #58210080;backface-visibility:hidden}
+.project-overview .work-card-art::after{content:"";position:absolute;inset:0;border:1px solid #fff3;border-right:3px solid #0003;border-bottom:4px solid #0003;border-radius:inherit;z-index:4;pointer-events:none;background:linear-gradient(125deg,#ffffff12,transparent 46%)}
+.project-cover-george{background:#dce5b0}.project-cover-george .project-cover-word{top:7%;left:8%;font-family:Anton,sans-serif;font-size:clamp(28px,3.1vw,48px)}.project-cover-george .project-cover-word>span{font-family:"Barlow Condensed",sans-serif;font-size:13px}
+.project-cover-george .george-prototype-cover{position:absolute;left:6%;top:34%;width:124%;height:54%;max-width:none;object-fit:contain;object-position:0 50%;transform:rotate(8deg);filter:drop-shadow(0 8px 8px #161d1720)}
+.project-cover-george .george-character-cover{position:absolute;left:-10%;bottom:0;width:66%;height:52%;max-width:none;object-fit:contain;object-position:50% 100%}
+.project-cover-creative-web{background:#dbc1b0;display:grid;align-content:center;padding:10%}.project-flow{display:grid;gap:10px;transform:rotate(7deg)}.project-flow>span{display:flex;align-items:center;justify-content:space-between;gap:10px;background:#23342a;color:#eeeadd;padding:12px 14px;font:500 clamp(18px,1.6vw,26px)/1 "Barlow Condensed",sans-serif;box-shadow:4px 5px 0 #23342a22;border-radius:6px}.project-flow>span:nth-child(2){background:#79905b;margin-left:8%}.project-flow>span:nth-child(3){background:#e6d77f;color:#23342a;margin-left:4%}.project-flow>span:nth-child(4){margin-left:12%}.project-flow i{font-style:normal;font-size:22px}.project-cover-note{position:absolute;bottom:6%;left:10%;font-size:12px;color:#23342a}
+.project-cover-six-million{background:#20211f}.project-cover-six-million>img{object-fit:cover;object-position:51% 50%;height:100%;width:100%;opacity:.95}
+@media(max-width:500px){.project-overview .work-card{--rest-x:2deg;--rest-y:-5deg}.project-cover-george .project-cover-word{font-size:30px}.project-cover-george .project-cover-word>span{font-size:11px}.project-flow{gap:7px}.project-flow>span{padding:10px;font-size:16px}.project-flow i{font-size:18px}.project-cover-note{font-size:10px}}
+@media(prefers-reduced-motion:reduce){.project-overview .work-card-art{transform:none}}
+html[data-reduced-motion="true"] .project-overview .work-card-art{transform:none}
+
+/* Keep the complete cards, names and scroll cue inside the stage. */
+.horizontal-active .project-overview .work-carousel-heading{top:1%}
+.horizontal-active .project-overview h2{font-size:min(20vw,24.5vh);transform:rotate(-4deg) scaleX(1.17)}
+.horizontal-active .project-overview .projects-grid{top:44%}
+.project-cover-jarvis>img{top:40%;height:56%}
+@media(max-height:760px) and (min-width:901px){.horizontal-active .project-overview h2{font-size:24vh}.horizontal-active .project-overview .projects-grid{top:45%}.horizontal-active .project-overview .work-card-art{height:calc((100svh - var(--header-height))*.32)}}
+
+/* The projects settle on a single orange surface, then scroll vertically. */

@@ -1,0 +1,40 @@
+/* One large, open project poster. Its pixels become the transition. */
+.work-carousel{background:#f2f0e7;color:#252820;padding:65px 0 50px;border-top:1px solid #c6c7b8;--work-accent:#244edb}
+.work-carousel-heading{align-items:end;padding-bottom:34px}
+.work-carousel-heading h2{font-size:clamp(58px,8.7vw,140px);font-weight:700;letter-spacing:-.075em;line-height:.9}
+.work-carousel-heading h2>span{font:11px/1.4 Consolas,monospace;color:#646956;margin-top:20px}
+.work-carousel-heading>p{color:#575e4d;font-size:13px;max-width:30ch}
+.work-deck{height:620px;perspective:none;margin:0 var(--pad);overflow:visible;background:#e9e7dc}
+.work-card{top:0;left:0;width:100%;height:100%;border:0;border-radius:0;box-shadow:none;background:#f2f0e7;transition:none;backface-visibility:visible}
+.work-card[data-position]{transform:none;opacity:0;visibility:hidden;pointer-events:none;z-index:0}
+.work-card[data-position=active]{opacity:1;visibility:visible;pointer-events:auto;z-index:2}
+.work-card-art{height:79%;flex-basis:79%;background:#e1e6bd}
+.work-card-art>div{height:100%}
+.work-card-caption{background:#f2f0e7;color:#252820;padding:24px 0;grid-template-columns:1fr 1fr auto;gap:28px;border-bottom:1px solid #b6baa8}
+.work-card-caption h3{font-size:clamp(30px,3.4vw,54px);font-weight:500;letter-spacing:-.055em}
+.work-card-caption .work-card-title>p{color:#616751;font-size:10px}
+.work-card-caption .work-card-description{color:#4c5342;font-size:14px;max-width:29ch}
+.work-card-caption .work-card-open{color:#244edb;border:0;font-size:13px;gap:32px}
+.work-cover-index{background:transparent;border:0;top:24px;right:25px;padding:0;font-size:11px;color:inherit}
+.carousel-george{background:#dce5b0;display:block;padding:40px;color:#27362b}
+.george-cover-title{padding:0;position:absolute;left:4%;top:10%;z-index:2}
+.george-cover-title>span{font-size:clamp(80px,12vw,190px);line-height:.9;letter-spacing:-.08em}
+.george-cover-title small{font-size:15px;max-width:20ch;margin-top:20px}
+.carousel-george .george-cover-ui{position:absolute;right:5%;left:auto;bottom:7%;width:48%;height:68%;max-height:none;object-fit:contain;background:transparent;border:0;box-shadow:none;z-index:1}
+.carousel-george .george-cover-character{left:6%;bottom:-9%;width:24%;height:61%;z-index:3}
+.carousel-midnight{background:#cbd8ea;padding:35px 11%}
+.carousel-midnight img{width:100%;height:100%;object-fit:contain;box-shadow:none;border:0}
+.carousel-web{background:#f17953;color:#352919;padding:38px 7%;font-size:clamp(65px,8.8vw,140px);line-height:.9}
+.carousel-web span:last-child{color:#352919;align-self:flex-end}
+.carousel-dots{background:#e1ddf0;padding:35px 8%;color:#272234}
+.carousel-dots img{object-fit:contain}
+.work-carousel-controls{padding-top:22px;gap:45px;align-items:start}
+.work-dots{gap:20px}.work-dot{color:#666c59;border-top:1px solid #b6baa8;font-size:12px;padding-top:16px;transition:color 180ms,border-color 180ms}
+.work-dot[aria-pressed=true]{color:#244edb;border-color:#244edb}.work-tab-number{color:inherit}
+.work-arrows{max-width:160px;gap:10px}.work-arrows>button{width:56px;height:56px;background:#244edb;color:#fff;border:0;border-radius:0;font-size:29px}.work-prev{background:#e3e5d6!important;color:#252820!important}.work-position{color:#616751;font-size:10px}
+.work-pixels{position:absolute;inset:0;z-index:5;width:100%;height:100%;pointer-events:none;visibility:hidden}
+.work-deck[data-transition=wind] .work-pixels{visibility:visible}
+.wind-note{display:flex;align-items:center;gap:12px;padding:18px var(--pad) 0;color:#626951;font-size:11px}.wind-note>span{color:#244edb;font:20px/1 Consolas,monospace;letter-spacing:-4px;padding-right:4px}
+@media(hover:hover){.work-dot:hover{color:#244edb;border-color:#244edb}.work-arrows>button:hover{background:#1434a3;transform:translateX(3px)}.work-card>a:hover .work-card-open{color:#1434a3}.work-prev:hover{background:#d4d9c2!important;transform:translateX(-3px)!important}}
+@media(max-width:750px){.work-carousel{padding-top:40px}.work-carousel-heading h2{font-size:14vw;white-space:normal}.work-carousel-heading h2>span{margin-top:15px}.work-deck{height:490px}.work-card-art{height:71%;flex-basis:71%}.work-card-caption{padding:18px 0;grid-template-columns:1fr auto;gap:12px}.work-card-caption h3{font-size:29px}.work-card-caption .work-card-title>p{font-size:8px}.work-card-caption .work-card-description{font-size:12px;max-width:28ch}.work-card-caption .work-card-open{font-size:0;gap:0}.carousel-george{padding:20px}.george-cover-title{left:7%;top:10%}.george-cover-title>span{font-size:23vw}.george-cover-title small{font-size:12px;margin-top:10px}.carousel-george .george-cover-ui{width:64%;height:51%;right:4%;bottom:4%;max-height:none}.carousel-george .george-cover-character{width:33%;height:53%;left:2%;bottom:-4%}.carousel-web{font-size:20vw;padding:28px 7%}.carousel-midnight{padding:20px}.carousel-dots{padding:20px}.work-cover-index{top:15px;right:15px;font-size:9px}.work-carousel-controls{gap:18px;padding-top:17px}.work-dots{gap:8px 20px}.work-dot{min-height:44px;font-size:11px;padding:10px 0}.work-arrows{max-width:none}.work-arrows>button{width:50px;height:50px}.wind-note{font-size:10px;padding-top:16px}}
+@media(prefers-reduced-motion:reduce){.work-arrows>button{transform:none!important}.work-pixels{display:none}}

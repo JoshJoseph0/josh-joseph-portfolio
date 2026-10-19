@@ -1,0 +1,43 @@
+.horizontal-story,.horizontal-stage{display:contents}
+.semi-portfolio #intro.semi-intro{height:calc(100svh - var(--header-height));min-height:560px}
+.semi-scene{position:relative;top:0;height:100%}
+.semi-orb{width:75vh;height:75vh;left:auto;right:-37.5vh;top:10%;clip-path:none;transform:none}
+.projects-v17 .work-carousel-heading h2{white-space:normal;font-size:clamp(60px,10vw,180px)}
+.horizontal-active .horizontal-story{display:block;position:relative}
+.horizontal-active .horizontal-stage{display:block;position:relative;height:calc(100svh - var(--header-height));overflow:hidden;background:#f2efe8}
+.horizontal-active #intro.semi-intro{position:absolute;inset:0;height:100%;min-height:0;background:transparent}
+.horizontal-active .semi-scene{height:100%;overflow:visible;background:transparent}
+.horizontal-active .semi-orb{width:80vh;height:80vh;right:-40vh;top:8%;transform-origin:center;z-index:0}
+.horizontal-active .semi-copy{opacity:1!important}
+.horizontal-active #work{position:absolute;inset:0 auto 0 0;display:flex;align-items:center;gap:7vw;width:max-content;height:100%;padding:0 8vw 0 0;background:transparent;overflow:visible;border:0}
+.horizontal-active .work-carousel-heading{width:100vw;flex:none;padding:0 5vw;box-sizing:border-box}
+.horizontal-active .work-carousel-heading h2{font-size:clamp(100px,14vw,250px);line-height:.87;max-width:90vw;letter-spacing:-.065em}
+.horizontal-active .work-carousel-heading h2>span{font-size:11px;letter-spacing:0}
+.horizontal-active .work-carousel-heading>p{margin:30px 0 0}
+.horizontal-active .projects-grid{display:flex;gap:7vw;align-items:center;padding:0;margin:0}
+.horizontal-active .projects-v17 .work-card{width:70vw;flex:none;top:auto!important;margin:0}
+.horizontal-active .projects-v17 .work-card-art{height:calc((100svh - var(--header-height))* .65);aspect-ratio:auto;border-radius:4px}
+.horizontal-active .projects-v17 .work-card-art>div{transform:translateX(var(--horizontal-drift,0px)) scale(1.07)}
+.horizontal-active .projects-v17 .work-card-caption{padding-top:18px}
+.horizontal-active .projects-v17 .work-card-caption h3{font-size:clamp(25px,3vw,48px)}
+.horizontal-active .journey-bridge{width:55vw;flex:none;margin:0;padding:0 5vw;border:0}
+.horizontal-active .journey-bridge>p{font-size:5vw;line-height:1;letter-spacing:-.05em}
+.horizontal-active .semi-scroll-note{writing-mode:horizontal-tb}
+.horizontal-active .header{background:transparent;isolation:isolate}
+.horizontal-active .header::before{content:"";position:absolute;inset:0;z-index:-1;background:#f2efe8;clip-path:circle(var(--header-sweep,0%) at 100% 50%);background:#f45a2a}
+.header nav a{position:relative}
+.header nav a::after{content:"";position:absolute;left:0;right:0;bottom:3px;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .2s ease}
+.header nav a:hover::after,.header nav a[aria-current]::after{transform:scaleX(1)}
+.horizontal-active .header.sweep-contrast a{color:#fff}
+.horizontal-active .semi-copy.sweep-contrast,.horizontal-active .semi-copy.sweep-contrast h1 span,.horizontal-active .semi-copy.sweep-contrast a{color:#fff}
+.project-opening{position:fixed;inset:0;z-index:500;pointer-events:none;background:transparent;padding:0!important}
+.project-opening .work-card-art{position:fixed;margin:0;overflow:hidden;border-radius:4px;isolation:isolate}
+.project-opening .work-card-art>div{height:100%;width:100%}
+html.project-is-opening::view-transition-old(root),html.project-is-opening::view-transition-new(root){animation:none}
+@media(prefers-reduced-motion:reduce){.header nav a::after{transition:none}}
+.horizontal-active .work-carousel-heading h2>.selected-title{display:block;font:inherit;line-height:inherit;letter-spacing:inherit;margin:0;color:#111}
+.horizontal-active .header.sweep-contrast a{color:#111}
+.horizontal-active .header:not(.sweep-contrast) a{color:#363632}
+.projects-v17 .work-carousel-heading h2>.selected-title{font:inherit;line-height:inherit;letter-spacing:inherit;margin:0;color:inherit}
+
+.horizontal-active .header{background:#f2efe8}
