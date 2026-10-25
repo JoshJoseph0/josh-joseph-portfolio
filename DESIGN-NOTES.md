@@ -31,3 +31,13 @@ Does Virgin Money feel like the strongest opening project? Does the playground h
 Josh explicitly rejected removal of the original side-scrolling scene and asked for essentially the same design with light tightening. Restored the original hero-to-project transition, name docking, shared crowd camera, tilted project covers and project-opening motion. Added Virgin Money and Home-Start to that same gallery; retained all six case studies and the 40-experiment playground. This preference supersedes the earlier decision to replace the pinned reveal with vertical editorial rows. Future passes should preserve the existing choreography unless Josh specifically asks to change it.
 
 Josh clarified that the Virgin Money work has been handed in and is going into its app. Updated its public status to submitted app work, being taken forward for the app. Screenshots remain accurately described as early design stages; no release date or shipped metrics have been invented.
+
+## Layout and interaction audit
+
+Reviewed all eight routes at 320, 390, 768 and desktop widths. Also checked the gallery at 1024×600, 1024×768 and 1440×900. Preserved the original orange scene, oversized typography, cover tilts and side-scrolling transition.
+
+Fixed mobile project-number edge clearance, short-laptop gallery alignment, screenshot-caption size and spacing, stacked the Virgin Money screenshots on phones, removed a duplicated Home-Start credit, enlarged mobile header targets, and kept the walking crowd out of project cards and captions. Adjusted gallery anchor navigation to complete the six-card transition and restore direct links on the vertical fallback.
+
+Exercised the original 20 and the new 20 playground pieces. Checked form feedback, no-results search, undo, reorder, disclosures, timer reset/pause, audio start/stop, code-viewer layout, and a downloaded standalone orbit demo. Updated the small project-search experiment to include all six projects. Browser checks found no horizontal page overflow, missing images, or console errors in the final tested states. Internal assets, fragment targets, unique experiment IDs, PDF signatures and changed JavaScript syntax also passed.
+
+Screenshots and responsive measurements are saved outside the published site in the task's outputs/portfolio/qa folder. This is browser-based QA at the tested sizes; it is not a claim of certification or identical behaviour in every browser/device.

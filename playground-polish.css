@@ -31,3 +31,5 @@ body.lab-page h1,body.lab-page h2,body.lab-page h3,body.lab-page .contact-title{
 body.lab-page .lab-info h2{font-weight:650;letter-spacing:-.04em}
 .lab-page button:active{filter:brightness(.94)}
 .lab-page .lab-note,.lab-page .lab-count{display:block}
+.lab-page button,.lab-page input,.lab-page select,.lab-page textarea{font-family:inherit}
+.lab-page .code-head .close-code{white-space:nowrap;min-width:82px;font-size:13px}

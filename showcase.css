@@ -35,3 +35,13 @@
 html[data-reduced-motion="true"] .project-image img{transition:none}
 @media(max-width:700px){.selected-work-heading h2{font-size:17vw}}
 .historical-source{font-size:17px;line-height:1.6;margin:40px 0;max-width:60ch}
+.case .case-figure>figcaption{font-size:16px;line-height:1.55;max-width:80ch;margin-top:0;padding-top:18px}
+.case .case-figure>figcaption .evidence-link{display:flex;width:max-content;max-width:100%;margin-top:10px;min-height:44px}
+.case-evidence>p{margin-bottom:28px}
+@media(max-width:600px){
+ .virgin-evidence{grid-template-columns:1fr;padding:20px;gap:40px}
+ .virgin-evidence figure{max-width:390px;margin-inline:auto}
+ .virgin-evidence figcaption{font-size:16px;line-height:1.55}
+ .case-evidence{margin-block:40px 56px}
+ body:not(.semi-portfolio) .header .contact-nav{min-width:44px;min-height:44px;justify-content:center}
+}

@@ -21,3 +21,18 @@
 .project-cover-home-start>img{position:absolute;top:33%;left:7%;width:125%;height:62%;max-width:none;object-fit:cover;object-position:left top;transform:rotate(6deg);box-shadow:0 10px 15px #23342a20}
 @media(max-width:900px){.project-overview .work-card:nth-child(5){--tilt:-7deg;margin-top:0}.project-overview .work-card:nth-child(6){--tilt:-5deg;margin-top:20px}}
 @media(max-width:500px){.project-cover-virgin-money .project-cover-word{font-size:25px}.project-cover-home-start .project-cover-word{font-size:27px}}
+@media(max-width:700px){
+ .project-overview .projects-grid{padding-inline:16px;column-gap:26px}
+ .project-overview .project-number{margin-left:2px}
+ .project-overview .work-card-caption p{max-width:none;line-height:1.45}
+ .play-invitation .play-onward,.about-v6 .about-onward{min-height:72px}
+ .minimal-hero .header nav{font-size:14px}
+ .minimal-hero.name-docked .header nav,.minimal-hero.name-flight-active .header nav{font-size:12px;gap:10px}
+ .minimal-hero .header nav a{min-height:44px}
+}
+@media(min-width:901px){html:not(.horizontal-active) .project-overview .projects-grid{left:0;right:auto;width:100%;padding-inline:12px}}
+@media(min-width:901px) and (min-height:761px){
+ .horizontal-active .project-overview h2{font-size:min(20vw,23vh)}
+ .horizontal-active .project-overview .projects-grid{top:45%}
+ .horizontal-active .project-overview .work-card-art{height:calc((100svh - var(--header-height))*.33)}
+}
