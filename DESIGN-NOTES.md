@@ -29,3 +29,5 @@ Does Virgin Money feel like the strongest opening project? Does the playground h
 ## User correction — preserve the side-scrolling layout
 
 Josh explicitly rejected removal of the original side-scrolling scene and asked for essentially the same design with light tightening. Restored the original hero-to-project transition, name docking, shared crowd camera, tilted project covers and project-opening motion. Added Virgin Money and Home-Start to that same gallery; retained all six case studies and the 40-experiment playground. This preference supersedes the earlier decision to replace the pinned reveal with vertical editorial rows. Future passes should preserve the existing choreography unless Josh specifically asks to change it.
+
+Josh clarified that the Virgin Money work has been handed in and is going into its app. Updated its public status to submitted app work, being taken forward for the app. Screenshots remain accurately described as early design stages; no release date or shipped metrics have been invented.
