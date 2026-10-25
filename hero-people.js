@@ -28,7 +28,7 @@
  function resize(){
   if(!fontsReady)return;placeCanvas();
   const heading=document.querySelector('.work-carousel-heading'),intro=document.querySelector('#intro');
-  const continuation=!root.classList.contains('horizontal-active')&&heading?Math.max(0,document.querySelector('#work').getBoundingClientRect().bottom-intro.getBoundingClientRect().top):0;
+  const continuation=0;
   const w=Math.max(1,scene.clientWidth),h=Math.max(1,scene.clientHeight,continuation),changed=!world||w!==width||h!==height;
   canvas.style.height=h+'px';canvas.style.width=w+'px';
   document.querySelector('.horizontal-stage')?.style.setProperty('--intro-ground-height',intro.offsetHeight+'px');

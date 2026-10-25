@@ -67,6 +67,7 @@ const experiments=[
  const steps=[...root.querySelectorAll('.sequencer button')],play=root.querySelector('.play-beat'),status=root.querySelector('.status');let audio=null,timer=0,index=0;steps.forEach(button=>button.addEventListener('click',()=>button.setAttribute('aria-pressed',button.getAttribute('aria-pressed')!=='true')));const stop=()=>{clearInterval(timer);timer=0;steps.forEach(b=>b.classList.remove('beat'));play.textContent='Play with sound ▶';play.setAttribute('aria-pressed','false');status.textContent='Sound off. Choose your steps.';};const tick=()=>{steps.forEach(b=>b.classList.remove('beat'));const step=steps[index];step.classList.add('beat');if(step.getAttribute('aria-pressed')==='true'){const oscillator=audio.createOscillator(),gain=audio.createGain();oscillator.type='sine';oscillator.frequency.value=[261.63,329.63,392,523.25][index];gain.gain.setValueAtTime(.0001,audio.currentTime);gain.gain.exponentialRampToValueAtTime(.12,audio.currentTime+.012);gain.gain.exponentialRampToValueAtTime(.0001,audio.currentTime+.25);oscillator.connect(gain);gain.connect(audio.destination);oscillator.start();oscillator.stop(audio.currentTime+.27);move(step,[{transform:'scale(.9)'},{transform:'scale(1)'}],{duration:250});}index=(index+1)%4;};play.addEventListener('click',async()=>{if(timer){stop();return;}try{audio=audio||new(window.AudioContext||window.webkitAudioContext)();await audio.resume();play.textContent='Stop sound ■';play.setAttribute('aria-pressed','true');status.textContent='Playing. Change the steps as it goes.';tick();timer=setInterval(tick,360);}catch{status.textContent='Sound could not start. Try Play with sound again or use another browser.';}});document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();});document.addEventListener('labfilter',stop);
 }}
 ];
+experiments.push(...extraExperiments);
 const grid=document.querySelector('.lab-grid');
 for(const [index,example] of experiments.entries()){
  const card=document.createElement('article');card.className='lab-card';card.dataset.kind=example.kind;card.id=example.id;card.setAttribute("aria-label",example.title);
@@ -105,8 +106,8 @@ function filterExperiments(){
   const visible=(selectedKind==='All'||card.dataset.kind===selectedKind)&&terms.every(term=>content.includes(term));
   card.hidden=!visible;if(visible)count++;
  }
- document.querySelector('.lab-count').textContent=`${count} of 20 experiments`;
- document.querySelector('.lab-search-status').textContent=count===20?'Showing all 20 experiments.':`Showing ${count} of 20 experiments${query?' matching “'+search.value.trim()+'”':''}.`;
+ document.querySelector('.lab-count').textContent=`${count} of ${experiments.length} experiments`;
+ document.querySelector('.lab-search-status').textContent=count===experiments.length?`Showing all ${experiments.length} experiments.`:`Showing ${count} of ${experiments.length} experiments${query?' matching “'+search.value.trim()+'”':''}.`;
  document.querySelector('.lab-empty').hidden=count!==0;
  const url=new URL(location.href);
  if(query)url.searchParams.set('q',search.value.trim());else url.searchParams.delete('q');
