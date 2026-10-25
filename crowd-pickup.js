@@ -1,6 +1,6 @@
 /* Optional, local interaction: the portfolio links always retain priority. */
 'use strict';
-window.installPortfolioPickup=({getWorld,canvas,scene,draw,reduced})=>{
+window.installPortfolioPickup=({getWorld,canvas,draw,reduced})=>{
  const overlay=document.createElement('canvas');overlay.className='crowd-cursor';overlay.setAttribute('aria-hidden','true');document.body.append(overlay);
  const ctx=overlay.getContext('2d'),hint=document.createElement('span'),status=document.createElement('span'),control=document.createElement('button'),cancelButton=document.createElement('button');
  hint.className='crowd-hint';hint.setAttribute('aria-hidden','true');status.className='crowd-status';status.setAttribute('role','status');status.setAttribute('aria-live','polite');
@@ -11,7 +11,7 @@ window.installPortfolioPickup=({getWorld,canvas,scene,draw,reduced})=>{
  let held=null,hover=null,mouse=null,armed=null,frame=0,last=0,swallowUntil=0,swallowX=0,swallowY=0,ratio=1;
  const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
  const textMask=document.createElement('canvas');textMask.width=textMask.height=1;const mask=textMask.getContext('2d',{willReadFrequently:true});
- const live=()=>document.documentElement.dataset.heroMotionActive!=='false'&&scene.getBoundingClientRect().bottom>90&&scene.getBoundingClientRect().top<innerHeight;
+ const live=()=>document.documentElement.dataset.heroMotionActive!=='false';
  const blocked=el=>el?.closest('a,button,input,select,textarea,summary,.work-card,.header');
  function size(){ratio=Math.min(devicePixelRatio||1,2);overlay.width=Math.round(innerWidth*ratio);overlay.height=Math.round(innerHeight*ratio);ctx.setTransform(ratio,0,0,ratio,0,0);}
  function say(text){status.textContent=text;}
@@ -75,7 +75,7 @@ window.installPortfolioPickup=({getWorld,canvas,scene,draw,reduced})=>{
  }
  function paint(){
   ctx.clearRect(0,0,innerWidth,innerHeight);cancelButton.hidden=!held;control.hidden=!live()||(!held&&document.documentElement.dataset.projectLayout!=='overview'&&Number(document.documentElement.dataset.heroCameraX||0)>(getWorld()?.width||innerWidth)*.46);
-  const hb=(document.querySelector('.work-carousel-heading')||scene).getBoundingClientRect().bottom;
+  const hb=document.querySelector('.work-carousel-heading').getBoundingClientRect().bottom;
   const overview=document.documentElement.dataset.projectLayout==='overview';
   let mobileTop=overview?hb+8:hb-54;
   if(overview&&hb<82)mobileTop=(document.querySelector('.project-section-note')?.getBoundingClientRect().top||innerHeight)+10;

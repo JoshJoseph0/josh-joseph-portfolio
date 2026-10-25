@@ -7,7 +7,7 @@
  const orb=intro.querySelector('.semi-orb'),green=intro.querySelector('.hero-green'),yellow=intro.querySelector('.hero-yellow'),title=work.querySelector('h2'),name=intro.querySelector('h1'),wordmark=header.querySelector('.wordmark');
  const heading=title,headingLines=[...title.querySelectorAll('.project-heading-line')];
  root.dataset.projectLayout='overview';
- const cards=[...work.querySelectorAll('.work-card')],names=['George','Jarvis / Midnight','Creative Web','Six Million'];
+ const cards=[...work.querySelectorAll('.work-card')],names=cards.map(card=>card.querySelector('h3').textContent);
  const media=matchMedia('(min-width: 901px) and (min-height: 651px) and (prefers-reduced-motion: no-preference)'),fine=matchMedia('(pointer: fine)');
  const position=document.createElement('div');position.className='story-position';position.setAttribute('aria-hidden','true');position.innerHTML='<span class="story-scroll"><span>↓</span>Scroll to explore</span>';stage.append(position);
  let context,split,timeline,trigger,flight,lenis,tick,enabled=false,keyboard=false,frame=0,mode='none';

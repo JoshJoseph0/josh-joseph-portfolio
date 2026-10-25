@@ -1,0 +1,23 @@
+/* The original scene and tilted covers, expanded to include all six projects. */
+@media(min-width:901px){
+ .project-overview .projects-grid,.horizontal-active .project-overview .projects-grid{grid-template-columns:repeat(6,minmax(0,1fr));gap:2.4vw;padding:0;left:6vw;right:4vw}
+ .project-overview .work-card:nth-child(5){--tilt:-5deg;margin-top:12px}
+ .project-overview .work-card:nth-child(6){--tilt:-7deg;margin-top:6px}
+ .project-overview .work-card-caption h3{font-size:18px}
+ .project-overview .work-card-caption p{display:block;font-size:12px;line-height:1.35}
+ .project-cover-word,.project-cover-george .project-cover-word{font-size:clamp(22px,2.3vw,36px)}
+ .project-cover-word>span,.project-cover-george .project-cover-word>span{font-size:12px}
+ .project-flow{gap:7px}.project-flow>span{font-size:clamp(14px,1.3vw,21px);padding:9px}.project-flow i{font-size:17px}
+ .project-cover-note{font-size:10px}
+ .project-overview .work-card-open{width:34px;height:34px;font-size:22px;right:10px;bottom:10px}
+}
+.project-cover-virgin-money{background:#eadedc}
+.project-cover-virgin-money>img{position:absolute;left:12%;top:29%;width:84%;height:82%;object-fit:cover;object-position:top;border-radius:9px;transform:rotate(4deg);box-shadow:0 9px 15px #432d2820}
+.project-cover-virgin-money .project-cover-word{font-family:Anton,sans-serif;left:9%;right:5%;top:7%;font-size:clamp(21px,2vw,32px)}
+.project-cover-virgin-money .project-cover-word>span{font-family:"Barlow Condensed",sans-serif}
+.project-cover-home-start{background:#e2e8d8}
+.project-cover-home-start .project-cover-word{font-family:Anton,sans-serif;top:8%;left:8%;font-size:clamp(24px,2.4vw,36px)}
+.project-cover-home-start .project-cover-word>span{font-family:"Barlow Condensed",sans-serif}
+.project-cover-home-start>img{position:absolute;top:33%;left:7%;width:125%;height:62%;max-width:none;object-fit:cover;object-position:left top;transform:rotate(6deg);box-shadow:0 10px 15px #23342a20}
+@media(max-width:900px){.project-overview .work-card:nth-child(5){--tilt:-7deg;margin-top:0}.project-overview .work-card:nth-child(6){--tilt:-5deg;margin-top:20px}}
+@media(max-width:500px){.project-cover-virgin-money .project-cover-word{font-size:25px}.project-cover-home-start .project-cover-word{font-size:27px}}

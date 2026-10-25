@@ -25,3 +25,7 @@ Local links/assets checked; JavaScript syntax checked; all 20 new controls exerc
 ## Feedback to collect
 
 Does Virgin Money feel like the strongest opening project? Does the playground have the right balance of calm and play? Keep these as open questions for the next design pass; do not infer preferences from silence.
+
+## User correction — preserve the side-scrolling layout
+
+Josh explicitly rejected removal of the original side-scrolling scene and asked for essentially the same design with light tightening. Restored the original hero-to-project transition, name docking, shared crowd camera, tilted project covers and project-opening motion. Added Virgin Money and Home-Start to that same gallery; retained all six case studies and the 40-experiment playground. This preference supersedes the earlier decision to replace the pinned reveal with vertical editorial rows. Future passes should preserve the existing choreography unless Josh specifically asks to change it.
