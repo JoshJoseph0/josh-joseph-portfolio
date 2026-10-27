@@ -1,0 +1,9 @@
+{
+  "cohortId": "jewish-victims",
+  "slotCount": 6000000,
+  "layoutVersion": "disk-v1",
+  "radius": 7721,
+  "extent": 7733,
+  "pixels": 1024,
+  "representation": "projected-area density raster"
+}

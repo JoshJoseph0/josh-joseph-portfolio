@@ -1,0 +1,80 @@
+{
+  "id": "ushmm-robert-freund",
+  "sourceId": "ushmm:id-card:robert-freund",
+  "displayName": "Robert Freund",
+  "alternativeNames": [],
+  "verificationStatus": "verified",
+  "publicationStatus": "approved",
+  "rights": {
+    "status": "cleared",
+    "license": "original-factual-summary",
+    "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+    "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+  },
+  "sources": [
+    {
+      "institution": "United States Holocaust Memorial Museum",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/robert-freund",
+      "accessed": "2026-10-22",
+      "role": "historical identity and fate evidence"
+    }
+  ],
+  "verification": {
+    "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+    "reviewedAt": "2026-10-22",
+    "evidence": {
+      "identity": true,
+      "jewishVictim": true,
+      "fate": true
+    },
+    "reviewedCandidateHash": "9b70b9d7ed3db8dbce2f101dda90d42d5ccb4c1c8159ceb15d60601a2269fc3d"
+  },
+  "discovery": {
+    "collection": "ushmm-identification-cards",
+    "residence": "Mannheim",
+    "country": "Germany",
+    "period": "1942",
+    "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/robert-freund"
+  },
+  "birth": {
+    "display": "3 October 1893"
+  },
+  "fate": {
+    "status": "murdered",
+    "display": "Murdered at Auschwitz after his August 1942 deportation."
+  },
+  "places": [
+    {
+      "display": "Birthplace: Feudenheim, Germany"
+    },
+    {
+      "display": "Documented residence: Mannheim"
+    }
+  ],
+  "biography": "He worked as an interior decorator and lived with his family in Mannheim.",
+  "facts": [
+    {
+      "text": "Deported from Drancy to Auschwitz on 14 August 1942."
+    }
+  ],
+  "uncertainty": "The source gives the deportation date and says he was killed on arrival; no separate exact death date is asserted.",
+  "originalUrl": "https://encyclopedia.ushmm.org/content/en/id-card/robert-freund",
+  "media": [
+    {
+      "url": "assets/portraits/ushmm-robert-freund.gif",
+      "sourceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/robert-freund",
+      "alt": "Robert Freund",
+      "width": 161,
+      "height": 190,
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      }
+    }
+  ]
+}

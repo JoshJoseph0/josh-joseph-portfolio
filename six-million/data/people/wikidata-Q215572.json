@@ -1,0 +1,2218 @@
+{
+  "id": "wikidata-Q215572",
+  "displayName": "Felix Nussbaum",
+  "alternativeNames": [
+    "Félix Nussbaum",
+    "Felix Nußbaum"
+  ],
+  "sourceId": "Q215572",
+  "originalUrl": "https://www.wikidata.org/wiki/Q215572",
+  "retrievedAt": "2026-10-21T21:32:34.207Z",
+  "birth": null,
+  "fate": {
+    "status": "murdered",
+    "display": "Murdered at Auschwitz-Birkenau following deportation in 1944."
+  },
+  "fateClassificationNote": "Death as a result of Nazi persecution; specific circumstances are described without inferring a direct execution.",
+  "places": [],
+  "facts": [],
+  "biography": "Felix Nussbaum was a Jewish painter who created artworks while hiding in Brussels.",
+  "uncertainty": "The cited institutional exhibition gives 1944. The project does not assert an exact date; API date statements can differ and are retained as source claims.",
+  "apiClaims": {
+    "birth": [
+      {
+        "display": "1904-12-11",
+        "raw": {
+          "time": "+1904-12-11T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "value": {
+          "time": "+1904-12-11T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "rank": "normal",
+        "datatype": "time",
+        "references": [
+          {
+            "hash": "730c9c634a60ed03b0c61e9e4e27778ac2a07a1a",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "def9f19d84b65167a2a17ce38364d264c16127fc",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 19938912,
+                      "id": "Q19938912"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P268": [
+                {
+                  "snaktype": "value",
+                  "property": "P268",
+                  "hash": "86cdd522a46ebc55c91694640e025acafc5954a8",
+                  "datavalue": {
+                    "value": "123330009",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "d6162a1716489623c6e595e448b17f8dca4fb2e8",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2015-10-10T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P268",
+              "P813"
+            ]
+          },
+          {
+            "hash": "3aac75059510d1beaa2c1cc44006edd8e5d1a1df",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "dee3022ec24970657a992a2a969fffdc1236fbfb",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 17299517,
+                      "id": "Q17299517"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P650": [
+                {
+                  "snaktype": "value",
+                  "property": "P650",
+                  "hash": "54543132147101f4676d9dc2e6eeba53fb463078",
+                  "datavalue": {
+                    "value": "60129",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P1476": [
+                {
+                  "snaktype": "value",
+                  "property": "P1476",
+                  "hash": "f039fe85cb2f4634cecb27b29a6b57f085fc95fd",
+                  "datavalue": {
+                    "value": {
+                      "text": "Felix Nussbaum",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P650",
+              "P1476"
+            ]
+          },
+          {
+            "hash": "3c37e90a3cff23ceaeb58947529a2a3e3efb7a2f",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "a58cf22cebf547a4ba960082af38f04e3b77bbf1",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 24255573,
+                      "id": "Q24255573"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P2843": [
+                {
+                  "snaktype": "value",
+                  "property": "P2843",
+                  "hash": "44084e56b012f06646d728fe0848d1045941b335",
+                  "datavalue": {
+                    "value": "B00131857",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "1f1bdd0ece3830bf59486dbf0fdfb6595b617022",
+                  "datavalue": {
+                    "value": "Félix Nussbaum",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "e5f60ab0b03700bb883efce38f8022d023bc49fb",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2017-10-09T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P2843",
+              "P1810",
+              "P813"
+            ]
+          },
+          {
+            "hash": "fde7c527b8774111eb31de12182a366780edba4b",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "f98ec89708e8eab9511c049702ef59df0721d652",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 29861311,
+                      "id": "Q29861311"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P3430": [
+                {
+                  "snaktype": "value",
+                  "property": "P3430",
+                  "hash": "33e49f9d34e74d631e3b54453b746ec9a8372738",
+                  "datavalue": {
+                    "value": "w63b7gq2",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "a1bdb8e71a2607c04d67e907f559375759b9a600",
+                  "datavalue": {
+                    "value": "Felix Nussbaum",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "e5f60ab0b03700bb883efce38f8022d023bc49fb",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2017-10-09T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P3430",
+              "P1810",
+              "P813"
+            ]
+          },
+          {
+            "hash": "bba17b547c99db8325d080468a9c3d0138eff65d",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "e2a81dbf2f7dd02b332d6358ef65f622f82e8cc3",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 237227,
+                      "id": "Q237227"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P5019": [
+                {
+                  "snaktype": "value",
+                  "property": "P5019",
+                  "hash": "0d70cffa1276c13375a13a66f12525bc62953882",
+                  "datavalue": {
+                    "value": "nussbaum-felix",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "a1bdb8e71a2607c04d67e907f559375759b9a600",
+                  "datavalue": {
+                    "value": "Felix Nussbaum",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P5019",
+              "P1810"
+            ]
+          },
+          {
+            "hash": "0820f00a8bb180ad54f16ce1b15d01ff3e85a7b6",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "a43582260c7f4295351a0a435307a272e77ff00b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 20056651,
+                      "id": "Q20056651"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P1988": [
+                {
+                  "snaktype": "value",
+                  "property": "P1988",
+                  "hash": "87b1d3f3c174a306a8a3fa6efc313ce605c65f31",
+                  "datavalue": {
+                    "value": "4646_artiste_NUSSBAUM_Felix",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4257a6ae712844e34db64299311db65a79c2ce20",
+                  "datavalue": {
+                    "value": "Félix NUSSBAUM",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P1988",
+              "P1810"
+            ]
+          },
+          {
+            "hash": "59a86109be7d6d61f28ac336d4ee5c350de641c3",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "306389ddc8d69bbc93411a18cf91e02244ccb439",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 41640909,
+                      "id": "Q41640909"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P4432": [
+                {
+                  "snaktype": "value",
+                  "property": "P4432",
+                  "hash": "71fa2ebdf6af20705a5c3fb6a4a82c5bf2ca7c1f",
+                  "datavalue": {
+                    "value": "00152205",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "a1bdb8e71a2607c04d67e907f559375759b9a600",
+                  "datavalue": {
+                    "value": "Felix Nussbaum",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P4432",
+              "P1810"
+            ]
+          },
+          {
+            "hash": "e392c2098630090a4f9223e674fd807df5cfda91",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "a90160a2ce9deb340bb0a7e07b0d9c6106266546",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 10855166,
+                      "id": "Q10855166"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P6844": [
+                {
+                  "snaktype": "value",
+                  "property": "P6844",
+                  "hash": "5c4e91bc76ef22706ec85e16fd3956cf7666e9ad",
+                  "datavalue": {
+                    "value": "114104",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "6f8f333cebfac92bb111b2fdd9fcbf7697285918",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2021-04-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P6844",
+              "P813"
+            ]
+          },
+          {
+            "hash": "9f4b1417a5e64beea2e8bb4e0e514209a34deff1",
+            "snaks": {
+              "P1801": [
+                {
+                  "snaktype": "value",
+                  "property": "P1801",
+                  "hash": "d8816620f47b3b2760e867cee12c1bb9f4265117",
+                  "datavalue": {
+                    "value": "Berlin GTafel Nussbaum.jpg",
+                    "type": "string"
+                  },
+                  "datatype": "commonsMedia"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P1801"
+            ]
+          }
+        ],
+        "qualifiers": {},
+        "statementId": "q215572$C9F0106A-9455-4C4D-9A29-2B613FC3DC0D"
+      }
+    ],
+    "death": [
+      {
+        "display": "1944-08-09",
+        "raw": {
+          "time": "+1944-08-09T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "value": {
+          "time": "+1944-08-09T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "rank": "normal",
+        "datatype": "time",
+        "references": [
+          {
+            "hash": "8ec68edf6e1ea95ecbd3b8850f019e1d3eaf5176",
+            "snaks": {
+              "P10253": [
+                {
+                  "snaktype": "value",
+                  "property": "P10253",
+                  "hash": "ba302a58dae04c826b9a2a6743784f1476342641",
+                  "datavalue": {
+                    "value": "Berlin GTafel Nussbaum.jpg",
+                    "type": "string"
+                  },
+                  "datatype": "commonsMedia"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P10253"
+            ]
+          },
+          {
+            "hash": "bba17b547c99db8325d080468a9c3d0138eff65d",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "e2a81dbf2f7dd02b332d6358ef65f622f82e8cc3",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 237227,
+                      "id": "Q237227"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P5019": [
+                {
+                  "snaktype": "value",
+                  "property": "P5019",
+                  "hash": "0d70cffa1276c13375a13a66f12525bc62953882",
+                  "datavalue": {
+                    "value": "nussbaum-felix",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "a1bdb8e71a2607c04d67e907f559375759b9a600",
+                  "datavalue": {
+                    "value": "Felix Nussbaum",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P5019",
+              "P1810"
+            ]
+          }
+        ],
+        "qualifiers": {},
+        "statementId": "Q215572$A3391F62-58AD-4459-988F-C2CF02419E41"
+      },
+      {
+        "display": "1944-08-02",
+        "raw": {
+          "time": "+1944-08-02T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "value": {
+          "time": "+1944-08-02T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "rank": "normal",
+        "datatype": "time",
+        "references": [
+          {
+            "hash": "e392c2098630090a4f9223e674fd807df5cfda91",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "a90160a2ce9deb340bb0a7e07b0d9c6106266546",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 10855166,
+                      "id": "Q10855166"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P6844": [
+                {
+                  "snaktype": "value",
+                  "property": "P6844",
+                  "hash": "5c4e91bc76ef22706ec85e16fd3956cf7666e9ad",
+                  "datavalue": {
+                    "value": "114104",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "6f8f333cebfac92bb111b2fdd9fcbf7697285918",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2021-04-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P6844",
+              "P813"
+            ]
+          }
+        ],
+        "qualifiers": {},
+        "statementId": "Q215572$6D054E02-33A8-425A-B224-CD81B5D6216D"
+      }
+    ],
+    "birthPlaces": [
+      {
+        "id": "Q2916",
+        "display": "Osnabrück",
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 2916,
+          "id": "Q2916"
+        },
+        "rank": "normal",
+        "datatype": "wikibase-item",
+        "references": [
+          {
+            "hash": "332d162d365fc309135025684aa893bfe39caf21",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "019a50b7de741e0068bde41c9d9955b22a5de47b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 36578,
+                      "id": "Q36578"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "d251681e39d4516553db1c0299a282a8c07b929b",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2014-12-11T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P813"
+            ]
+          }
+        ],
+        "qualifiers": {},
+        "statementId": "q215572$516372CE-752D-43FA-A6E8-CB2E5DBD2608"
+      }
+    ],
+    "deathPlaces": [
+      {
+        "id": "Q7341",
+        "display": "Auschwitz",
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 7341,
+          "id": "Q7341"
+        },
+        "rank": "normal",
+        "datatype": "wikibase-item",
+        "references": [
+          {
+            "hash": "9f4b1417a5e64beea2e8bb4e0e514209a34deff1",
+            "snaks": {
+              "P1801": [
+                {
+                  "snaktype": "value",
+                  "property": "P1801",
+                  "hash": "d8816620f47b3b2760e867cee12c1bb9f4265117",
+                  "datavalue": {
+                    "value": "Berlin GTafel Nussbaum.jpg",
+                    "type": "string"
+                  },
+                  "datatype": "commonsMedia"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P1801"
+            ]
+          }
+        ],
+        "qualifiers": {},
+        "statementId": "q215572$E521422B-F689-4691-8727-3FD6473F8E87"
+      }
+    ],
+    "identifiers": {
+      "P214": [
+        {
+          "value": "67257890",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+              "snaks": {
+                "P143": [
+                  {
+                    "snaktype": "value",
+                    "property": "P143",
+                    "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 328,
+                        "id": "Q328"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P143"
+              ]
+            },
+            {
+              "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+              "snaks": {
+                "P143": [
+                  {
+                    "snaktype": "value",
+                    "property": "P143",
+                    "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 48183,
+                        "id": "Q48183"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P143"
+              ]
+            },
+            {
+              "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+              "snaks": {
+                "P143": [
+                  {
+                    "snaktype": "value",
+                    "property": "P143",
+                    "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 8447,
+                        "id": "Q8447"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P143"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "q215572$56079990-616E-4EE8-A4F7-DBCCE18EF195"
+        }
+      ],
+      "P213": [
+        {
+          "value": "0000000122120650",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "fbc824608bf047fcbfb803c1b0f98e66f4372207",
+              "snaks": {
+                "P248": [
+                  {
+                    "snaktype": "value",
+                    "property": "P248",
+                    "hash": "a376d605be64acdd4ac7934925ba96e276de7eac",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 423048,
+                        "id": "Q423048"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P248"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "q215572$BF319008-B20E-4845-A066-90480E6A1ABF"
+        }
+      ],
+      "P244": [
+        {
+          "value": "n82211081",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+              "snaks": {
+                "P143": [
+                  {
+                    "snaktype": "value",
+                    "property": "P143",
+                    "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 48183,
+                        "id": "Q48183"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P143"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "q215572$D49B8CBA-873B-4FFB-A0E5-7F48EFDA9FE9"
+        }
+      ],
+      "P227": [
+        {
+          "value": "118589059",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+              "snaks": {
+                "P143": [
+                  {
+                    "snaktype": "value",
+                    "property": "P143",
+                    "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 48183,
+                        "id": "Q48183"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P143"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "q215572$4A19ECCD-3474-44FB-A7D8-58362C4916CF"
+        }
+      ],
+      "P269": [
+        {
+          "value": "032267681",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+              "snaks": {
+                "P143": [
+                  {
+                    "snaktype": "value",
+                    "property": "P143",
+                    "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 8447,
+                        "id": "Q8447"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P143"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "q215572$6EF8F44D-2009-4854-82F7-22E7236DEA49"
+        }
+      ],
+      "P646": [
+        {
+          "value": "/m/04n434",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+              "snaks": {
+                "P248": [
+                  {
+                    "snaktype": "value",
+                    "property": "P248",
+                    "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 15241312,
+                        "id": "Q15241312"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P577": [
+                  {
+                    "snaktype": "value",
+                    "property": "P577",
+                    "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                    "datavalue": {
+                      "value": {
+                        "time": "+2013-10-28T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 11,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P248",
+                "P577"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "Q215572$4605645E-AD58-4664-B804-F3F45D537662"
+        }
+      ],
+      "P650": [
+        {
+          "value": "60129",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$42CEB8F7-2A7F-4906-A253-37351EE9BDBE"
+        }
+      ],
+      "P1006": [
+        {
+          "value": "069464499",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "179183272a17d18df54a71e124dd1f8c3753a988",
+              "snaks": {
+                "P248": [
+                  {
+                    "snaktype": "value",
+                    "property": "P248",
+                    "hash": "6b7d4330c4aac4caec4ede9de0311ce273f88ecd",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 54919,
+                        "id": "Q54919"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P214": [
+                  {
+                    "snaktype": "value",
+                    "property": "P214",
+                    "hash": "ec001546bdf175fb6d2e93e6ec87bb7d514a36a9",
+                    "datavalue": {
+                      "value": "67257890",
+                      "type": "string"
+                    },
+                    "datatype": "external-id"
+                  }
+                ],
+                "P813": [
+                  {
+                    "snaktype": "value",
+                    "property": "P813",
+                    "hash": "49d626ca4d77a2d814c54353ddd4cdfc13cbd1f5",
+                    "datavalue": {
+                      "value": {
+                        "time": "+2014-12-16T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 11,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P248",
+                "P214",
+                "P813"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "Q215572$8C17BE72-0D8E-4B28-AED2-67123ABA02DF"
+        }
+      ],
+      "P245": [
+        {
+          "value": "500088452",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "179183272a17d18df54a71e124dd1f8c3753a988",
+              "snaks": {
+                "P248": [
+                  {
+                    "snaktype": "value",
+                    "property": "P248",
+                    "hash": "6b7d4330c4aac4caec4ede9de0311ce273f88ecd",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 54919,
+                        "id": "Q54919"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P214": [
+                  {
+                    "snaktype": "value",
+                    "property": "P214",
+                    "hash": "ec001546bdf175fb6d2e93e6ec87bb7d514a36a9",
+                    "datavalue": {
+                      "value": "67257890",
+                      "type": "string"
+                    },
+                    "datatype": "external-id"
+                  }
+                ],
+                "P813": [
+                  {
+                    "snaktype": "value",
+                    "property": "P813",
+                    "hash": "49d626ca4d77a2d814c54353ddd4cdfc13cbd1f5",
+                    "datavalue": {
+                      "value": {
+                        "time": "+2014-12-16T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 11,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P248",
+                "P214",
+                "P813"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "Q215572$DC5BA130-6271-4D74-8B76-A42BF9BCF53F"
+        }
+      ],
+      "P723": [
+        {
+          "value": "nuss003",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$7E0062E0-E28C-4BF6-85EF-47722EE69D5D"
+        }
+      ],
+      "P2163": [
+        {
+          "value": "104182",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$D3E1DE9C-6E67-4362-A37B-BBEE3A72B0B6"
+        }
+      ],
+      "P648": [
+        {
+          "value": "OL346471A",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$CEF4F1C0-BF59-439B-9CA8-F9A49802E516"
+        }
+      ],
+      "P949": [
+        {
+          "value": "000100590",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$E0856456-674D-4D3D-B4C4-23F7C478A5F8"
+        }
+      ],
+      "P2843": [
+        {
+          "value": "B00131857",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$5492BAD3-BA11-4A5F-A88D-DCF9650F2B2D"
+        }
+      ],
+      "P3430": [
+        {
+          "value": "w63b7gq2",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$863F6DE5-3DB4-4493-941A-4229EF9A2DB4"
+        }
+      ],
+      "P3453": [
+        {
+          "value": "I-001918122-5",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "5f245756fecacf6a0b2b9f8a35dcb755a161daa9",
+              "snaks": {
+                "P854": [
+                  {
+                    "snaktype": "value",
+                    "property": "P854",
+                    "hash": "a652f863709a7ba6d1cd12ef5704cb3ad5c48448",
+                    "datavalue": {
+                      "value": "https://mijn.pictoright.nl/user/Content_LedenLijstDetails.cfm?Type=R&No=BI-10584",
+                      "type": "string"
+                    },
+                    "datatype": "url"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P854"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "Q215572$6D55A5EC-BFAE-443B-B44E-F43370A2D690"
+        }
+      ],
+      "P3361": [
+        {
+          "value": "BI-10584",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {
+            "P582": [
+              {
+                "snaktype": "value",
+                "property": "P582",
+                "hash": "6e6c1d9cd5a6d09c6017cf7a1ff862fdaf75668e",
+                "datavalue": {
+                  "value": {
+                    "time": "+2014-12-31T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 11,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              }
+            ]
+          },
+          "statementId": "Q215572$25C1736D-D6FF-4B52-B7F2-08AFF79F77CF"
+        }
+      ],
+      "P4145": [
+        {
+          "value": "5067",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$6CB21E4F-4327-4468-BD9D-D115D22977C7"
+        }
+      ],
+      "P4200": [
+        {
+          "value": "37575",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$619686D4-BF37-4710-A7FF-EB8C46AB83B8"
+        }
+      ],
+      "P1988": [
+        {
+          "value": "4646_artiste_NUSSBAUM_Felix",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$861188DA-3EEA-49BD-829C-C5CD7EDD6ABC"
+        }
+      ],
+      "P4663": [
+        {
+          "value": "71a9b2b9-08ed-4375-bce6-1650ec4cd84b",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "62fbac14fac2154ac64688125b0afa377a90ecd9",
+              "snaks": {
+                "P813": [
+                  {
+                    "snaktype": "value",
+                    "property": "P813",
+                    "hash": "1a226deeac6080ba3d5d61e12b3256608d6e985b",
+                    "datavalue": {
+                      "value": {
+                        "time": "+2018-02-10T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 11,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P813"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "Q215572$7290E54A-5643-47A0-BA45-5283F5C89B99"
+        }
+      ],
+      "P4927": [
+        {
+          "value": "frwkcsh240",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$84560B28-CE70-475B-9CDA-58A57ADEFDB9"
+        }
+      ],
+      "P268": [
+        {
+          "value": "123330009",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "5a858a70d6ac562123c1debf25a5aed93a5c4939",
+              "snaks": {
+                "P248": [
+                  {
+                    "snaktype": "value",
+                    "property": "P248",
+                    "hash": "def9f19d84b65167a2a17ce38364d264c16127fc",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 19938912,
+                        "id": "Q19938912"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P813": [
+                  {
+                    "snaktype": "value",
+                    "property": "P813",
+                    "hash": "97aefaac0484eca89d5fee539362dc40c533824e",
+                    "datavalue": {
+                      "value": {
+                        "time": "+2015-08-26T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 11,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P248",
+                "P813"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "Q215572$B3BC693F-96B7-4F56-B76A-C9FCDD11BF64"
+        }
+      ],
+      "P5597": [
+        {
+          "value": "nussbaum_felix",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$562345E8-AA81-4B02-9404-CC172C40A0E2"
+        }
+      ],
+      "P3782": [
+        {
+          "value": "felix-nussbaum",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$0766F765-1913-419A-8446-47B4B735D17D"
+        }
+      ],
+      "P5489": [
+        {
+          "value": "87346",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$430ca037-4780-dab6-2ee2-cf840ff3aacd"
+        }
+      ],
+      "P691": [
+        {
+          "value": "xx0165790",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "ab66c99653f4a0530213921aa21ff420d80e280e",
+              "snaks": {
+                "P214": [
+                  {
+                    "snaktype": "value",
+                    "property": "P214",
+                    "hash": "ec001546bdf175fb6d2e93e6ec87bb7d514a36a9",
+                    "datavalue": {
+                      "value": "67257890",
+                      "type": "string"
+                    },
+                    "datatype": "external-id"
+                  }
+                ],
+                "P248": [
+                  {
+                    "snaktype": "value",
+                    "property": "P248",
+                    "hash": "6b7d4330c4aac4caec4ede9de0311ce273f88ecd",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 54919,
+                        "id": "Q54919"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P813": [
+                  {
+                    "snaktype": "value",
+                    "property": "P813",
+                    "hash": "00afe5535565fc132b2b3adebe7e756b3108d7c1",
+                    "datavalue": {
+                      "value": {
+                        "time": "+2018-12-17T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 11,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P214",
+                "P248",
+                "P813"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "Q215572$49709A53-24D7-4B7D-8455-C0582033D210"
+        }
+      ],
+      "P6844": [
+        {
+          "value": "114104",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$2EEC0738-D416-41C1-8DED-8414405F533B"
+        }
+      ],
+      "P7704": [
+        {
+          "value": "agent/base/69523",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "f6bd60771d70d0288fb4f534e8e556886b9d8f5a",
+              "snaks": {
+                "P813": [
+                  {
+                    "snaktype": "value",
+                    "property": "P813",
+                    "hash": "87fc85ce4a2b90a1a2399b4ad510ca3d87f56197",
+                    "datavalue": {
+                      "value": {
+                        "time": "+2019-12-12T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 11,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P813"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "Q215572$98ABAC73-C4FF-4253-A9F2-85266F4CF1B0"
+        }
+      ],
+      "P7902": [
+        {
+          "value": "118589059",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$FFAF1645-AA38-491A-AE4B-C0C3D4885186"
+        }
+      ],
+      "P5019": [
+        {
+          "value": "nussbaum-felix",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$F92ECDD0-A64F-4519-AA96-CB1167206F74"
+        }
+      ],
+      "P7400": [
+        {
+          "value": "nussbaumfelix",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$afcbf4a1-4e93-0624-8bb6-07a098875ac0"
+        }
+      ],
+      "P1207": [
+        {
+          "value": "n2010155995",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$8112C3CD-1C20-4A05-BA3E-65884C40E5D6"
+        }
+      ],
+      "P4432": [
+        {
+          "value": "00152205",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$742194E5-FEA6-486D-93AF-FB22FBEA1608"
+        }
+      ],
+      "P271": [
+        {
+          "value": "DA08809140",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "21c2796d59fe0fc0f672f986f3a78fbece1a39d3",
+              "snaks": {
+                "P248": [
+                  {
+                    "snaktype": "value",
+                    "property": "P248",
+                    "hash": "b09baac32eb0d06cecfd287182405f4371d8c4a2",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 115920372,
+                        "id": "Q115920372"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P11496": [
+                  {
+                    "snaktype": "value",
+                    "property": "P11496",
+                    "hash": "9a150b57813d995b6626ea4ae403125f516451b9",
+                    "datavalue": {
+                      "value": "1140282266846613760",
+                      "type": "string"
+                    },
+                    "datatype": "external-id"
+                  }
+                ],
+                "P813": [
+                  {
+                    "snaktype": "value",
+                    "property": "P813",
+                    "hash": "b3ff82470787b24faa492eb3664936d920b8f973",
+                    "datavalue": {
+                      "value": {
+                        "time": "+2023-03-12T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 11,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P248",
+                "P11496",
+                "P813"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "Q215572$49b3659b-4dc0-09d7-d07d-401450a7f51b"
+        }
+      ],
+      "P7293": [
+        {
+          "value": "9810672715305606",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$09841684-9091-49A3-BB75-7EF57B0D5C11"
+        }
+      ],
+      "P1695": [
+        {
+          "value": "a0000002704415",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$e31ab003-85d4-4550-93d8-7ff1ca8f3b87"
+        }
+      ],
+      "P7444": [
+        {
+          "value": "85034",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$608BC806-9E80-4A17-A295-209964905F97"
+        }
+      ],
+      "P9918": [
+        {
+          "value": "PE00001743",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$7297B5AA-8739-4E28-AEA7-64FF9FFCDB54"
+        }
+      ],
+      "P8189": [
+        {
+          "value": "987007266186105171",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$D801584F-5B80-4634-A972-F5447AE24DC4"
+        }
+      ],
+      "P10297": [
+        {
+          "value": "m04n434",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$17EC2C4A-7DF8-4085-AC2D-7017C9FE4C5B"
+        }
+      ],
+      "P3368": [
+        {
+          "value": "727198",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$79203B09-2094-4883-B97E-DC4375D2F58A"
+        }
+      ],
+      "P10553": [
+        {
+          "value": "079382452",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$352907B5-2B08-4116-A925-B4DA25A44DB2"
+        }
+      ],
+      "P2600": [
+        {
+          "value": "6000000028692021417",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$133DC35F-940B-4F94-B522-9FC9FD813628"
+        }
+      ],
+      "P8168": [
+        {
+          "value": "Q226742",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$3E5A00B4-97D9-4A23-A524-1465A56AF66D"
+        }
+      ],
+      "P9251": [
+        {
+          "value": "115484",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$A53A3242-1893-45CD-A018-4F2ADDB9B7D7"
+        }
+      ],
+      "P1438": [
+        {
+          "value": "13018",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$7d437714-4d33-c635-21a9-1f77c7013f79"
+        }
+      ],
+      "P11239": [
+        {
+          "value": "0005159230",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$D96EA49F-DCA2-4CFD-8EE6-15156B46CE27"
+        }
+      ],
+      "P11496": [
+        {
+          "value": "1140282266846613760",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$51B72197-6922-4360-8C83-822DA7F49F66"
+        }
+      ],
+      "P10706": [
+        {
+          "value": "000815",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {
+            "P1810": [
+              {
+                "snaktype": "value",
+                "property": "P1810",
+                "hash": "54119bcece3e406b0412ad3e6fbc42d97fabe6bd",
+                "datavalue": {
+                  "value": "Nussbaum, Felix",
+                  "type": "string"
+                },
+                "datatype": "string"
+              }
+            ]
+          },
+          "statementId": "Q215572$A86564F4-DEA3-4EC5-9BDD-6A7A714DC351"
+        }
+      ],
+      "P2949": [
+        {
+          "value": "Nussbaum-582",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {
+            "P1810": [
+              {
+                "snaktype": "value",
+                "property": "P1810",
+                "hash": "1a9729922d30ee89aed64dcce6d6295b83049897",
+                "datavalue": {
+                  "value": "Felix Nussbaum (11 Dec 1904 - bef. 27 Jan 1945)",
+                  "type": "string"
+                },
+                "datatype": "string"
+              }
+            ]
+          },
+          "statementId": "Q215572$bcce4fb3-46e1-2043-1893-8769a12c649d"
+        }
+      ],
+      "P7545": [
+        {
+          "value": "11058330",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$CACB481F-2DC2-4C40-97D4-0242956BF64C"
+        }
+      ],
+      "P12597": [
+        {
+          "value": "43112",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$C4665197-2E88-4BDE-9CBC-A4059373EECE"
+        }
+      ],
+      "P12582": [
+        {
+          "value": "20110803100242424",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$F3FDEEC8-74DA-426E-8440-6D55DF7F3EBA"
+        }
+      ],
+      "P10832": [
+        {
+          "value": "E39PBJjRW8Cd6GmfK6jXv8MHG3",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "f17985a4ffda58543d215f5567a920c849d8b5f5",
+              "snaks": {
+                "P11797": [
+                  {
+                    "snaktype": "value",
+                    "property": "P11797",
+                    "hash": "ebc61ebee105944aa63ee48264c820fab36c5571",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 13219454,
+                        "id": "Q13219454"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P244": [
+                  {
+                    "snaktype": "value",
+                    "property": "P244",
+                    "hash": "85b52424fb8ddd539a2a7991f15fd65943821127",
+                    "datavalue": {
+                      "value": "n82211081",
+                      "type": "string"
+                    },
+                    "datatype": "external-id"
+                  }
+                ],
+                "P813": [
+                  {
+                    "snaktype": "value",
+                    "property": "P813",
+                    "hash": "69a4e77bc338ea7a3b8ae4b679106560e995bc34",
+                    "datavalue": {
+                      "value": {
+                        "time": "+2024-04-22T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 11,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P11797",
+                "P244",
+                "P813"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "Q215572$EBBE53F5-EB96-4E4B-B2EB-5AA2943DA275"
+        }
+      ],
+      "P6214": [
+        {
+          "value": "jmb-pers-12551",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$D8D2CE33-C45B-4B55-AB4D-B8DAA0A1B018"
+        }
+      ],
+      "P13049": [
+        {
+          "value": "118589059",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$8934FFD9-DD35-4836-B997-81FB38756A5B"
+        }
+      ],
+      "P13183": [
+        {
+          "value": "118589059",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$AF9C3C62-F8A4-4503-B273-E2DBDB5D6578"
+        }
+      ],
+      "P4580": [
+        {
+          "value": "6007",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$4789fa94-cb8c-44b3-b1ea-cc267ad7b67c"
+        }
+      ],
+      "P9964": [
+        {
+          "value": "118589059",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$D1729E8A-61E6-4830-AC28-C5FDAA9B8E28"
+        }
+      ],
+      "P13627": [
+        {
+          "value": "1043174036",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$42B198FD-C6EE-49B9-938B-2023F94AF01D"
+        }
+      ],
+      "P13591": [
+        {
+          "value": "person/53ac2a00-5bc4-4992-a04e-691f2fc7e5e6",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$BD585331-3470-4CC1-BDF7-43292D2B871E"
+        }
+      ],
+      "P14536": [
+        {
+          "value": "437710",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$AA029C47-3C66-4976-BCDF-F5CA88FECABA"
+        }
+      ],
+      "P8568": [
+        {
+          "value": "nussbaum-felix",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "3e2d10b6b0dcddfda7e462c9bd24cae5e253e582",
+              "snaks": {
+                "P248": [
+                  {
+                    "snaktype": "value",
+                    "property": "P248",
+                    "hash": "2d4f5935478650dabd038fea56f65272d8ddb0be",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 2535917,
+                        "id": "Q2535917"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P248"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "Q215572$71A71434-00B8-4968-86EA-01F35B002043"
+        }
+      ],
+      "P14750": [
+        {
+          "value": "C7C2-8745-1F92-3959-81B7",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q215572$C4B0C57E-4041-4598-8459-EBB7D5F26EBD"
+        }
+      ]
+    }
+  },
+  "media": [
+    {
+      "url": "assets/portraits/wikidata-Q215572.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pasfoto_Felix_Nussbaum,_1937.PNG",
+      "alt": "Portrait of Felix Nussbaum",
+      "width": 308,
+      "height": 370,
+      "rights": {
+        "basis": "public-domain",
+        "publicDisplayAllowed": true,
+        "attribution": "Felix Nussbaum. Public domain, via Wikimedia Commons.",
+        "rightsholder": "Public domain according to the Wikimedia Commons file record.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://commons.wikimedia.org/wiki/File:Pasfoto_Felix_Nussbaum,_1937.PNG"
+      }
+    }
+  ],
+  "verificationStatus": "verified",
+  "publicationStatus": "approved",
+  "rights": {
+    "status": "cleared",
+    "license": "CC0-1.0",
+    "scope": "CC0 licence applies to imported Wikidata structured data only. Summaries are original project text written from linked evidence, not reproduced archive prose. No images.",
+    "url": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+    "attribution": "Structured data from Wikidata contributors; historical evidence linked to the named institution.",
+    "editorial": "Original factual summaries created for this project; no additional licence for project text is asserted."
+  },
+  "sources": [
+    {
+      "institution": "Yad Vashem",
+      "url": "https://wwv.yadvashem.org/yv/en/exhibitions/art/nussbaum.asp",
+      "role": "historical identity and fate evidence",
+      "accessed": "2026-10-21"
+    },
+    {
+      "institution": "Yad Vashem",
+      "url": "https://wwv.yadvashem.org/yv/en/exhibitions/nussbaum/index.asp",
+      "role": "Institutional exhibition: The Fate of a Jewish Artist.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "institution": "Wikidata contributors",
+      "url": "https://www.wikidata.org/wiki/Q215572",
+      "role": "CC0 structured data",
+      "revision": 2555223693
+    }
+  ],
+  "discovery": {
+    "collection": "yad-vashem-art",
+    "evidenceUrl": "https://wwv.yadvashem.org/yv/en/exhibitions/art/nussbaum.asp"
+  },
+  "verification": {
+    "method": "AI-assisted institutional source cross-check; independent historian review not yet performed",
+    "reviewedAt": "2026-10-21",
+    "evidence": {
+      "identity": true,
+      "jewishVictim": true,
+      "fate": true
+    },
+    "reviewedCandidateHash": "af039ed8c3abb0f153b484b06cbf98e95552945fda1409c337673493feb165c2"
+  }
+}

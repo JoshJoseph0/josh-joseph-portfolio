@@ -1,0 +1,80 @@
+{
+  "id": "ushmm-bertha-adler",
+  "sourceId": "ushmm:id-card:bertha-adler",
+  "displayName": "Bertha Adler",
+  "alternativeNames": [],
+  "verificationStatus": "verified",
+  "publicationStatus": "approved",
+  "rights": {
+    "status": "cleared",
+    "license": "original-factual-summary",
+    "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+    "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+  },
+  "sources": [
+    {
+      "institution": "United States Holocaust Memorial Museum",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/bertha-adler",
+      "accessed": "2026-10-22",
+      "role": "historical identity and fate evidence"
+    }
+  ],
+  "verification": {
+    "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+    "reviewedAt": "2026-10-22",
+    "evidence": {
+      "identity": true,
+      "jewishVictim": true,
+      "fate": true
+    },
+    "reviewedCandidateHash": "a78c11a0e6710f43b7513ccc340a451d25f323a67e951e8cc808d1e56a07cf35"
+  },
+  "discovery": {
+    "collection": "ushmm-identification-cards",
+    "residence": "Liege",
+    "country": "Belgium",
+    "period": "1944",
+    "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/bertha-adler"
+  },
+  "birth": {
+    "display": "20 June 1928"
+  },
+  "fate": {
+    "status": "murdered",
+    "display": "Murdered at Auschwitz two days after her deportation on 19 May 1944."
+  },
+  "places": [
+    {
+      "display": "Birthplace: Selo-Solotvina, Czechoslovakia"
+    },
+    {
+      "display": "Documented residence: Liege"
+    }
+  ],
+  "biography": "She grew up in Liege and attended a local school. Her family spoke Yiddish at home.",
+  "facts": [
+    {
+      "text": "Deported to Auschwitz on 19 May 1944."
+    }
+  ],
+  "uncertainty": "The source describes death relative to deportation; that wording is preserved.",
+  "originalUrl": "https://encyclopedia.ushmm.org/content/en/id-card/bertha-adler",
+  "media": [
+    {
+      "url": "assets/portraits/ushmm-bertha-adler.gif",
+      "sourceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/bertha-adler",
+      "alt": "Bertha Adler",
+      "width": 161,
+      "height": 190,
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      }
+    }
+  ]
+}

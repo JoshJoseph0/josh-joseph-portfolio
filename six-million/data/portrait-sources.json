@@ -1,0 +1,491 @@
+{
+  "reviewedAt": "2026-10-25",
+  "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+  "portraits": [
+    {
+      "id": "ushmm-bertha-adler",
+      "name": "Bertha Adler",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/bertha-adler",
+      "imageUrl": "https://encyclopedia.ushmm.org/images/large/3b6d8ee4-afaf-4373-8a99-a5bae774439b.gif",
+      "alt": "Bertha Adler",
+      "retrievedAt": "2026-10-25",
+      "scrapeId": "01a1742a-25fd-7516-b470-99dda791400d",
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      },
+      "localPath": "assets/portraits/ushmm-bertha-adler.gif",
+      "width": 161,
+      "height": 190,
+      "sha256": "a960d1c0307efe92973e9c6492d3270e8b62c68331c5b7d204976fcd5e0592cb"
+    },
+    {
+      "id": "ushmm-frederick-dermer",
+      "name": "Frederick Dermer",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/frederick-dermer",
+      "imageUrl": "https://encyclopedia.ushmm.org/images/large/81241651-36f5-446d-bcdf-77faf7cafc86.gif",
+      "alt": "Frederick Dermer",
+      "retrievedAt": "2026-10-25",
+      "scrapeId": "01a1742a-25fe-75b6-af3f-c0602119d6b6",
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      },
+      "localPath": "assets/portraits/ushmm-frederick-dermer.gif",
+      "width": 161,
+      "height": 188,
+      "sha256": "8b68c062883eed6fd0c56d421f11473f76e9f98f67913fc7cc27235da2100c43"
+    },
+    {
+      "id": "ushmm-feiga-malnik",
+      "name": "Feiga Malnik",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/feiga-malnik",
+      "imageUrl": "https://encyclopedia.ushmm.org/images/large/5fcfa226-214e-4462-b771-6ca066a5c755.gif",
+      "alt": "Feiga Malnik",
+      "retrievedAt": "2026-10-25",
+      "scrapeId": "01a1742a-2615-77b8-9b39-410b9ea41130",
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      },
+      "localPath": "assets/portraits/ushmm-feiga-malnik.gif",
+      "width": 164,
+      "height": 198,
+      "sha256": "b9ef49fc3fd0301435752edf805419272d55d690d98758ca87c0bcd90ccf8951"
+    },
+    {
+      "id": "ushmm-bernhard-liebster",
+      "name": "Bernhard Liebster",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/bernhard-liebster",
+      "imageUrl": "https://encyclopedia.ushmm.org/images/large/3a6aca24-45b4-480d-a747-0d846cdad1dd.gif",
+      "alt": "Bernhard Liebster",
+      "retrievedAt": "2026-10-25",
+      "scrapeId": "01a1742a-25ff-767b-ba22-05c73280e4df",
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      },
+      "localPath": "assets/portraits/ushmm-bernhard-liebster.gif",
+      "width": 161,
+      "height": 197,
+      "sha256": "77a881a5a785dc06dd9bb131f52d6f1fdcbae867fec4cc60c260b78c861a4eab"
+    },
+    {
+      "id": "ushmm-hela-riemer",
+      "name": "Hela Riemer",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/hela-riemer",
+      "imageUrl": "https://encyclopedia.ushmm.org/images/large/963de252-6606-4d98-96a3-2e94966e68ef.gif",
+      "alt": "Hela Riemer",
+      "retrievedAt": "2026-10-25",
+      "scrapeId": "01a1742a-31f9-728b-a471-76cbd30a1753",
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      },
+      "localPath": "assets/portraits/ushmm-hela-riemer.gif",
+      "width": 139,
+      "height": 199,
+      "sha256": "db21b186e73e28c367e2c2a9cc1152cd30fc8d06265396a525ea069d5d452187"
+    },
+    {
+      "id": "ushmm-jakab-katz",
+      "name": "Jakab Katz",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/jakab-katz",
+      "imageUrl": "https://encyclopedia.ushmm.org/images/large/2878c870-a7f4-49f9-b78b-e9ae635628b2.gif",
+      "alt": "Jakab Katz",
+      "retrievedAt": "2026-10-25",
+      "scrapeId": "01a1742a-31f2-7292-b3ba-3879b93455c0",
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      },
+      "localPath": "assets/portraits/ushmm-jakab-katz.gif",
+      "width": 160,
+      "height": 197,
+      "sha256": "131435b848d2c07e29ac8a3026dedc45c66fca451039892239b07940f47839a4"
+    },
+    {
+      "id": "ushmm-ida-baehr-lang",
+      "name": "Ida Baehr Lang",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/ida-baehr-lang",
+      "imageUrl": "https://encyclopedia.ushmm.org/images/large/9cf3336e-40ae-4ec7-b866-9f9093030969.gif",
+      "alt": "Ida Baehr Lang",
+      "retrievedAt": "2026-10-25",
+      "scrapeId": "01a1742a-3224-77aa-befd-b9948826d875",
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      },
+      "localPath": "assets/portraits/ushmm-ida-baehr-lang.gif",
+      "width": 162,
+      "height": 199,
+      "sha256": "846b546af90a5f8128bc8e202b2b1459ec73698e961999eed3c15df8b598e14c"
+    },
+    {
+      "id": "ushmm-johanna-falkenstein-heumann",
+      "name": "Johanna Falkenstein Heumann",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/johanna-falkenstein-heumann",
+      "imageUrl": "https://encyclopedia.ushmm.org/images/large/60e694ce-abd1-4796-a922-5d2ec68e1788.gif",
+      "alt": "Johanna Falkenstein Heumann",
+      "retrievedAt": "2026-10-25",
+      "scrapeId": "01a1742a-32ac-7579-8d28-999e6ace077f",
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      },
+      "localPath": "assets/portraits/ushmm-johanna-falkenstein-heumann.gif",
+      "width": 165,
+      "height": 199,
+      "sha256": "85304cc44e55e562b530053d4651c7c1a26083aba642789cbbefe06ed8013466"
+    },
+    {
+      "id": "ushmm-mendel-grynberg",
+      "name": "Mendel Grynberg",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/mendel-grynberg",
+      "imageUrl": "https://encyclopedia.ushmm.org/images/large/076cf6e3-2e41-4326-8c52-f53bdb6a3556.gif",
+      "alt": "Mendel Grynberg",
+      "retrievedAt": "2026-10-25",
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      },
+      "localPath": "assets/portraits/ushmm-mendel-grynberg.gif",
+      "width": 159,
+      "height": 194,
+      "sha256": "cad8949716786a62a3184423243ee4ae067d19e0207076518e0a87c4398bbe20"
+    },
+    {
+      "id": "ushmm-ludmilla-schatz",
+      "name": "Ludmilla Schatz",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/ludmilla-schatz",
+      "imageUrl": "https://encyclopedia.ushmm.org/images/large/0cea392b-d804-4a2e-a38b-343c1c04ed8f.gif",
+      "alt": "Ludmilla Schatz",
+      "retrievedAt": "2026-10-25",
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      },
+      "localPath": "assets/portraits/ushmm-ludmilla-schatz.gif",
+      "width": 157,
+      "height": 199,
+      "sha256": "4879ef18eeee87c318dbb1a7225ef15a9f11406ba614fcff9532955d0f871a35"
+    },
+    {
+      "id": "ushmm-leon-franko",
+      "name": "Leon Franko",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/leon-franko",
+      "imageUrl": "https://encyclopedia.ushmm.org/images/large/6dbdc1ab-5394-4804-ace9-0e05ee6c976d.gif",
+      "alt": "Leon Franko",
+      "retrievedAt": "2026-10-25",
+      "scrapeId": "01a1742a-3dea-75ba-9a2f-d4a4645a9633",
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      },
+      "localPath": "assets/portraits/ushmm-leon-franko.gif",
+      "width": 142,
+      "height": 198,
+      "sha256": "9e88e7294693e973531b6230eba9983a1afbb0119a156c7b74ab9e259cd1646d"
+    },
+    {
+      "id": "ushmm-maria-terez-halpert-katz",
+      "name": "Maria Terez Halpert Katz",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/maria-terez-halpert-katz",
+      "imageUrl": "https://encyclopedia.ushmm.org/images/large/30404bfd-1c82-4615-a0cb-00cafcac1564.gif",
+      "alt": "Maria Terez Halpert Katz",
+      "retrievedAt": "2026-10-25",
+      "scrapeId": "01a1742a-3e3b-76c6-892e-7ba2150bcf2b",
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      },
+      "localPath": "assets/portraits/ushmm-maria-terez-halpert-katz.gif",
+      "width": 161,
+      "height": 193,
+      "sha256": "148a2f18462ec6add9cb79ca940837ba39b651aa339e139ae814f9bd7453815a"
+    },
+    {
+      "id": "ushmm-rachel-lea-galperin",
+      "name": "Rachel Lea Galperin",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/rachel-lea-galperin",
+      "imageUrl": "https://encyclopedia.ushmm.org/images/large/2a695848-0680-4f77-a26b-6e77d60e6317.gif",
+      "alt": "Rachel Lea Galperin",
+      "retrievedAt": "2026-10-25",
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      },
+      "localPath": "assets/portraits/ushmm-rachel-lea-galperin.gif",
+      "width": 161,
+      "height": 197,
+      "sha256": "6d59c377ce5bb47f90282164c195df7368e49424c47026caeec915f92c2743e0"
+    },
+    {
+      "id": "ushmm-robert-freund",
+      "name": "Robert Freund",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/robert-freund",
+      "imageUrl": "https://encyclopedia.ushmm.org/images/large/3b53ad16-2a5b-4a1f-9f5f-f67999ab5b04.gif",
+      "alt": "Robert Freund",
+      "retrievedAt": "2026-10-25",
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      },
+      "localPath": "assets/portraits/ushmm-robert-freund.gif",
+      "width": 161,
+      "height": 190,
+      "sha256": "91047a6f84fd8fcd9e627a9d86677120d98d0237b09d40ecfee8d3ac90cb2fb5"
+    },
+    {
+      "id": "ushmm-rudolf-acohen",
+      "name": "Rudolf Acohen",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/rudolf-acohen",
+      "imageUrl": "https://encyclopedia.ushmm.org/images/large/c64467bc-f64d-4ced-9a7d-c99875bc8583.gif",
+      "alt": "Rudolf Acohen",
+      "retrievedAt": "2026-10-25",
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      },
+      "localPath": "assets/portraits/ushmm-rudolf-acohen.gif",
+      "width": 159,
+      "height": 190,
+      "sha256": "4f8efbcb094bf82289261e57f32586115a6e69d3bfa1a25e80968edbfa9f0de5"
+    },
+    {
+      "id": "wikidata-Q152441",
+      "name": "Janusz Korczak",
+      "url": "https://commons.wikimedia.org/wiki/File:Janusz_Korczak_(cropped).jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Janusz_Korczak_%28cropped%29.jpg/960px-Janusz_Korczak_%28cropped%29.jpg",
+      "alt": "Portrait of Janusz Korczak",
+      "retrievedAt": "2026-10-25",
+      "rights": {
+        "basis": "public-domain",
+        "publicDisplayAllowed": true,
+        "attribution": "portret bezautorski. Public domain, via Wikimedia Commons.",
+        "rightsholder": "Public domain according to the Wikimedia Commons file record.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://commons.wikimedia.org/wiki/File:Janusz_Korczak_(cropped).jpg"
+      },
+      "localPath": "assets/portraits/wikidata-Q152441.jpg",
+      "width": 960,
+      "height": 1105,
+      "sha256": "0831ad20f80aa0aa0bef066e36807e60183f23f590871e777dc9d3d24c46777b"
+    },
+    {
+      "id": "wikidata-Q215572",
+      "name": "Felix Nussbaum",
+      "url": "https://commons.wikimedia.org/wiki/File:Pasfoto_Felix_Nussbaum,_1937.PNG",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Pasfoto_Felix_Nussbaum%2C_1937.PNG",
+      "alt": "Portrait of Felix Nussbaum",
+      "retrievedAt": "2026-10-25",
+      "rights": {
+        "basis": "public-domain",
+        "publicDisplayAllowed": true,
+        "attribution": "Felix Nussbaum. Public domain, via Wikimedia Commons.",
+        "rightsholder": "Public domain according to the Wikimedia Commons file record.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://commons.wikimedia.org/wiki/File:Pasfoto_Felix_Nussbaum,_1937.PNG"
+      },
+      "localPath": "assets/portraits/wikidata-Q215572.png",
+      "width": 308,
+      "height": 370,
+      "sha256": "4e8e40332b837dc24878c020c45ed7ebf7874e4544024bb30a62e4394a9c7e59"
+    },
+    {
+      "id": "wikidata-Q4583",
+      "name": "Anne Frank",
+      "url": "https://commons.wikimedia.org/wiki/File:Anne_Frank_(cropped).jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Anne_Frank_%28cropped%29.jpg",
+      "alt": "Portrait of Anne Frank",
+      "retrievedAt": "2026-10-25",
+      "rights": {
+        "basis": "public-domain",
+        "publicDisplayAllowed": true,
+        "attribution": "AnonymousUnknown author. Public domain, via Wikimedia Commons.",
+        "rightsholder": "Public domain according to the Wikimedia Commons file record.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://commons.wikimedia.org/wiki/File:Anne_Frank_(cropped).jpg"
+      },
+      "localPath": "assets/portraits/wikidata-Q4583.jpg",
+      "width": 306,
+      "height": 438,
+      "sha256": "70169343619d28a95a390d9252f9976ee3793e675f0a2e6723d81e2fed3cc3f7"
+    },
+    {
+      "id": "wikidata-Q63477",
+      "name": "Fritz Pfeffer",
+      "url": "https://commons.wikimedia.org/wiki/File:Fritz_Pfeffer_1.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Fritz_Pfeffer_1.jpg/960px-Fritz_Pfeffer_1.jpg",
+      "alt": "Portrait of Fritz Pfeffer",
+      "retrievedAt": "2026-10-25",
+      "rights": {
+        "basis": "public-domain",
+        "publicDisplayAllowed": true,
+        "attribution": "Unknown authorUnknown author. Public domain, via Wikimedia Commons.",
+        "rightsholder": "Public domain according to the Wikimedia Commons file record.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://commons.wikimedia.org/wiki/File:Fritz_Pfeffer_1.jpg"
+      },
+      "localPath": "assets/portraits/wikidata-Q63477.jpg",
+      "width": 960,
+      "height": 1441,
+      "sha256": "a5ca3048079cd8440c3ae65cf194181c73133dae7641d39c99d7e01579b1c181"
+    },
+    {
+      "id": "wikidata-Q69984",
+      "name": "Peter van Pels",
+      "url": "https://commons.wikimedia.org/wiki/File:Peter_van_Pels,_Amsterdam,_1942.tif",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Peter_van_Pels%2C_Amsterdam%2C_1942.tif/lossy-page1-960px-Peter_van_Pels%2C_Amsterdam%2C_1942.tif.jpg",
+      "alt": "Portrait of Peter van Pels",
+      "retrievedAt": "2026-10-25",
+      "rights": {
+        "basis": "public-domain",
+        "publicDisplayAllowed": true,
+        "attribution": "UnknownUnknown. Public domain, via Wikimedia Commons.",
+        "rightsholder": "Public domain according to the Wikimedia Commons file record.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://commons.wikimedia.org/wiki/File:Peter_van_Pels,_Amsterdam,_1942.tif"
+      },
+      "localPath": "assets/portraits/wikidata-Q69984.jpg",
+      "width": 960,
+      "height": 1416,
+      "sha256": "9fa78cbda28500615f91f1d178a31b8fed5c2348517a03a9af16b7569b021945"
+    },
+    {
+      "id": "wikidata-Q707554",
+      "name": "Emanuel Ringelblum",
+      "url": "https://commons.wikimedia.org/wiki/File:EmanuelRingelblum_1900-1944.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/EmanuelRingelblum_1900-1944.jpg",
+      "alt": "Portrait of Emanuel Ringelblum",
+      "retrievedAt": "2026-10-25",
+      "rights": {
+        "basis": "public-domain",
+        "publicDisplayAllowed": true,
+        "attribution": "photographer unknown / uploader Koperczak (talk) 13:34, 16 March 2009 (UTC). Public domain, via Wikimedia Commons.",
+        "rightsholder": "Public domain according to the Wikimedia Commons file record.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://commons.wikimedia.org/wiki/File:EmanuelRingelblum_1900-1944.jpg"
+      },
+      "localPath": "assets/portraits/wikidata-Q707554.jpg",
+      "width": 410,
+      "height": 600,
+      "sha256": "74f89fd400dc7260772270d16d556c94453e2e0d15aaa6a5ec18eb640d8679be"
+    },
+    {
+      "id": "wikidata-Q7337",
+      "name": "Edith Frank-Holländer",
+      "url": "https://commons.wikimedia.org/wiki/File:Edith_Frank,_1935_-_31955614731.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Edith_Frank%2C_1935_-_31955614731.jpg/960px-Edith_Frank%2C_1935_-_31955614731.jpg",
+      "alt": "Portrait of Edith Frank-Holländer",
+      "retrievedAt": "2026-10-25",
+      "rights": {
+        "basis": "public-domain",
+        "publicDisplayAllowed": true,
+        "attribution": "Photo Collection Anne Frank House. Public domain, via Wikimedia Commons.",
+        "rightsholder": "Public domain according to the Wikimedia Commons file record.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://commons.wikimedia.org/wiki/File:Edith_Frank,_1935_-_31955614731.jpg"
+      },
+      "localPath": "assets/portraits/wikidata-Q7337.jpg",
+      "width": 960,
+      "height": 959,
+      "sha256": "0cf166aff4917b73fac221197deb334edb7088647627de396df563ef358a8637"
+    },
+    {
+      "id": "wikidata-Q7339",
+      "name": "Margot Frank",
+      "url": "https://commons.wikimedia.org/wiki/File:Margot_Frank_op_het_Joods_lyceum.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Margot_Frank_op_het_Joods_lyceum.jpg",
+      "alt": "Portrait of Margot Frank",
+      "retrievedAt": "2026-10-25",
+      "rights": {
+        "basis": "public-domain",
+        "publicDisplayAllowed": true,
+        "attribution": "AnonymousUnknown author. Public domain, via Wikimedia Commons.",
+        "rightsholder": "Public domain according to the Wikimedia Commons file record.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://commons.wikimedia.org/wiki/File:Margot_Frank_op_het_Joods_lyceum.jpg"
+      },
+      "localPath": "assets/portraits/wikidata-Q7339.jpg",
+      "width": 327,
+      "height": 458,
+      "sha256": "8339248245188a62ec1320abc506e53f94d931337ebc34b1394dbdedb082b13f"
+    }
+  ]
+}

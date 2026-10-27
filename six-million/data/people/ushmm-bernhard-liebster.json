@@ -1,0 +1,76 @@
+{
+  "id": "ushmm-bernhard-liebster",
+  "sourceId": "ushmm:id-card:bernhard-liebster",
+  "displayName": "Bernhard Liebster",
+  "alternativeNames": [],
+  "verificationStatus": "verified",
+  "publicationStatus": "approved",
+  "rights": {
+    "status": "cleared",
+    "license": "original-factual-summary",
+    "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+    "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+  },
+  "sources": [
+    {
+      "institution": "United States Holocaust Memorial Museum",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/bernhard-liebster",
+      "accessed": "2026-10-22",
+      "role": "historical identity and fate evidence"
+    }
+  ],
+  "verification": {
+    "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+    "reviewedAt": "2026-10-22",
+    "evidence": {
+      "identity": true,
+      "jewishVictim": true,
+      "fate": true
+    },
+    "reviewedCandidateHash": "3b82ed0818c46efc9036ce2534de2982f3032e8abed622cf10e3c0d0091713c3"
+  },
+  "discovery": {
+    "collection": "ushmm-identification-cards",
+    "residence": "Reichenbach",
+    "country": "Germany",
+    "period": "1940",
+    "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/bernhard-liebster"
+  },
+  "birth": {
+    "display": "1882"
+  },
+  "fate": {
+    "status": "murdered",
+    "display": "March 1940; died while imprisoned in Sachsenhausen."
+  },
+  "places": [
+    {
+      "display": "Birthplace: Oswiecim, Poland"
+    },
+    {
+      "display": "Documented residence: Reichenbach"
+    }
+  ],
+  "biography": "He moved from Poland to Germany and supported his family as a shoemaker.",
+  "facts": [],
+  "uncertainty": "Only the month of death is given.",
+  "originalUrl": "https://encyclopedia.ushmm.org/content/en/id-card/bernhard-liebster",
+  "media": [
+    {
+      "url": "assets/portraits/ushmm-bernhard-liebster.gif",
+      "sourceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/bernhard-liebster",
+      "alt": "Bernhard Liebster",
+      "width": 161,
+      "height": 197,
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "cohortId": "jewish-victims",
+  "slotCount": 6000000,
+  "layoutVersion": "star-v1",
+  "radius": 11805,
+  "extent": 11817,
+  "pixels": 2048,
+  "redSlots": 4999066,
+  "greySlots": 1000934,
+  "seed": 102320951,
+  "spacing": 6,
+  "diameter": 2.3,
+  "jitter": 1.7999999999999998,
+  "innerTriangleRatio": 0.62,
+  "redShare": 0.8333333333333334,
+  "representatives": 22990,
+  "representativeStride": 16,
+  "representation": "illustrative nested-slot stippling, not individually resolved population"
+}

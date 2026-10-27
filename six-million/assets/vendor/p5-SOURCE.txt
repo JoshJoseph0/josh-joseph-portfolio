@@ -1,0 +1,5 @@
+p5.js 1.11.3, unmodified distribution.
+Distribution: https://cdn.jsdelivr.net/npm/p5@1.11.3/lib/p5.min.js
+Upstream source: https://github.com/processing/p5.js/tree/v1.11.3
+Source archive: https://github.com/processing/p5.js/archive/refs/tags/v1.11.3.tar.gz
+License: p5-LICENSE.txt in this directory.

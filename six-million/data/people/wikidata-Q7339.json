@@ -1,0 +1,1430 @@
+{
+  "id": "wikidata-Q7339",
+  "displayName": "Margot Frank",
+  "alternativeNames": [
+    "Margot Betti Frank"
+  ],
+  "sourceId": "Q7339",
+  "originalUrl": "https://www.wikidata.org/wiki/Q7339",
+  "retrievedAt": "2026-10-21T21:32:34.207Z",
+  "birth": {
+    "display": "16 February 1926"
+  },
+  "fate": {
+    "status": "murdered",
+    "display": "1945; died of typhus while imprisoned at Bergen-Belsen."
+  },
+  "fateClassificationNote": "Death as a result of Nazi persecution; specific circumstances are described without inferring a direct execution.",
+  "places": [],
+  "facts": [],
+  "biography": "Margot Frank was Anne Frank's older sister. She went into hiding with her family in Amsterdam.",
+  "uncertainty": "The institution dates her death to February 1945; no exact day is asserted.",
+  "apiClaims": {
+    "birth": [
+      {
+        "display": "1926-02-16",
+        "raw": {
+          "time": "+1926-02-16T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "value": {
+          "time": "+1926-02-16T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "rank": "normal",
+        "datatype": "time",
+        "references": [
+          {
+            "hash": "00c9c7ac328d43e475200175690750ac60f5c2b2",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "f98ec89708e8eab9511c049702ef59df0721d652",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 29861311,
+                      "id": "Q29861311"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P3430": [
+                {
+                  "snaktype": "value",
+                  "property": "P3430",
+                  "hash": "ea86e09d7144872af43eea672989fdde8cbce614",
+                  "datavalue": {
+                    "value": "w63w4s7w",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "5a4d8341240f439883924e422b9634f07d5be5c1",
+                  "datavalue": {
+                    "value": "Margot Frank",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "e5f60ab0b03700bb883efce38f8022d023bc49fb",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2017-10-09T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P3430",
+              "P1810",
+              "P813"
+            ]
+          },
+          {
+            "hash": "1b57b7eee863e5e45be8a6ccc03840af659b9803",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "b62f3fa8bab7eb5e1bfe16d03cda082d25315c85",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 63056,
+                      "id": "Q63056"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P535": [
+                {
+                  "snaktype": "value",
+                  "property": "P535",
+                  "hash": "588c12c02f8de497fb938b5c690804013eb29b86",
+                  "datavalue": {
+                    "value": "7371424",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "471148f3c4fc75a9d2d5bf2c8373e86314381d90",
+                  "datavalue": {
+                    "value": "Margot Betti Frank",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "e5f60ab0b03700bb883efce38f8022d023bc49fb",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2017-10-09T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P535",
+              "P1810",
+              "P813"
+            ]
+          },
+          {
+            "hash": "357c99e71608943076d03df1512dac069ae8e8a6",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "40cb46fcf1b404637afde8d360b10d069987cc6e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 110279963,
+                      "id": "Q110279963"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P13306": [
+                {
+                  "snaktype": "value",
+                  "property": "P13306",
+                  "hash": "43a80f601d3511c1cffb165890edaec1ca031769",
+                  "datavalue": {
+                    "value": "4da31075-ff24-4739-b868-554299a61d72",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "acfd04f5f90428fecdc959166de89b55c5863cf3",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-02-22T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "471148f3c4fc75a9d2d5bf2c8373e86314381d90",
+                  "datavalue": {
+                    "value": "Margot Betti Frank",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P13306",
+              "P813",
+              "P1810"
+            ]
+          },
+          {
+            "hash": "67f1c4fc9b43d0d79d2c0d98dc15ee783d842ff8",
+            "snaks": {
+              "P1476": [
+                {
+                  "snaktype": "value",
+                  "property": "P1476",
+                  "hash": "3d70909f3d9fb755c63e7d717f39995ef8fcf327",
+                  "datavalue": {
+                    "value": {
+                      "text": "Margot Frank",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "70151b4ed6619bd4e71f7a71541549364b9a75aa",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 136324932,
+                      "id": "Q136324932"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "60bbdb33256c704074782d3dc941909ffe684843",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-10-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P13820": [
+                {
+                  "snaktype": "value",
+                  "property": "P13820",
+                  "hash": "d292934c391442b68f522b6ac4832c301206c21c",
+                  "datavalue": {
+                    "value": "e4a1ba76-6838-4779-9853-b332dcee8815",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P1476",
+              "P248",
+              "P813",
+              "P13820"
+            ]
+          }
+        ],
+        "qualifiers": {},
+        "statementId": "q7339$65D25E60-E1CD-4431-957E-927444B247D5"
+      }
+    ],
+    "death": [
+      {
+        "display": "1945-02",
+        "raw": {
+          "time": "+1945-02-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 10,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "value": {
+          "time": "+1945-02-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 10,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "rank": "normal",
+        "datatype": "time",
+        "references": [
+          {
+            "hash": "67f1c4fc9b43d0d79d2c0d98dc15ee783d842ff8",
+            "snaks": {
+              "P1476": [
+                {
+                  "snaktype": "value",
+                  "property": "P1476",
+                  "hash": "3d70909f3d9fb755c63e7d717f39995ef8fcf327",
+                  "datavalue": {
+                    "value": {
+                      "text": "Margot Frank",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "70151b4ed6619bd4e71f7a71541549364b9a75aa",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 136324932,
+                      "id": "Q136324932"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "60bbdb33256c704074782d3dc941909ffe684843",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-10-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P13820": [
+                {
+                  "snaktype": "value",
+                  "property": "P13820",
+                  "hash": "d292934c391442b68f522b6ac4832c301206c21c",
+                  "datavalue": {
+                    "value": "e4a1ba76-6838-4779-9853-b332dcee8815",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P1476",
+              "P248",
+              "P813",
+              "P13820"
+            ]
+          }
+        ],
+        "qualifiers": {},
+        "statementId": "q7339$26DD852B-E99E-44EF-B9CE-C90292AA8E5F"
+      }
+    ],
+    "birthPlaces": [
+      {
+        "id": "Q1794",
+        "display": "Frankfurt",
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 1794,
+          "id": "Q1794"
+        },
+        "rank": "normal",
+        "datatype": "wikibase-item",
+        "references": [
+          {
+            "hash": "754775a261d881c3e57378fd594114fd3d6dc78d",
+            "snaks": {
+              "P227": [
+                {
+                  "snaktype": "value",
+                  "property": "P227",
+                  "hash": "44bb6cc389fd5e8f0790fe6d9b81cebaf7e6aba4",
+                  "datavalue": {
+                    "value": "13033636X",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "61cfaea163998911779c4b634aba7f200ab3e0d0",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 23833686,
+                      "id": "Q23833686"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "67bb9e110a3f832925853c871d23368d7fd0c836",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2022-07-27T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P227",
+              "P248",
+              "P813"
+            ]
+          },
+          {
+            "hash": "357c99e71608943076d03df1512dac069ae8e8a6",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "40cb46fcf1b404637afde8d360b10d069987cc6e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 110279963,
+                      "id": "Q110279963"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P13306": [
+                {
+                  "snaktype": "value",
+                  "property": "P13306",
+                  "hash": "43a80f601d3511c1cffb165890edaec1ca031769",
+                  "datavalue": {
+                    "value": "4da31075-ff24-4739-b868-554299a61d72",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "acfd04f5f90428fecdc959166de89b55c5863cf3",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-02-22T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "471148f3c4fc75a9d2d5bf2c8373e86314381d90",
+                  "datavalue": {
+                    "value": "Margot Betti Frank",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P13306",
+              "P813",
+              "P1810"
+            ]
+          },
+          {
+            "hash": "67f1c4fc9b43d0d79d2c0d98dc15ee783d842ff8",
+            "snaks": {
+              "P1476": [
+                {
+                  "snaktype": "value",
+                  "property": "P1476",
+                  "hash": "3d70909f3d9fb755c63e7d717f39995ef8fcf327",
+                  "datavalue": {
+                    "value": {
+                      "text": "Margot Frank",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "70151b4ed6619bd4e71f7a71541549364b9a75aa",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 136324932,
+                      "id": "Q136324932"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "60bbdb33256c704074782d3dc941909ffe684843",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-10-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P13820": [
+                {
+                  "snaktype": "value",
+                  "property": "P13820",
+                  "hash": "d292934c391442b68f522b6ac4832c301206c21c",
+                  "datavalue": {
+                    "value": "e4a1ba76-6838-4779-9853-b332dcee8815",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P1476",
+              "P248",
+              "P813",
+              "P13820"
+            ]
+          }
+        ],
+        "qualifiers": {
+          "P17": [
+            {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "8bcc5ae2d75fae003719baaa6ead1f85aad55a3e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 41304,
+                  "id": "Q41304"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "statementId": "Q7339$8BB14A9D-7AA2-4C7B-9A5E-474C559565FF"
+      }
+    ],
+    "deathPlaces": [
+      {
+        "id": "Q7332",
+        "display": "Bergen-Belsen concentration camp",
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 7332,
+          "id": "Q7332"
+        },
+        "rank": "normal",
+        "datatype": "wikibase-item",
+        "references": [
+          {
+            "hash": "357c99e71608943076d03df1512dac069ae8e8a6",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "40cb46fcf1b404637afde8d360b10d069987cc6e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 110279963,
+                      "id": "Q110279963"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P13306": [
+                {
+                  "snaktype": "value",
+                  "property": "P13306",
+                  "hash": "43a80f601d3511c1cffb165890edaec1ca031769",
+                  "datavalue": {
+                    "value": "4da31075-ff24-4739-b868-554299a61d72",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "acfd04f5f90428fecdc959166de89b55c5863cf3",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-02-22T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "471148f3c4fc75a9d2d5bf2c8373e86314381d90",
+                  "datavalue": {
+                    "value": "Margot Betti Frank",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P13306",
+              "P813",
+              "P1810"
+            ]
+          },
+          {
+            "hash": "67f1c4fc9b43d0d79d2c0d98dc15ee783d842ff8",
+            "snaks": {
+              "P1476": [
+                {
+                  "snaktype": "value",
+                  "property": "P1476",
+                  "hash": "3d70909f3d9fb755c63e7d717f39995ef8fcf327",
+                  "datavalue": {
+                    "value": {
+                      "text": "Margot Frank",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "70151b4ed6619bd4e71f7a71541549364b9a75aa",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 136324932,
+                      "id": "Q136324932"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "60bbdb33256c704074782d3dc941909ffe684843",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-10-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P13820": [
+                {
+                  "snaktype": "value",
+                  "property": "P13820",
+                  "hash": "d292934c391442b68f522b6ac4832c301206c21c",
+                  "datavalue": {
+                    "value": "e4a1ba76-6838-4779-9853-b332dcee8815",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P1476",
+              "P248",
+              "P813",
+              "P13820"
+            ]
+          }
+        ],
+        "qualifiers": {
+          "P17": [
+            {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "06f100f42eca9d3df6297b1648c73462578ce58a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7318,
+                  "id": "Q7318"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "statementId": "q7339$540C2465-EE58-426F-8A16-8709771B3B8A"
+      }
+    ],
+    "identifiers": {
+      "P214": [
+        {
+          "value": "40480393",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+              "snaks": {
+                "P143": [
+                  {
+                    "snaktype": "value",
+                    "property": "P143",
+                    "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 328,
+                        "id": "Q328"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P143"
+              ]
+            },
+            {
+              "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+              "snaks": {
+                "P143": [
+                  {
+                    "snaktype": "value",
+                    "property": "P143",
+                    "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 48183,
+                        "id": "Q48183"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P143"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "q7339$1D156DDC-9D5F-4AD3-8D87-A1700BC61BD5"
+        }
+      ],
+      "P227": [
+        {
+          "value": "13033636X",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+              "snaks": {
+                "P143": [
+                  {
+                    "snaktype": "value",
+                    "property": "P143",
+                    "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 48183,
+                        "id": "Q48183"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P143"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "q7339$D098856F-E8D9-462D-B980-9AAB4A2EE065"
+        }
+      ],
+      "P213": [
+        {
+          "value": "0000000021205057",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7339$a3922388-4679-99be-9b19-2bad4a74a599"
+        }
+      ],
+      "P646": [
+        {
+          "value": "/m/05xttd",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+              "snaks": {
+                "P248": [
+                  {
+                    "snaktype": "value",
+                    "property": "P248",
+                    "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 15241312,
+                        "id": "Q15241312"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P577": [
+                  {
+                    "snaktype": "value",
+                    "property": "P577",
+                    "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                    "datavalue": {
+                      "value": {
+                        "time": "+2013-10-28T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 11,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P248",
+                "P577"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "Q7339$1BD964A3-C044-4DFF-B8A1-6A7F25F96F9C"
+        }
+      ],
+      "P1006": [
+        {
+          "value": "35209026X",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "0bc013be9861b80571078661941e29f8b7508e67",
+              "snaks": {
+                "P248": [
+                  {
+                    "snaktype": "value",
+                    "property": "P248",
+                    "hash": "6b7d4330c4aac4caec4ede9de0311ce273f88ecd",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 54919,
+                        "id": "Q54919"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P214": [
+                  {
+                    "snaktype": "value",
+                    "property": "P214",
+                    "hash": "649cdd2eede1a79fa2cb0f3ba68ee8aecb581cbe",
+                    "datavalue": {
+                      "value": "40480393",
+                      "type": "string"
+                    },
+                    "datatype": "external-id"
+                  }
+                ],
+                "P813": [
+                  {
+                    "snaktype": "value",
+                    "property": "P813",
+                    "hash": "49d626ca4d77a2d814c54353ddd4cdfc13cbd1f5",
+                    "datavalue": {
+                      "value": {
+                        "time": "+2014-12-16T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 11,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P248",
+                "P214",
+                "P813"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "Q7339$392825D9-0AB1-4D27-9D4D-1AE12541A24E"
+        }
+      ],
+      "P3430": [
+        {
+          "value": "w63w4s7w",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7339$FCFE8423-D886-417A-B483-BD3DF8EB1428"
+        }
+      ],
+      "P1741": [
+        {
+          "value": "228816",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7339$053AE831-D209-4502-9077-B3AD90EA2807"
+        }
+      ],
+      "P535": [
+        {
+          "value": "7371424",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7339$00DCDFE6-84AD-4C8E-90AD-01E75C8C1F46"
+        }
+      ],
+      "P7902": [
+        {
+          "value": "13033636X",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7339$224B656A-5AD5-4760-94A6-C840EA28D7BC"
+        }
+      ],
+      "P2889": [
+        {
+          "value": "LBP7-KW1",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7339$56935893-41a2-2992-865c-d463028fb2b0"
+        }
+      ],
+      "P9352": [
+        {
+          "value": "171324",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7339$9A28D0F3-17D0-4592-A40D-196799309248"
+        }
+      ],
+      "P10297": [
+        {
+          "value": "m05xttd",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7339$5F566639-F328-4DE3-82D7-B258EF1F19F7"
+        }
+      ],
+      "P2600": [
+        {
+          "value": "6000000008871372854",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7339$E0A12D56-AAA5-4F82-8B94-BF6679B92796"
+        }
+      ],
+      "P8168": [
+        {
+          "value": "Q224535",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7339$E6472B87-19F7-44A9-8EE9-69F41F2A83E7"
+        }
+      ],
+      "P7571": [
+        {
+          "value": "868441",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7339$3dfc386b-43aa-69ee-72b7-a53318f639a5"
+        }
+      ],
+      "P7502": [
+        {
+          "value": "Margot_Frank-5ZDD3N3",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "817ead1b2c1316112fa42ef5232cbb0a1cd8e8cc",
+              "snaks": {
+                "P248": [
+                  {
+                    "snaktype": "value",
+                    "property": "P248",
+                    "hash": "9540bac826b9295a2844346aaa9fc513d86b3a77",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 71016606,
+                        "id": "Q71016606"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P813": [
+                  {
+                    "snaktype": "value",
+                    "property": "P813",
+                    "hash": "849bf31a75ee81eef52deceed6ee34b2f429e12c",
+                    "datavalue": {
+                      "value": {
+                        "time": "+2022-09-10T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 11,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P248",
+                "P813"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "Q7339$021C6893-AB74-4147-88BD-7BB18907AD52"
+        }
+      ],
+      "P11194": [
+        {
+          "value": "people/margot-frank",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7339$FA49ABF1-8BD7-43D6-A706-00E71B1EE0E6"
+        }
+      ],
+      "P12086": [
+        {
+          "value": "Margot_Frank",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {
+            "P9675": [
+              {
+                "snaktype": "value",
+                "property": "P9675",
+                "hash": "c61cfe746b5f51a2f39151355991d280348f2bda",
+                "datavalue": {
+                  "value": "6326",
+                  "type": "string"
+                },
+                "datatype": "string"
+              }
+            ]
+          },
+          "statementId": "Q7339$F0851F7C-1D7C-4573-AE07-86BAF68B1C05"
+        }
+      ],
+      "P2949": [
+        {
+          "value": "Frank-1227",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {
+            "P1810": [
+              {
+                "snaktype": "value",
+                "property": "P1810",
+                "hash": "883db6369bdd3b903e170a1a1dd793cd25ed4453",
+                "datavalue": {
+                  "value": "Margot Betti Frank (16 Feb 1926 - bef. 15 Apr 1945)",
+                  "type": "string"
+                },
+                "datatype": "string"
+              }
+            ]
+          },
+          "statementId": "Q7339$02960D25-7747-42C4-8716-54AE0D44B145"
+        }
+      ],
+      "P10832": [
+        {
+          "value": "E39PBJgRX7cdXCBVmc6JVfJRrq",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "9eff9dea282978d980fa69f2e9a4d477e81034c1",
+              "snaks": {
+                "P11797": [
+                  {
+                    "snaktype": "value",
+                    "property": "P11797",
+                    "hash": "3b992a8b1d7f5bfbb710fb1b091cc424c4e3e7db",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 54919,
+                        "id": "Q54919"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P214": [
+                  {
+                    "snaktype": "value",
+                    "property": "P214",
+                    "hash": "649cdd2eede1a79fa2cb0f3ba68ee8aecb581cbe",
+                    "datavalue": {
+                      "value": "40480393",
+                      "type": "string"
+                    },
+                    "datatype": "external-id"
+                  }
+                ],
+                "P813": [
+                  {
+                    "snaktype": "value",
+                    "property": "P813",
+                    "hash": "41c026ad765c372d820f445ea96a63a2f9a978c7",
+                    "datavalue": {
+                      "value": {
+                        "time": "+2024-05-30T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 11,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P11797",
+                "P214",
+                "P813"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "Q7339$6438DBD8-2E16-403F-B448-1A8074540835"
+        }
+      ],
+      "P13306": [
+        {
+          "value": "4da31075-ff24-4739-b868-554299a61d72",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7339$59B03EDB-21F5-426C-8187-B20D107F8B74"
+        }
+      ],
+      "P13820": [
+        {
+          "value": "e4a1ba76-6838-4779-9853-b332dcee8815",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7339$82652095-2A97-4700-907A-F1BF43F365EA"
+        }
+      ]
+    }
+  },
+  "media": [
+    {
+      "url": "assets/portraits/wikidata-Q7339.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Margot_Frank_op_het_Joods_lyceum.jpg",
+      "alt": "Portrait of Margot Frank",
+      "width": 327,
+      "height": 458,
+      "rights": {
+        "basis": "public-domain",
+        "publicDisplayAllowed": true,
+        "attribution": "AnonymousUnknown author. Public domain, via Wikimedia Commons.",
+        "rightsholder": "Public domain according to the Wikimedia Commons file record.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://commons.wikimedia.org/wiki/File:Margot_Frank_op_het_Joods_lyceum.jpg"
+      }
+    }
+  ],
+  "verificationStatus": "verified",
+  "publicationStatus": "approved",
+  "rights": {
+    "status": "cleared",
+    "license": "CC0-1.0",
+    "scope": "CC0 licence applies to imported Wikidata structured data only. Summaries are original project text written from linked evidence, not reproduced archive prose. No images.",
+    "url": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+    "attribution": "Structured data from Wikidata contributors; historical evidence linked to the named institution.",
+    "editorial": "Original factual summaries created for this project; no additional licence for project text is asserted."
+  },
+  "sources": [
+    {
+      "institution": "Anne Frank House",
+      "url": "https://www.annefrank.org/en/anne-frank/main-characters/margot-frank/",
+      "role": "historical identity and fate evidence",
+      "accessed": "2026-10-21"
+    },
+    {
+      "institution": "Wikidata contributors",
+      "url": "https://www.wikidata.org/wiki/Q7339",
+      "role": "CC0 structured data",
+      "revision": 2556230987
+    }
+  ],
+  "discovery": {
+    "collection": "anne-frank-house",
+    "evidenceUrl": "https://www.annefrank.org/en/anne-frank/main-characters/margot-frank/",
+    "residence": "Amsterdam",
+    "household": "secret-annex-residents"
+  },
+  "verification": {
+    "method": "AI-assisted institutional source cross-check; independent historian review not yet performed",
+    "reviewedAt": "2026-10-21",
+    "evidence": {
+      "identity": true,
+      "jewishVictim": true,
+      "fate": true
+    },
+    "reviewedCandidateHash": "3a44219b41ac8bc151908fa342e58c352aee8aab77bb131751e30b07ddff7ccb"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "ushmm-rudolf-acohen",
+  "sourceId": "ushmm:id-card:rudolf-acohen",
+  "displayName": "Rudolf Acohen",
+  "alternativeNames": [
+    "Rudi"
+  ],
+  "verificationStatus": "verified",
+  "publicationStatus": "approved",
+  "rights": {
+    "status": "cleared",
+    "license": "original-factual-summary",
+    "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+    "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+  },
+  "sources": [
+    {
+      "institution": "United States Holocaust Memorial Museum",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/rudolf-acohen",
+      "accessed": "2026-10-22",
+      "role": "historical identity and fate evidence"
+    }
+  ],
+  "verification": {
+    "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+    "reviewedAt": "2026-10-22",
+    "evidence": {
+      "identity": true,
+      "jewishVictim": true,
+      "fate": true
+    },
+    "reviewedCandidateHash": "91976493a0dae33785b34bb1b48baf95a9863e8417bc432b5057b6a8dffca897"
+  },
+  "discovery": {
+    "collection": "ushmm-identification-cards",
+    "residence": "Amsterdam",
+    "country": "Netherlands",
+    "period": "1942",
+    "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/rudolf-acohen"
+  },
+  "birth": {
+    "display": "4 June 1922"
+  },
+  "fate": {
+    "status": "murdered",
+    "display": "Perished in a killing centre after his arrest on 7 June 1942."
+  },
+  "places": [
+    {
+      "display": "Birthplace: Amsterdam, Netherlands"
+    },
+    {
+      "display": "Documented residence: Amsterdam"
+    }
+  ],
+  "biography": "He attended Montessori schools in Amsterdam and was also known as Rudi.",
+  "facts": [
+    {
+      "text": "Deported after a raid in Amsterdam on 7 June 1942."
+    }
+  ],
+  "uncertainty": "The cited record does not name the killing centre or establish an exact death date.",
+  "originalUrl": "https://encyclopedia.ushmm.org/content/en/id-card/rudolf-acohen",
+  "media": [
+    {
+      "url": "assets/portraits/ushmm-rudolf-acohen.gif",
+      "sourceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/rudolf-acohen",
+      "alt": "Rudolf Acohen",
+      "width": 159,
+      "height": 190,
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      }
+    }
+  ]
+}

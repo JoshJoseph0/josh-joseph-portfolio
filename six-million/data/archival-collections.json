@@ -1,0 +1,360 @@
+{
+  "retrievedAt": "2026-10-21T23:08:22.767Z",
+  "source": "European Holocaust Research Infrastructure",
+  "requestUrl": "https://portal.ehri-project.eu/api/oaipmh?verb=ListRecords&metadataPrefix=oai_dc&set=gb",
+  "serverPageCount": 200,
+  "resumptionToken": "b2Zmc2V0PTIwMCZsaW1pdD0yMDAmdmVyYj1MaXN0UmVjb3JkcyZtZXRhZGF0YVByZWZpeD1vYWlfZGMmc2V0PWdi",
+  "records": [
+    {
+      "sourceId": "gb-006351-ms_959",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "Esther Simpson correspondence and papers",
+      "repository": "University of Leeds Special Collections",
+      "originalUrl": "https://portal.ehri-project.eu/gb-006351-ms_959",
+      "identifiers": [
+        "MS 959",
+        "ark:41045/p01xnvz4h751c3"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-006351-ms_1712",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "Correspondence and papers of Ralph Miliband",
+      "repository": "University of Leeds Special Collections",
+      "originalUrl": "https://portal.ehri-project.eu/gb-006351-ms_1712",
+      "identifiers": [
+        "MS 1712",
+        "ark:41045/p0yvhsycnp9xry"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-006351-liddle_collection_ge_28",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "Personal recollections of H.C. Plaut",
+      "repository": "University of Leeds Special Collections",
+      "originalUrl": "https://portal.ehri-project.eu/gb-006351-liddle_collection_ge_28",
+      "identifiers": [
+        "Liddle Collection GE 28",
+        "ark:41045/p0xc75cd9tpxmr"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-006351-ms_415",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "Correspondence, memoranda and other papers of the Leeds Academic Assistance Committee, 1933-1940",
+      "repository": "University of Leeds Special Collections",
+      "originalUrl": "https://portal.ehri-project.eu/gb-006351-ms_415",
+      "identifiers": [
+        "MS 415",
+        "ark:41045/p0sx1c1v20w8kq"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-006351-liddle_collection_ge_20",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "Franz Muller papers.",
+      "repository": "University of Leeds Special Collections",
+      "originalUrl": "https://portal.ehri-project.eu/gb-006351-liddle_collection_ge_20",
+      "identifiers": [
+        "Liddle Collection GE 20",
+        "ark:41045/p0qd3khbc2d215"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-006351-ms_446",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "Additional papers of the Leeds Academic Assistance Committee",
+      "repository": "University of Leeds Special Collections",
+      "originalUrl": "https://portal.ehri-project.eu/gb-006351-ms_446",
+      "identifiers": [
+        "MS 446",
+        "ark:41045/p0b01gvhn29v2v"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-006352-gdn_145_30_44",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "W.P. Crozier's Confidential Foreign Affairs Correspondence",
+      "repository": "The University of Manchester Library",
+      "originalUrl": "https://portal.ehri-project.eu/gb-006352-gdn_145_30_44",
+      "identifiers": [
+        "GDN 145/30-44",
+        "ark:41045/p02gvnf9nq15bf"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-006352-ssf",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "Freud Family Papers",
+      "repository": "The University of Manchester Library",
+      "originalUrl": "https://portal.ehri-project.eu/gb-006352-ssf",
+      "identifiers": [
+        "SSF",
+        "ark:41045/p08p43t6dqqdnx"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-006352-wpc",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "W.P. Crozier Papers",
+      "repository": "The University of Manchester Library",
+      "originalUrl": "https://portal.ehri-project.eu/gb-006352-wpc",
+      "identifiers": [
+        "WPC",
+        "ark:41045/p0msxptr50tx2y"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-006350-kclma_hart",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "HART, Lt Cdr Leonard George Richard (1903-1987)",
+      "repository": "Liddell Hart Centre for Military Archives, King's College London",
+      "originalUrl": "https://portal.ehri-project.eu/gb-006350-kclma_hart",
+      "identifiers": [
+        "KCLMA Hart",
+        "ark:41045/p05vym15yvhz6w"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-006350-kclma_barnett_b_g",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "BARNETT, Maj Benjamin George (b 1912)",
+      "repository": "Liddell Hart Centre for Military Archives, King's College London",
+      "originalUrl": "https://portal.ehri-project.eu/gb-006350-kclma_barnett_b_g",
+      "identifiers": [
+        "KCLMA Barnett B G",
+        "ark:41045/p0n7qsvpgb3h5m"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-006350-kclma_hahn",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "HAHN, Professor Dr Otto (1879-1968)",
+      "repository": "Liddell Hart Centre for Military Archives, King's College London",
+      "originalUrl": "https://portal.ehri-project.eu/gb-006350-kclma_hahn",
+      "identifiers": [
+        "KCLMA Hahn",
+        "ark:41045/p0qptdh7d6rmcf"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-003348-wl2150",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "Prichsenstadt Jewish community: Archives",
+      "repository": "Wiener Holocaust Library",
+      "originalUrl": "https://portal.ehri-project.eu/gb-003348-wl2150",
+      "identifiers": [
+        "WL2150",
+        "ark:41045/p0qzf4s8b570k6"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-003348-wl2144",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "Vienna Jewish Community: Archives",
+      "repository": "Wiener Holocaust Library",
+      "originalUrl": "https://portal.ehri-project.eu/gb-003348-wl2144",
+      "identifiers": [
+        "WL2144",
+        "ark:41045/p0brv8k350bz9p"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-003348-wl2238",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "Beatrice Rozenberg collection",
+      "repository": "Wiener Holocaust Library",
+      "originalUrl": "https://portal.ehri-project.eu/gb-003348-wl2238",
+      "identifiers": [
+        "WL2238",
+        "ark:41045/p0cj79wr0bkt88"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-003348-wl2152",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "Breslau Jewish community: Archives",
+      "repository": "Wiener Holocaust Library",
+      "originalUrl": "https://portal.ehri-project.eu/gb-003348-wl2152",
+      "identifiers": [
+        "WL2152",
+        "ark:41045/p0d6bykfw521w8"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-003348-wl2153",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "Correggio Jewish community: Archives",
+      "repository": "Wiener Holocaust Library",
+      "originalUrl": "https://portal.ehri-project.eu/gb-003348-wl2153",
+      "identifiers": [
+        "WL2153",
+        "ark:41045/p08bj59tcp36bk"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-003348-wl2215",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "William Kaczynski collection",
+      "repository": "Wiener Holocaust Library",
+      "originalUrl": "https://portal.ehri-project.eu/gb-003348-wl2215",
+      "identifiers": [
+        "WL2215",
+        "ark:41045/p07tpnm78c4fyd"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-003348-wl2256",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "Eugen Nätscher collection",
+      "repository": "Wiener Holocaust Library",
+      "originalUrl": "https://portal.ehri-project.eu/gb-003348-wl2256",
+      "identifiers": [
+        "WL2256",
+        "ark:41045/p0f5716ypwxr08"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-003348-wl3000",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "Wiener Library Archive",
+      "repository": "Wiener Holocaust Library",
+      "originalUrl": "https://portal.ehri-project.eu/gb-003348-wl3000",
+      "identifiers": [
+        "WL3000",
+        "ark:41045/p082wjbww9b35z"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-003348-89481",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "CD 3",
+      "repository": "Wiener Holocaust Library",
+      "originalUrl": "https://portal.ehri-project.eu/gb-003348-89481",
+      "identifiers": [
+        "89481",
+        "ark:41045/p0xvgfdvz7f6sd"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-003348-wl2145",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "Rabbi Yosef Yitzchak Schneersohn: Personal papers",
+      "repository": "Wiener Holocaust Library",
+      "originalUrl": "https://portal.ehri-project.eu/gb-003348-wl2145",
+      "identifiers": [
+        "WL2145",
+        "ark:41045/p0wdjfrv27n61p"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-003348-wl2267",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "Otto Kapp collection",
+      "repository": "Wiener Holocaust Library",
+      "originalUrl": "https://portal.ehri-project.eu/gb-003348-wl2267",
+      "identifiers": [
+        "WL2267",
+        "ark:41045/p034qyv11grgqq"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-003348-wl2220",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "Geoffrey Marx collection",
+      "repository": "Wiener Holocaust Library",
+      "originalUrl": "https://portal.ehri-project.eu/gb-003348-wl2220",
+      "identifiers": [
+        "WL2220",
+        "ark:41045/p09ht50dpqjsfw"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    },
+    {
+      "sourceId": "gb-003348-wl2148",
+      "sourceInstitution": "European Holocaust Research Infrastructure",
+      "title": "Berlin Jewish Community: Archives",
+      "repository": "Wiener Holocaust Library",
+      "originalUrl": "https://portal.ehri-project.eu/gb-003348-wl2148",
+      "identifiers": [
+        "WL2148",
+        "ark:41045/p0r55kp0q22yzw"
+      ],
+      "verificationStatus": "archival-description-not-identity-proof",
+      "publicationStatus": "not-approved",
+      "rights": "Underlying collection and metadata rights require item-specific review."
+    }
+  ],
+  "note": "Archival collection descriptions, not individual verified victims. No source prose or media is republished."
+}

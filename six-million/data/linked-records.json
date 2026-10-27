@@ -1,0 +1,1184 @@
+{
+  "datasetVersion": "2026-10-22.experience-1",
+  "layoutVersion": "star-v1",
+  "cohortId": "jewish-victims",
+  "records": [
+    {
+      "personId": "wikidata-Q4583",
+      "sourceId": "Q4583",
+      "displayName": "Anne Frank",
+      "alternativeNames": [
+        "Anna Frank",
+        "Anne Maries Frank",
+        "Anne M. Frank",
+        "Anna M Frank"
+      ],
+      "searchTerms": [
+        "Maingau Clinic of the Red Cross",
+        "Frankfurt",
+        "Bergen-Belsen concentration camp"
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "CC0-1.0",
+        "scope": "CC0 licence applies to imported Wikidata structured data only. Summaries are original project text written from linked evidence, not reproduced archive prose. No images.",
+        "url": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "attribution": "Structured data from Wikidata contributors; historical evidence linked to the named institution.",
+        "editorial": "Original factual summaries created for this project; no additional licence for project text is asserted."
+      },
+      "sources": [
+        {
+          "institution": "Anne Frank House",
+          "url": "https://www.annefrank.org/en/anne-frank/main-characters/anne-frank/",
+          "role": "historical identity and fate evidence",
+          "accessed": "2026-10-21"
+        },
+        {
+          "institution": "Wikidata contributors",
+          "url": "https://www.wikidata.org/wiki/Q4583",
+          "role": "CC0 structured data",
+          "revision": 2557772451
+        }
+      ],
+      "discovery": {
+        "collection": "anne-frank-house",
+        "evidenceUrl": "https://www.annefrank.org/en/anne-frank/main-characters/anne-frank/",
+        "residence": "Amsterdam",
+        "household": "secret-annex-residents"
+      },
+      "verification": {
+        "method": "AI-assisted institutional source cross-check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-21",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "bdd28fe2c8f80594ede6462e4b1b3d9d5528c631b9ff8665cc3685034c6c9dca"
+      }
+    },
+    {
+      "personId": "wikidata-Q7339",
+      "sourceId": "Q7339",
+      "displayName": "Margot Frank",
+      "alternativeNames": [
+        "Margot Betti Frank"
+      ],
+      "searchTerms": [
+        "Frankfurt",
+        "Bergen-Belsen concentration camp"
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "CC0-1.0",
+        "scope": "CC0 licence applies to imported Wikidata structured data only. Summaries are original project text written from linked evidence, not reproduced archive prose. No images.",
+        "url": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "attribution": "Structured data from Wikidata contributors; historical evidence linked to the named institution.",
+        "editorial": "Original factual summaries created for this project; no additional licence for project text is asserted."
+      },
+      "sources": [
+        {
+          "institution": "Anne Frank House",
+          "url": "https://www.annefrank.org/en/anne-frank/main-characters/margot-frank/",
+          "role": "historical identity and fate evidence",
+          "accessed": "2026-10-21"
+        },
+        {
+          "institution": "Wikidata contributors",
+          "url": "https://www.wikidata.org/wiki/Q7339",
+          "role": "CC0 structured data",
+          "revision": 2556230987
+        }
+      ],
+      "discovery": {
+        "collection": "anne-frank-house",
+        "evidenceUrl": "https://www.annefrank.org/en/anne-frank/main-characters/margot-frank/",
+        "residence": "Amsterdam",
+        "household": "secret-annex-residents"
+      },
+      "verification": {
+        "method": "AI-assisted institutional source cross-check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-21",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "3a44219b41ac8bc151908fa342e58c352aee8aab77bb131751e30b07ddff7ccb"
+      }
+    },
+    {
+      "personId": "wikidata-Q7337",
+      "sourceId": "Q7337",
+      "displayName": "Edith Frank-Holländer",
+      "alternativeNames": [
+        "Edethias Frank",
+        "Edith Frank"
+      ],
+      "searchTerms": [
+        "Aachen",
+        "Auschwitz II-Birkenau concentration camp"
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "CC0-1.0",
+        "scope": "CC0 licence applies to imported Wikidata structured data only. Summaries are original project text written from linked evidence, not reproduced archive prose. No images.",
+        "url": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "attribution": "Structured data from Wikidata contributors; historical evidence linked to the named institution.",
+        "editorial": "Original factual summaries created for this project; no additional licence for project text is asserted."
+      },
+      "sources": [
+        {
+          "institution": "Anne Frank House",
+          "url": "https://www.annefrank.org/en/anne-frank/main-characters/edith-frank/",
+          "role": "historical identity and fate evidence",
+          "accessed": "2026-10-21"
+        },
+        {
+          "institution": "Wikidata contributors",
+          "url": "https://www.wikidata.org/wiki/Q7337",
+          "role": "CC0 structured data",
+          "revision": 2556231562
+        }
+      ],
+      "discovery": {
+        "collection": "anne-frank-house",
+        "evidenceUrl": "https://www.annefrank.org/en/anne-frank/main-characters/edith-frank/",
+        "residence": "Amsterdam",
+        "household": "secret-annex-residents"
+      },
+      "verification": {
+        "method": "AI-assisted institutional source cross-check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-21",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "969b7a56238bd2a96b0e3ed4a68a17c7d8d5e5983fc5dd54389f49c4c3123c49"
+      }
+    },
+    {
+      "personId": "wikidata-Q69984",
+      "sourceId": "Q69984",
+      "displayName": "Peter van Pels",
+      "alternativeNames": [],
+      "searchTerms": [
+        "Osnabrück",
+        "Mauthausen concentration camp"
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "CC0-1.0",
+        "scope": "CC0 licence applies to imported Wikidata structured data only. Summaries are original project text written from linked evidence, not reproduced archive prose. No images.",
+        "url": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "attribution": "Structured data from Wikidata contributors; historical evidence linked to the named institution.",
+        "editorial": "Original factual summaries created for this project; no additional licence for project text is asserted."
+      },
+      "sources": [
+        {
+          "institution": "Anne Frank House",
+          "url": "https://www.annefrank.org/en/anne-frank/main-characters/peter-van-pels/",
+          "role": "historical identity and fate evidence",
+          "accessed": "2026-10-21"
+        },
+        {
+          "institution": "Wikidata contributors",
+          "url": "https://www.wikidata.org/wiki/Q69984",
+          "role": "CC0 structured data",
+          "revision": 2555718563
+        }
+      ],
+      "discovery": {
+        "collection": "anne-frank-house",
+        "evidenceUrl": "https://www.annefrank.org/en/anne-frank/main-characters/peter-van-pels/",
+        "residence": "Amsterdam",
+        "household": "secret-annex-residents"
+      },
+      "verification": {
+        "method": "AI-assisted institutional source cross-check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-21",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "a2e91a7fb69c43855e4eb72b9626fe46113112a66ac6b899131ffb6f34e9817f"
+      }
+    },
+    {
+      "personId": "wikidata-Q559674",
+      "sourceId": "Q559674",
+      "displayName": "Hermann van Pels",
+      "alternativeNames": [],
+      "searchTerms": [
+        "Gehrde",
+        "Auschwitz II-Birkenau concentration camp",
+        "Auschwitz"
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "CC0-1.0",
+        "scope": "CC0 licence applies to imported Wikidata structured data only. Summaries are original project text written from linked evidence, not reproduced archive prose. No images.",
+        "url": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "attribution": "Structured data from Wikidata contributors; historical evidence linked to the named institution.",
+        "editorial": "Original factual summaries created for this project; no additional licence for project text is asserted."
+      },
+      "sources": [
+        {
+          "institution": "Anne Frank House",
+          "url": "https://www.annefrank.org/en/anne-frank/main-characters/hermann-van-pels/",
+          "role": "historical identity and fate evidence",
+          "accessed": "2026-10-21"
+        },
+        {
+          "institution": "Anne Frank House",
+          "url": "https://www.annefrank.org/en/anne-frank/main-characters/peter-van-pels/",
+          "role": "Explicitly identifies Peter and his parents Hermann and Auguste as a Jewish family.",
+          "accessed": "2026-10-21"
+        },
+        {
+          "institution": "Wikidata contributors",
+          "url": "https://www.wikidata.org/wiki/Q559674",
+          "role": "CC0 structured data",
+          "revision": 2518754118
+        }
+      ],
+      "discovery": {
+        "collection": "anne-frank-house",
+        "evidenceUrl": "https://www.annefrank.org/en/anne-frank/main-characters/hermann-van-pels/",
+        "residence": "Amsterdam",
+        "household": "secret-annex-residents"
+      },
+      "verification": {
+        "method": "AI-assisted institutional source cross-check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-21",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "411384439480fa94622aeee7d8a61394e743843973635a8ec19d1813f8760c2a"
+      }
+    },
+    {
+      "personId": "wikidata-Q4256516",
+      "sourceId": "Q4256516",
+      "displayName": "Auguste van Pels",
+      "alternativeNames": [
+        "Auguste Röttgen"
+      ],
+      "searchTerms": [
+        "Buer",
+        "Raguhn"
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "CC0-1.0",
+        "scope": "CC0 licence applies to imported Wikidata structured data only. Summaries are original project text written from linked evidence, not reproduced archive prose. No images.",
+        "url": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "attribution": "Structured data from Wikidata contributors; historical evidence linked to the named institution.",
+        "editorial": "Original factual summaries created for this project; no additional licence for project text is asserted."
+      },
+      "sources": [
+        {
+          "institution": "Anne Frank House",
+          "url": "https://www.annefrank.org/en/anne-frank/main-characters/auguste-van-pels/",
+          "role": "historical identity and fate evidence",
+          "accessed": "2026-10-21"
+        },
+        {
+          "institution": "Anne Frank House",
+          "url": "https://www.annefrank.org/en/anne-frank/main-characters/peter-van-pels/",
+          "role": "Explicitly identifies Peter and his parents Hermann and Auguste as a Jewish family.",
+          "accessed": "2026-10-21"
+        },
+        {
+          "institution": "Wikidata contributors",
+          "url": "https://www.wikidata.org/wiki/Q4256516",
+          "role": "CC0 structured data",
+          "revision": 2493744304
+        }
+      ],
+      "discovery": {
+        "collection": "anne-frank-house",
+        "evidenceUrl": "https://www.annefrank.org/en/anne-frank/main-characters/auguste-van-pels/",
+        "residence": "Amsterdam",
+        "household": "secret-annex-residents"
+      },
+      "verification": {
+        "method": "AI-assisted institutional source cross-check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-21",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "503e62506025d1ca7f8eef9ad6de92c6ae4e82f015cf9467897ded88b12bf917"
+      }
+    },
+    {
+      "personId": "wikidata-Q63477",
+      "sourceId": "Q63477",
+      "displayName": "Fritz Pfeffer",
+      "alternativeNames": [],
+      "searchTerms": [
+        "Giessen",
+        "Neuengamme concentration camp"
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "CC0-1.0",
+        "scope": "CC0 licence applies to imported Wikidata structured data only. Summaries are original project text written from linked evidence, not reproduced archive prose. No images.",
+        "url": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "attribution": "Structured data from Wikidata contributors; historical evidence linked to the named institution.",
+        "editorial": "Original factual summaries created for this project; no additional licence for project text is asserted."
+      },
+      "sources": [
+        {
+          "institution": "Anne Frank House",
+          "url": "https://www.annefrank.org/en/anne-frank/main-characters/fritz-pfeffer/",
+          "role": "historical identity and fate evidence",
+          "accessed": "2026-10-21"
+        },
+        {
+          "institution": "Wikidata contributors",
+          "url": "https://www.wikidata.org/wiki/Q63477",
+          "role": "CC0 structured data",
+          "revision": 2521399947
+        }
+      ],
+      "discovery": {
+        "collection": "anne-frank-house",
+        "evidenceUrl": "https://www.annefrank.org/en/anne-frank/main-characters/fritz-pfeffer/",
+        "residence": "Amsterdam",
+        "household": "secret-annex-residents"
+      },
+      "verification": {
+        "method": "AI-assisted institutional source cross-check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-21",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "2de7a09bff985b8b0260b8813882604e680ba7914c9dfdbbc8ca932f64964b34"
+      }
+    },
+    {
+      "personId": "wikidata-Q152441",
+      "sourceId": "Q152441",
+      "displayName": "Janusz Korczak",
+      "alternativeNames": [],
+      "searchTerms": [
+        "Warsaw",
+        "Treblinka extermination camp"
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "CC0-1.0",
+        "scope": "CC0 licence applies to imported Wikidata structured data only. Summaries are original project text written from linked evidence, not reproduced archive prose. No images.",
+        "url": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "attribution": "Structured data from Wikidata contributors; historical evidence linked to the named institution.",
+        "editorial": "Original factual summaries created for this project; no additional licence for project text is asserted."
+      },
+      "sources": [
+        {
+          "institution": "United States Holocaust Memorial Museum",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/janusz-korczak-1",
+          "role": "historical identity and fate evidence",
+          "accessed": "2026-10-21"
+        },
+        {
+          "institution": "Wikidata contributors",
+          "url": "https://www.wikidata.org/wiki/Q152441",
+          "role": "CC0 structured data",
+          "revision": 2557180952
+        }
+      ],
+      "discovery": {
+        "collection": "ushmm-encyclopedia",
+        "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/article/janusz-korczak-1"
+      },
+      "verification": {
+        "method": "AI-assisted institutional source cross-check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-21",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "1ae3491e9969ea9d72e784beb03d12da4f5cd1c2ef04bd82fe3e3ed34eba99fa"
+      }
+    },
+    {
+      "personId": "wikidata-Q707554",
+      "sourceId": "Q707554",
+      "displayName": "Emanuel Ringelblum",
+      "alternativeNames": [],
+      "searchTerms": [
+        "Buchach",
+        "Warsaw"
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "CC0-1.0",
+        "scope": "CC0 licence applies to imported Wikidata structured data only. Summaries are original project text written from linked evidence, not reproduced archive prose. No images.",
+        "url": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "attribution": "Structured data from Wikidata contributors; historical evidence linked to the named institution.",
+        "editorial": "Original factual summaries created for this project; no additional licence for project text is asserted."
+      },
+      "sources": [
+        {
+          "institution": "United States Holocaust Memorial Museum",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/emanuel-ringelblum-and-the-creation-of-the-oneg-shabbat-archive",
+          "role": "historical identity and fate evidence",
+          "accessed": "2026-10-21"
+        },
+        {
+          "institution": "Wikidata contributors",
+          "url": "https://www.wikidata.org/wiki/Q707554",
+          "role": "CC0 structured data",
+          "revision": 2557138160
+        }
+      ],
+      "discovery": {
+        "collection": "ushmm-encyclopedia",
+        "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/article/emanuel-ringelblum-and-the-creation-of-the-oneg-shabbat-archive"
+      },
+      "verification": {
+        "method": "AI-assisted institutional source cross-check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-21",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "06e6a8d7d3683e1b1b8190ea0c062358f809f08c623e77fdb3982c6b7410d2df"
+      }
+    },
+    {
+      "personId": "wikidata-Q215572",
+      "sourceId": "Q215572",
+      "displayName": "Felix Nussbaum",
+      "alternativeNames": [
+        "Félix Nussbaum",
+        "Felix Nußbaum"
+      ],
+      "searchTerms": [
+        "Osnabrück",
+        "Auschwitz"
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "CC0-1.0",
+        "scope": "CC0 licence applies to imported Wikidata structured data only. Summaries are original project text written from linked evidence, not reproduced archive prose. No images.",
+        "url": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "attribution": "Structured data from Wikidata contributors; historical evidence linked to the named institution.",
+        "editorial": "Original factual summaries created for this project; no additional licence for project text is asserted."
+      },
+      "sources": [
+        {
+          "institution": "Yad Vashem",
+          "url": "https://wwv.yadvashem.org/yv/en/exhibitions/art/nussbaum.asp",
+          "role": "historical identity and fate evidence",
+          "accessed": "2026-10-21"
+        },
+        {
+          "institution": "Yad Vashem",
+          "url": "https://wwv.yadvashem.org/yv/en/exhibitions/nussbaum/index.asp",
+          "role": "Institutional exhibition: The Fate of a Jewish Artist.",
+          "accessed": "2026-10-21"
+        },
+        {
+          "institution": "Wikidata contributors",
+          "url": "https://www.wikidata.org/wiki/Q215572",
+          "role": "CC0 structured data",
+          "revision": 2555223693
+        }
+      ],
+      "discovery": {
+        "collection": "yad-vashem-art",
+        "evidenceUrl": "https://wwv.yadvashem.org/yv/en/exhibitions/art/nussbaum.asp"
+      },
+      "verification": {
+        "method": "AI-assisted institutional source cross-check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-21",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "af039ed8c3abb0f153b484b06cbf98e95552945fda1409c337673493feb165c2"
+      }
+    },
+    {
+      "personId": "ushmm-maria-terez-halpert-katz",
+      "sourceId": "ushmm:id-card:maria-terez-halpert-katz",
+      "displayName": "Maria Terez Halpert Katz",
+      "alternativeNames": [
+        "Tobe"
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "original-factual-summary",
+        "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+        "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+      },
+      "sources": [
+        {
+          "institution": "United States Holocaust Memorial Museum",
+          "url": "https://encyclopedia.ushmm.org/content/en/id-card/maria-terez-halpert-katz",
+          "accessed": "2026-10-22",
+          "role": "historical identity and fate evidence"
+        }
+      ],
+      "verification": {
+        "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-22",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "ae733d3ec961fc6e7faf0ca21f6dff1afb8eb2828a6536cb7522d9d8b7c7fec4"
+      },
+      "discovery": {
+        "collection": "ushmm-identification-cards",
+        "residence": "Kisvarda",
+        "country": "Hungary",
+        "period": "1944",
+        "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/maria-terez-halpert-katz"
+      },
+      "searchTerms": [
+        "Hajdunanas, Hungary",
+        "Kisvarda"
+      ]
+    },
+    {
+      "personId": "ushmm-hela-riemer",
+      "sourceId": "ushmm:id-card:hela-riemer",
+      "displayName": "Hela Riemer",
+      "alternativeNames": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "original-factual-summary",
+        "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+        "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+      },
+      "sources": [
+        {
+          "institution": "United States Holocaust Memorial Museum",
+          "url": "https://encyclopedia.ushmm.org/content/en/id-card/hela-riemer",
+          "accessed": "2026-10-22",
+          "role": "historical identity and fate evidence"
+        }
+      ],
+      "verification": {
+        "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-22",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "5232ae7e1e70b0a27dcfb61621dd0ecc923c80bdd81afae031f3f784cc01f1b8"
+      },
+      "discovery": {
+        "collection": "ushmm-identification-cards",
+        "residence": "Dukla",
+        "country": "Poland",
+        "period": "1942",
+        "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/hela-riemer"
+      },
+      "searchTerms": [
+        "Dukla, Poland",
+        "Dukla"
+      ]
+    },
+    {
+      "personId": "ushmm-robert-freund",
+      "sourceId": "ushmm:id-card:robert-freund",
+      "displayName": "Robert Freund",
+      "alternativeNames": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "original-factual-summary",
+        "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+        "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+      },
+      "sources": [
+        {
+          "institution": "United States Holocaust Memorial Museum",
+          "url": "https://encyclopedia.ushmm.org/content/en/id-card/robert-freund",
+          "accessed": "2026-10-22",
+          "role": "historical identity and fate evidence"
+        }
+      ],
+      "verification": {
+        "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-22",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "9b70b9d7ed3db8dbce2f101dda90d42d5ccb4c1c8159ceb15d60601a2269fc3d"
+      },
+      "discovery": {
+        "collection": "ushmm-identification-cards",
+        "residence": "Mannheim",
+        "country": "Germany",
+        "period": "1942",
+        "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/robert-freund"
+      },
+      "searchTerms": [
+        "Feudenheim, Germany",
+        "Mannheim"
+      ]
+    },
+    {
+      "personId": "ushmm-johanna-falkenstein-heumann",
+      "sourceId": "ushmm:id-card:johanna-falkenstein-heumann",
+      "displayName": "Johanna Falkenstein Heumann",
+      "alternativeNames": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "original-factual-summary",
+        "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+        "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+      },
+      "sources": [
+        {
+          "institution": "United States Holocaust Memorial Museum",
+          "url": "https://encyclopedia.ushmm.org/content/en/id-card/johanna-falkenstein-heumann",
+          "accessed": "2026-10-22",
+          "role": "historical identity and fate evidence"
+        }
+      ],
+      "verification": {
+        "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-22",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "e1f77befd7fdfd226e681f8a25375a036b2e0eb58842b4bb53ba0481f4699d51"
+      },
+      "discovery": {
+        "collection": "ushmm-identification-cards",
+        "residence": "Bielefeld",
+        "country": "Germany",
+        "period": "1944",
+        "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/johanna-falkenstein-heumann"
+      },
+      "searchTerms": [
+        "Hochneukirch, Germany",
+        "Bielefeld"
+      ]
+    },
+    {
+      "personId": "ushmm-bernhard-liebster",
+      "sourceId": "ushmm:id-card:bernhard-liebster",
+      "displayName": "Bernhard Liebster",
+      "alternativeNames": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "original-factual-summary",
+        "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+        "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+      },
+      "sources": [
+        {
+          "institution": "United States Holocaust Memorial Museum",
+          "url": "https://encyclopedia.ushmm.org/content/en/id-card/bernhard-liebster",
+          "accessed": "2026-10-22",
+          "role": "historical identity and fate evidence"
+        }
+      ],
+      "verification": {
+        "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-22",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "3b82ed0818c46efc9036ce2534de2982f3032e8abed622cf10e3c0d0091713c3"
+      },
+      "discovery": {
+        "collection": "ushmm-identification-cards",
+        "residence": "Reichenbach",
+        "country": "Germany",
+        "period": "1940",
+        "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/bernhard-liebster"
+      },
+      "searchTerms": [
+        "Oswiecim, Poland",
+        "Reichenbach"
+      ]
+    },
+    {
+      "personId": "ushmm-jakab-katz",
+      "sourceId": "ushmm:id-card:jakab-katz",
+      "displayName": "Jakab Katz",
+      "alternativeNames": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "original-factual-summary",
+        "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+        "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+      },
+      "sources": [
+        {
+          "institution": "United States Holocaust Memorial Museum",
+          "url": "https://encyclopedia.ushmm.org/content/en/id-card/jakab-katz",
+          "accessed": "2026-10-22",
+          "role": "historical identity and fate evidence"
+        }
+      ],
+      "verification": {
+        "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-22",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "b0b7b4ad392bbc805028ca9682245d960eb86da5c8a771ce02d63c823163be8d"
+      },
+      "discovery": {
+        "collection": "ushmm-identification-cards",
+        "residence": "Zalkod",
+        "country": "Hungary",
+        "period": "1944",
+        "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/jakab-katz"
+      },
+      "searchTerms": [
+        "Nyirmada, Hungary",
+        "Zalkod"
+      ]
+    },
+    {
+      "personId": "ushmm-mendel-grynberg",
+      "sourceId": "ushmm:id-card:mendel-grynberg",
+      "displayName": "Mendel Grynberg",
+      "alternativeNames": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "original-factual-summary",
+        "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+        "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+      },
+      "sources": [
+        {
+          "institution": "United States Holocaust Memorial Museum",
+          "url": "https://encyclopedia.ushmm.org/content/en/id-card/mendel-grynberg",
+          "accessed": "2026-10-22",
+          "role": "historical identity and fate evidence"
+        }
+      ],
+      "verification": {
+        "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-22",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "b9245949142245ab285988c309ca12097db0f4763bf473c0f7d5a8adc5a132e8"
+      },
+      "discovery": {
+        "collection": "ushmm-identification-cards",
+        "residence": "Bialystok",
+        "country": "Poland",
+        "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/mendel-grynberg"
+      },
+      "searchTerms": [
+        "Sokolow Podlaski, Poland",
+        "Bialystok"
+      ]
+    },
+    {
+      "personId": "ushmm-ida-baehr-lang",
+      "sourceId": "ushmm:id-card:ida-baehr-lang",
+      "displayName": "Ida Baehr Lang",
+      "alternativeNames": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "original-factual-summary",
+        "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+        "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+      },
+      "sources": [
+        {
+          "institution": "United States Holocaust Memorial Museum",
+          "url": "https://encyclopedia.ushmm.org/content/en/id-card/ida-baehr-lang",
+          "accessed": "2026-10-22",
+          "role": "historical identity and fate evidence"
+        }
+      ],
+      "verification": {
+        "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-22",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "3d20a2c65acda945fda3de5ada827ecd121951f123d5319dd72dc54477b83e14"
+      },
+      "discovery": {
+        "collection": "ushmm-identification-cards",
+        "residence": "Lambsheim",
+        "country": "Germany",
+        "period": "1942",
+        "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/ida-baehr-lang"
+      },
+      "searchTerms": [
+        "Ruchheim, Germany",
+        "Lambsheim"
+      ]
+    },
+    {
+      "personId": "ushmm-bertha-adler",
+      "sourceId": "ushmm:id-card:bertha-adler",
+      "displayName": "Bertha Adler",
+      "alternativeNames": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "original-factual-summary",
+        "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+        "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+      },
+      "sources": [
+        {
+          "institution": "United States Holocaust Memorial Museum",
+          "url": "https://encyclopedia.ushmm.org/content/en/id-card/bertha-adler",
+          "accessed": "2026-10-22",
+          "role": "historical identity and fate evidence"
+        }
+      ],
+      "verification": {
+        "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-22",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "a78c11a0e6710f43b7513ccc340a451d25f323a67e951e8cc808d1e56a07cf35"
+      },
+      "discovery": {
+        "collection": "ushmm-identification-cards",
+        "residence": "Liege",
+        "country": "Belgium",
+        "period": "1944",
+        "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/bertha-adler"
+      },
+      "searchTerms": [
+        "Selo-Solotvina, Czechoslovakia",
+        "Liege"
+      ]
+    },
+    {
+      "personId": "ushmm-rudolf-acohen",
+      "sourceId": "ushmm:id-card:rudolf-acohen",
+      "displayName": "Rudolf Acohen",
+      "alternativeNames": [
+        "Rudi"
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "original-factual-summary",
+        "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+        "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+      },
+      "sources": [
+        {
+          "institution": "United States Holocaust Memorial Museum",
+          "url": "https://encyclopedia.ushmm.org/content/en/id-card/rudolf-acohen",
+          "accessed": "2026-10-22",
+          "role": "historical identity and fate evidence"
+        }
+      ],
+      "verification": {
+        "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-22",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "91976493a0dae33785b34bb1b48baf95a9863e8417bc432b5057b6a8dffca897"
+      },
+      "discovery": {
+        "collection": "ushmm-identification-cards",
+        "residence": "Amsterdam",
+        "country": "Netherlands",
+        "period": "1942",
+        "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/rudolf-acohen"
+      },
+      "searchTerms": [
+        "Amsterdam, Netherlands",
+        "Amsterdam"
+      ]
+    },
+    {
+      "personId": "ushmm-ludmilla-schatz",
+      "sourceId": "ushmm:id-card:ludmilla-schatz",
+      "displayName": "Ludmilla Schatz",
+      "alternativeNames": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "original-factual-summary",
+        "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+        "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+      },
+      "sources": [
+        {
+          "institution": "United States Holocaust Memorial Museum",
+          "url": "https://encyclopedia.ushmm.org/content/en/id-card/ludmilla-schatz",
+          "accessed": "2026-10-22",
+          "role": "historical identity and fate evidence"
+        }
+      ],
+      "verification": {
+        "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-22",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "3fd6d2b274ad9359524d6c3f236f58e0c67db1fac83bbcacf3fdaa967454b18c"
+      },
+      "discovery": {
+        "collection": "ushmm-identification-cards",
+        "residence": "Nantes",
+        "country": "France",
+        "period": "1942",
+        "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/ludmilla-schatz"
+      },
+      "searchTerms": [
+        "Tulchin, Ukraine",
+        "Nantes"
+      ]
+    },
+    {
+      "personId": "ushmm-rachel-lea-galperin",
+      "sourceId": "ushmm:id-card:rachel-lea-galperin",
+      "displayName": "Rachel Lea Galperin",
+      "alternativeNames": [
+        "Rachel Karpus"
+      ],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "original-factual-summary",
+        "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+        "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+      },
+      "sources": [
+        {
+          "institution": "United States Holocaust Memorial Museum",
+          "url": "https://encyclopedia.ushmm.org/content/en/id-card/rachel-lea-galperin",
+          "accessed": "2026-10-22",
+          "role": "historical identity and fate evidence"
+        }
+      ],
+      "verification": {
+        "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-22",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "cc1df7f0d5b1ec41004b9ae35e3972cd4ffeaba5fac33911442c6445bc047823"
+      },
+      "discovery": {
+        "collection": "ushmm-identification-cards",
+        "residence": "Vilna",
+        "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/rachel-lea-galperin"
+      },
+      "searchTerms": [
+        "Vilna, Poland",
+        "Vilna"
+      ]
+    },
+    {
+      "personId": "ushmm-feiga-malnik",
+      "sourceId": "ushmm:id-card:feiga-malnik",
+      "displayName": "Feiga Malnik",
+      "alternativeNames": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "original-factual-summary",
+        "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+        "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+      },
+      "sources": [
+        {
+          "institution": "United States Holocaust Memorial Museum",
+          "url": "https://encyclopedia.ushmm.org/content/en/id-card/feiga-malnik",
+          "accessed": "2026-10-22",
+          "role": "historical identity and fate evidence"
+        }
+      ],
+      "verification": {
+        "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-22",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "6be03f5d71596e78c76026bd0323113cbffac5ae5f732d46ac08a22a18e144f7"
+      },
+      "discovery": {
+        "collection": "ushmm-identification-cards",
+        "residence": "Kovno",
+        "country": "Lithuania",
+        "period": "1944",
+        "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/feiga-malnik"
+      },
+      "searchTerms": [
+        "Lithuania",
+        "Kovno"
+      ]
+    },
+    {
+      "personId": "ushmm-frederick-dermer",
+      "sourceId": "ushmm:id-card:frederick-dermer",
+      "displayName": "Frederick Dermer",
+      "alternativeNames": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "original-factual-summary",
+        "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+        "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+      },
+      "sources": [
+        {
+          "institution": "United States Holocaust Memorial Museum",
+          "url": "https://encyclopedia.ushmm.org/content/en/id-card/frederick-dermer",
+          "accessed": "2026-10-22",
+          "role": "historical identity and fate evidence"
+        }
+      ],
+      "verification": {
+        "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-22",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "de139a30b5a890f84eb0017164b973426587dfb5bd81701f6e75d607db56e741"
+      },
+      "discovery": {
+        "collection": "ushmm-identification-cards",
+        "residence": "Brussels",
+        "country": "Belgium",
+        "period": "1942",
+        "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/frederick-dermer"
+      },
+      "searchTerms": [
+        "Vienna, Austria",
+        "Brussels"
+      ]
+    },
+    {
+      "personId": "ushmm-leon-franko",
+      "sourceId": "ushmm:id-card:leon-franko",
+      "displayName": "Leon Franko",
+      "alternativeNames": [],
+      "verificationStatus": "verified",
+      "publicationStatus": "approved",
+      "rights": {
+        "status": "cleared",
+        "license": "original-factual-summary",
+        "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+        "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+      },
+      "sources": [
+        {
+          "institution": "United States Holocaust Memorial Museum",
+          "url": "https://encyclopedia.ushmm.org/content/en/id-card/leon-franko",
+          "accessed": "2026-10-22",
+          "role": "historical identity and fate evidence"
+        }
+      ],
+      "verification": {
+        "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+        "reviewedAt": "2026-10-22",
+        "evidence": {
+          "identity": true,
+          "jewishVictim": true,
+          "fate": true
+        },
+        "reviewedCandidateHash": "613cd5166c1ba75d171241f99322e2d6ad0f9b5c7bb6d99917d2e6d307867d8a"
+      },
+      "discovery": {
+        "collection": "ushmm-identification-cards",
+        "residence": "Kastoria",
+        "country": "Greece",
+        "period": "1944",
+        "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/leon-franko"
+      },
+      "searchTerms": [
+        "Bitola, Yugoslavia",
+        "Kastoria"
+      ]
+    }
+  ]
+}

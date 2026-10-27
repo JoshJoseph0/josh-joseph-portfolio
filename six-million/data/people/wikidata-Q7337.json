@@ -1,0 +1,1220 @@
+{
+  "id": "wikidata-Q7337",
+  "displayName": "Edith Frank-Holländer",
+  "alternativeNames": [
+    "Edethias Frank",
+    "Edith Frank"
+  ],
+  "sourceId": "Q7337",
+  "originalUrl": "https://www.wikidata.org/wiki/Q7337",
+  "retrievedAt": "2026-10-21T21:32:34.207Z",
+  "birth": {
+    "display": "16 January 1900"
+  },
+  "fate": {
+    "status": "murdered",
+    "display": "6 January 1945; died while imprisoned at Auschwitz-Birkenau."
+  },
+  "fateClassificationNote": "Death as a result of Nazi persecution; specific circumstances are described without inferring a direct execution.",
+  "places": [],
+  "facts": [],
+  "biography": "Edith Frank was the mother of Margot and Anne Frank. She went into hiding with her family in Amsterdam.",
+  "uncertainty": null,
+  "apiClaims": {
+    "birth": [
+      {
+        "display": "1900-01-16",
+        "raw": {
+          "time": "+1900-01-16T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "value": {
+          "time": "+1900-01-16T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "rank": "normal",
+        "datatype": "time",
+        "references": [
+          {
+            "hash": "54746885a90163b041df0c00361bc9136f7e0841",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "b62f3fa8bab7eb5e1bfe16d03cda082d25315c85",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 63056,
+                      "id": "Q63056"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P535": [
+                {
+                  "snaktype": "value",
+                  "property": "P535",
+                  "hash": "fc4821eed1c7966ff19bc1e550ee043cdc06c6dc",
+                  "datavalue": {
+                    "value": "19185863",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "1aecb335e761a430ab25a7b0cb637fdc6d231b0e",
+                  "datavalue": {
+                    "value": "Edith Frank",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "e5f60ab0b03700bb883efce38f8022d023bc49fb",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2017-10-09T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P535",
+              "P1810",
+              "P813"
+            ]
+          },
+          {
+            "hash": "bd1e7c779da27b7b7593663b63468ac663c24dae",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "40cb46fcf1b404637afde8d360b10d069987cc6e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 110279963,
+                      "id": "Q110279963"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P13306": [
+                {
+                  "snaktype": "value",
+                  "property": "P13306",
+                  "hash": "eec5aabd9992fbf374d8cf1205fac98187939194",
+                  "datavalue": {
+                    "value": "74c5ac1d-1768-4169-8701-5583847702cd",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "acfd04f5f90428fecdc959166de89b55c5863cf3",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-02-22T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "1f65ee1f84c63e413e5e356ef841b757f340c79a",
+                  "datavalue": {
+                    "value": "Edith Frank-Hollander",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P13306",
+              "P813",
+              "P1810"
+            ]
+          },
+          {
+            "hash": "b0b3c5fe7e73832dca4ad6f3a40d9fbca660cf76",
+            "snaks": {
+              "P1476": [
+                {
+                  "snaktype": "value",
+                  "property": "P1476",
+                  "hash": "1eff48c0dfa0409a922500b531f1c5411b834a5b",
+                  "datavalue": {
+                    "value": {
+                      "text": "Edith Frank - Holländer",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "70151b4ed6619bd4e71f7a71541549364b9a75aa",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 136324932,
+                      "id": "Q136324932"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "60bbdb33256c704074782d3dc941909ffe684843",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-10-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P13820": [
+                {
+                  "snaktype": "value",
+                  "property": "P13820",
+                  "hash": "1e0d673116e519a79e20759ed49050efa8ba82df",
+                  "datavalue": {
+                    "value": "5166e05f-5950-486d-bb13-160b2a586fd5",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P1476",
+              "P248",
+              "P813",
+              "P13820"
+            ]
+          }
+        ],
+        "qualifiers": {},
+        "statementId": "q7337$E9A7862C-FEE9-4532-B751-DBD4501507BB"
+      }
+    ],
+    "death": [
+      {
+        "display": "1945-01-06",
+        "raw": {
+          "time": "+1945-01-06T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "value": {
+          "time": "+1945-01-06T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "rank": "normal",
+        "datatype": "time",
+        "references": [
+          {
+            "hash": "54746885a90163b041df0c00361bc9136f7e0841",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "b62f3fa8bab7eb5e1bfe16d03cda082d25315c85",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 63056,
+                      "id": "Q63056"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P535": [
+                {
+                  "snaktype": "value",
+                  "property": "P535",
+                  "hash": "fc4821eed1c7966ff19bc1e550ee043cdc06c6dc",
+                  "datavalue": {
+                    "value": "19185863",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "1aecb335e761a430ab25a7b0cb637fdc6d231b0e",
+                  "datavalue": {
+                    "value": "Edith Frank",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "e5f60ab0b03700bb883efce38f8022d023bc49fb",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2017-10-09T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P535",
+              "P1810",
+              "P813"
+            ]
+          },
+          {
+            "hash": "bd1e7c779da27b7b7593663b63468ac663c24dae",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "40cb46fcf1b404637afde8d360b10d069987cc6e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 110279963,
+                      "id": "Q110279963"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P13306": [
+                {
+                  "snaktype": "value",
+                  "property": "P13306",
+                  "hash": "eec5aabd9992fbf374d8cf1205fac98187939194",
+                  "datavalue": {
+                    "value": "74c5ac1d-1768-4169-8701-5583847702cd",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "acfd04f5f90428fecdc959166de89b55c5863cf3",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-02-22T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "1f65ee1f84c63e413e5e356ef841b757f340c79a",
+                  "datavalue": {
+                    "value": "Edith Frank-Hollander",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P13306",
+              "P813",
+              "P1810"
+            ]
+          },
+          {
+            "hash": "b0b3c5fe7e73832dca4ad6f3a40d9fbca660cf76",
+            "snaks": {
+              "P1476": [
+                {
+                  "snaktype": "value",
+                  "property": "P1476",
+                  "hash": "1eff48c0dfa0409a922500b531f1c5411b834a5b",
+                  "datavalue": {
+                    "value": {
+                      "text": "Edith Frank - Holländer",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "70151b4ed6619bd4e71f7a71541549364b9a75aa",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 136324932,
+                      "id": "Q136324932"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "60bbdb33256c704074782d3dc941909ffe684843",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-10-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P13820": [
+                {
+                  "snaktype": "value",
+                  "property": "P13820",
+                  "hash": "1e0d673116e519a79e20759ed49050efa8ba82df",
+                  "datavalue": {
+                    "value": "5166e05f-5950-486d-bb13-160b2a586fd5",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P1476",
+              "P248",
+              "P813",
+              "P13820"
+            ]
+          }
+        ],
+        "qualifiers": {},
+        "statementId": "Q7337$f5a6a1eb-418c-2a26-066a-433c829cf31b"
+      }
+    ],
+    "birthPlaces": [
+      {
+        "id": "Q1017",
+        "display": "Aachen",
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 1017,
+          "id": "Q1017"
+        },
+        "rank": "normal",
+        "datatype": "wikibase-item",
+        "references": [
+          {
+            "hash": "b0b3c5fe7e73832dca4ad6f3a40d9fbca660cf76",
+            "snaks": {
+              "P1476": [
+                {
+                  "snaktype": "value",
+                  "property": "P1476",
+                  "hash": "1eff48c0dfa0409a922500b531f1c5411b834a5b",
+                  "datavalue": {
+                    "value": {
+                      "text": "Edith Frank - Holländer",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "70151b4ed6619bd4e71f7a71541549364b9a75aa",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 136324932,
+                      "id": "Q136324932"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "60bbdb33256c704074782d3dc941909ffe684843",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-10-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P13820": [
+                {
+                  "snaktype": "value",
+                  "property": "P13820",
+                  "hash": "1e0d673116e519a79e20759ed49050efa8ba82df",
+                  "datavalue": {
+                    "value": "5166e05f-5950-486d-bb13-160b2a586fd5",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P1476",
+              "P248",
+              "P813",
+              "P13820"
+            ]
+          }
+        ],
+        "qualifiers": {
+          "P131": [
+            {
+              "snaktype": "value",
+              "property": "P131",
+              "hash": "fe9d8a99da82348b8982263bb078376f4fa0d0c4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 27306,
+                  "id": "Q27306"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ],
+          "P17": [
+            {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "f07e6efb1952c0a8e1aeab32299b781d428cf237",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 43287,
+                  "id": "Q43287"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "statementId": "q7337$B60EA2FF-5E82-4265-9348-5816EF661650"
+      }
+    ],
+    "deathPlaces": [
+      {
+        "id": "Q663764",
+        "display": "Auschwitz II-Birkenau concentration camp",
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 663764,
+          "id": "Q663764"
+        },
+        "rank": "normal",
+        "datatype": "wikibase-item",
+        "references": [
+          {
+            "hash": "bd1e7c779da27b7b7593663b63468ac663c24dae",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "40cb46fcf1b404637afde8d360b10d069987cc6e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 110279963,
+                      "id": "Q110279963"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P13306": [
+                {
+                  "snaktype": "value",
+                  "property": "P13306",
+                  "hash": "eec5aabd9992fbf374d8cf1205fac98187939194",
+                  "datavalue": {
+                    "value": "74c5ac1d-1768-4169-8701-5583847702cd",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "acfd04f5f90428fecdc959166de89b55c5863cf3",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-02-22T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "1f65ee1f84c63e413e5e356ef841b757f340c79a",
+                  "datavalue": {
+                    "value": "Edith Frank-Hollander",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P13306",
+              "P813",
+              "P1810"
+            ]
+          },
+          {
+            "hash": "b0b3c5fe7e73832dca4ad6f3a40d9fbca660cf76",
+            "snaks": {
+              "P1476": [
+                {
+                  "snaktype": "value",
+                  "property": "P1476",
+                  "hash": "1eff48c0dfa0409a922500b531f1c5411b834a5b",
+                  "datavalue": {
+                    "value": {
+                      "text": "Edith Frank - Holländer",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "70151b4ed6619bd4e71f7a71541549364b9a75aa",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 136324932,
+                      "id": "Q136324932"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "60bbdb33256c704074782d3dc941909ffe684843",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-10-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P13820": [
+                {
+                  "snaktype": "value",
+                  "property": "P13820",
+                  "hash": "1e0d673116e519a79e20759ed49050efa8ba82df",
+                  "datavalue": {
+                    "value": "5166e05f-5950-486d-bb13-160b2a586fd5",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P1476",
+              "P248",
+              "P813",
+              "P13820"
+            ]
+          }
+        ],
+        "qualifiers": {},
+        "statementId": "q7337$67C10BB4-7B99-416C-A10E-537247FE74D5"
+      }
+    ],
+    "identifiers": {
+      "P214": [
+        {
+          "value": "101302956",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+              "snaks": {
+                "P143": [
+                  {
+                    "snaktype": "value",
+                    "property": "P143",
+                    "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 328,
+                        "id": "Q328"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P143"
+              ]
+            },
+            {
+              "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+              "snaks": {
+                "P143": [
+                  {
+                    "snaktype": "value",
+                    "property": "P143",
+                    "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 48183,
+                        "id": "Q48183"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P143"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "q7337$6231703D-320E-4D54-A7F5-40AAC782E805"
+        }
+      ],
+      "P227": [
+        {
+          "value": "139577920",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+              "snaks": {
+                "P143": [
+                  {
+                    "snaktype": "value",
+                    "property": "P143",
+                    "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 48183,
+                        "id": "Q48183"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P143"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "q7337$31207500-57ED-4824-AF05-D4662CBE7318"
+        }
+      ],
+      "P646": [
+        {
+          "value": "/m/07jbww",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+              "snaks": {
+                "P248": [
+                  {
+                    "snaktype": "value",
+                    "property": "P248",
+                    "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 15241312,
+                        "id": "Q15241312"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P577": [
+                  {
+                    "snaktype": "value",
+                    "property": "P577",
+                    "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                    "datavalue": {
+                      "value": {
+                        "time": "+2013-10-28T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 11,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P248",
+                "P577"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "Q7337$972F99B0-19D5-4ED4-8FC5-3CE9B5425D78"
+        }
+      ],
+      "P2949": [
+        {
+          "value": "Holländer-143",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {
+            "P1810": [
+              {
+                "snaktype": "value",
+                "property": "P1810",
+                "hash": "a129f95f1cf7ffe16ba447e8d142e6d245728d75",
+                "datavalue": {
+                  "value": "Edith Frank-Holländer (Holländer) (16 Jan 1900 - 6 Jan 1945)",
+                  "type": "string"
+                },
+                "datatype": "string"
+              }
+            ]
+          },
+          "statementId": "Q7337$db0b35eb-4a30-2f44-b094-3750e4719bd4"
+        }
+      ],
+      "P7571": [
+        {
+          "value": "998217",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7337$92d0ea7d-428d-fb35-ed50-aa3d40d47777"
+        }
+      ],
+      "P2600": [
+        {
+          "value": "6000000008871190054",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7337$dace676b-f894-4a7f-b132-5f87dd20d873"
+        }
+      ],
+      "P535": [
+        {
+          "value": "19185863",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7337$BC89BCF6-0D43-4923-8CD0-4851CB58151D"
+        }
+      ],
+      "P7902": [
+        {
+          "value": "139577920",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7337$01AB6E1C-E3CA-44ED-8ECC-7170EA886154"
+        }
+      ],
+      "P2889": [
+        {
+          "value": "LBP7-5N6",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7337$d2b934fc-4abc-6d5e-f6d3-f974ef78779c"
+        }
+      ],
+      "P9352": [
+        {
+          "value": "171322",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7337$F5D6B8F3-82F1-451C-BBE9-D4FC19B9DB35"
+        }
+      ],
+      "P8168": [
+        {
+          "value": "Q224554",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7337$019856D9-54B8-42E9-834E-F9CC3B131748"
+        }
+      ],
+      "P11194": [
+        {
+          "value": "people/edith-frank",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7337$46D03F8C-5198-4EB6-82C6-10F93606F419"
+        }
+      ],
+      "P12086": [
+        {
+          "value": "Edith_Frank",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {
+            "P9675": [
+              {
+                "snaktype": "value",
+                "property": "P9675",
+                "hash": "38cffe8471e9ec07702d3e232ca0d63f16213f83",
+                "datavalue": {
+                  "value": "6307",
+                  "type": "string"
+                },
+                "datatype": "string"
+              }
+            ]
+          },
+          "statementId": "Q7337$A3D176C7-9466-40E3-8B50-AB4FDCAE9224"
+        }
+      ],
+      "P10832": [
+        {
+          "value": "E39PBJgHfpt8qFxHVMqgqyP84q",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "4cd0c7566a5496be24e924f22d5cee28ef1d53dd",
+              "snaks": {
+                "P11797": [
+                  {
+                    "snaktype": "value",
+                    "property": "P11797",
+                    "hash": "3b992a8b1d7f5bfbb710fb1b091cc424c4e3e7db",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 54919,
+                        "id": "Q54919"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P214": [
+                  {
+                    "snaktype": "value",
+                    "property": "P214",
+                    "hash": "d81781cf0beaba8e818871c2ee1c4479087051ba",
+                    "datavalue": {
+                      "value": "101302956",
+                      "type": "string"
+                    },
+                    "datatype": "external-id"
+                  }
+                ],
+                "P813": [
+                  {
+                    "snaktype": "value",
+                    "property": "P813",
+                    "hash": "d3e47f64556067ad1fdcdd759718727e033c0f61",
+                    "datavalue": {
+                      "value": {
+                        "time": "+2024-06-03T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 11,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P11797",
+                "P214",
+                "P813"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "Q7337$E7D1136B-54D5-434E-841E-780ECDEF1EC9"
+        }
+      ],
+      "P13306": [
+        {
+          "value": "74c5ac1d-1768-4169-8701-5583847702cd",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7337$A112CB86-CA08-48AA-8DCB-B527DD48C623"
+        }
+      ],
+      "P13820": [
+        {
+          "value": "5166e05f-5950-486d-bb13-160b2a586fd5",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7337$8E701E19-25BF-49A8-95E9-E40790ECA1CA"
+        }
+      ],
+      "P9155": [
+        {
+          "value": "731977",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q7337$028e6f84-4497-5a81-d4b8-c2a3d50395c9"
+        }
+      ]
+    }
+  },
+  "media": [
+    {
+      "url": "assets/portraits/wikidata-Q7337.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edith_Frank,_1935_-_31955614731.jpg",
+      "alt": "Portrait of Edith Frank-Holländer",
+      "width": 960,
+      "height": 959,
+      "rights": {
+        "basis": "public-domain",
+        "publicDisplayAllowed": true,
+        "attribution": "Photo Collection Anne Frank House. Public domain, via Wikimedia Commons.",
+        "rightsholder": "Public domain according to the Wikimedia Commons file record.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://commons.wikimedia.org/wiki/File:Edith_Frank,_1935_-_31955614731.jpg"
+      }
+    }
+  ],
+  "verificationStatus": "verified",
+  "publicationStatus": "approved",
+  "rights": {
+    "status": "cleared",
+    "license": "CC0-1.0",
+    "scope": "CC0 licence applies to imported Wikidata structured data only. Summaries are original project text written from linked evidence, not reproduced archive prose. No images.",
+    "url": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+    "attribution": "Structured data from Wikidata contributors; historical evidence linked to the named institution.",
+    "editorial": "Original factual summaries created for this project; no additional licence for project text is asserted."
+  },
+  "sources": [
+    {
+      "institution": "Anne Frank House",
+      "url": "https://www.annefrank.org/en/anne-frank/main-characters/edith-frank/",
+      "role": "historical identity and fate evidence",
+      "accessed": "2026-10-21"
+    },
+    {
+      "institution": "Wikidata contributors",
+      "url": "https://www.wikidata.org/wiki/Q7337",
+      "role": "CC0 structured data",
+      "revision": 2556231562
+    }
+  ],
+  "discovery": {
+    "collection": "anne-frank-house",
+    "evidenceUrl": "https://www.annefrank.org/en/anne-frank/main-characters/edith-frank/",
+    "residence": "Amsterdam",
+    "household": "secret-annex-residents"
+  },
+  "verification": {
+    "method": "AI-assisted institutional source cross-check; independent historian review not yet performed",
+    "reviewedAt": "2026-10-21",
+    "evidence": {
+      "identity": true,
+      "jewishVictim": true,
+      "fate": true
+    },
+    "reviewedCandidateHash": "969b7a56238bd2a96b0e3ed4a68a17c7d8d5e5983fc5dd54389f49c4c3123c49"
+  }
+}

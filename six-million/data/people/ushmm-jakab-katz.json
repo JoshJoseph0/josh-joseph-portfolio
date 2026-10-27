@@ -1,0 +1,80 @@
+{
+  "id": "ushmm-jakab-katz",
+  "sourceId": "ushmm:id-card:jakab-katz",
+  "displayName": "Jakab Katz",
+  "alternativeNames": [],
+  "verificationStatus": "verified",
+  "publicationStatus": "approved",
+  "rights": {
+    "status": "cleared",
+    "license": "original-factual-summary",
+    "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+    "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+  },
+  "sources": [
+    {
+      "institution": "United States Holocaust Memorial Museum",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/jakab-katz",
+      "accessed": "2026-10-22",
+      "role": "historical identity and fate evidence"
+    }
+  ],
+  "verification": {
+    "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+    "reviewedAt": "2026-10-22",
+    "evidence": {
+      "identity": true,
+      "jewishVictim": true,
+      "fate": true
+    },
+    "reviewedCandidateHash": "b0b7b4ad392bbc805028ca9682245d960eb86da5c8a771ce02d63c823163be8d"
+  },
+  "discovery": {
+    "collection": "ushmm-identification-cards",
+    "residence": "Zalkod",
+    "country": "Hungary",
+    "period": "1944",
+    "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/jakab-katz"
+  },
+  "birth": {
+    "display": "1861"
+  },
+  "fate": {
+    "status": "murdered",
+    "display": "Perished after deportation to Auschwitz in summer 1944."
+  },
+  "places": [
+    {
+      "display": "Birthplace: Nyirmada, Hungary"
+    },
+    {
+      "display": "Documented residence: Zalkod"
+    }
+  ],
+  "biography": "He ran a shop and a farm in Zalkod.",
+  "facts": [
+    {
+      "text": "Deported with relatives from Hungary to Auschwitz in summer 1944."
+    }
+  ],
+  "uncertainty": "No precise day of death is established in the cited record.",
+  "originalUrl": "https://encyclopedia.ushmm.org/content/en/id-card/jakab-katz",
+  "media": [
+    {
+      "url": "assets/portraits/ushmm-jakab-katz.gif",
+      "sourceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/jakab-katz",
+      "alt": "Jakab Katz",
+      "width": 160,
+      "height": 197,
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      }
+    }
+  ]
+}

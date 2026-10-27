@@ -1,0 +1,80 @@
+{
+  "id": "ushmm-johanna-falkenstein-heumann",
+  "sourceId": "ushmm:id-card:johanna-falkenstein-heumann",
+  "displayName": "Johanna Falkenstein Heumann",
+  "alternativeNames": [],
+  "verificationStatus": "verified",
+  "publicationStatus": "approved",
+  "rights": {
+    "status": "cleared",
+    "license": "original-factual-summary",
+    "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+    "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+  },
+  "sources": [
+    {
+      "institution": "United States Holocaust Memorial Museum",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/johanna-falkenstein-heumann",
+      "accessed": "2026-10-22",
+      "role": "historical identity and fate evidence"
+    }
+  ],
+  "verification": {
+    "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+    "reviewedAt": "2026-10-22",
+    "evidence": {
+      "identity": true,
+      "jewishVictim": true,
+      "fate": true
+    },
+    "reviewedCandidateHash": "e1f77befd7fdfd226e681f8a25375a036b2e0eb58842b4bb53ba0481f4699d51"
+  },
+  "discovery": {
+    "collection": "ushmm-identification-cards",
+    "residence": "Bielefeld",
+    "country": "Germany",
+    "period": "1944",
+    "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/johanna-falkenstein-heumann"
+  },
+  "birth": {
+    "display": "24 July 1902"
+  },
+  "fate": {
+    "status": "murdered",
+    "display": "Did not survive the Holocaust after deportation to Auschwitz."
+  },
+  "places": [
+    {
+      "display": "Birthplace: Hochneukirch, Germany"
+    },
+    {
+      "display": "Documented residence: Bielefeld"
+    }
+  ],
+  "biography": "She worked in a bank before marrying Carl Heumann. They ran a general store in Hellenthal.",
+  "facts": [
+    {
+      "text": "Deported to Theresienstadt in June 1943 and Auschwitz in May 1944."
+    }
+  ],
+  "uncertainty": "The source does not establish an exact death date.",
+  "originalUrl": "https://encyclopedia.ushmm.org/content/en/id-card/johanna-falkenstein-heumann",
+  "media": [
+    {
+      "url": "assets/portraits/ushmm-johanna-falkenstein-heumann.gif",
+      "sourceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/johanna-falkenstein-heumann",
+      "alt": "Johanna Falkenstein Heumann",
+      "width": 165,
+      "height": 199,
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      }
+    }
+  ]
+}

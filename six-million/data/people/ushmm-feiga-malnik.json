@@ -1,0 +1,80 @@
+{
+  "id": "ushmm-feiga-malnik",
+  "sourceId": "ushmm:id-card:feiga-malnik",
+  "displayName": "Feiga Malnik",
+  "alternativeNames": [],
+  "verificationStatus": "verified",
+  "publicationStatus": "approved",
+  "rights": {
+    "status": "cleared",
+    "license": "original-factual-summary",
+    "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+    "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+  },
+  "sources": [
+    {
+      "institution": "United States Holocaust Memorial Museum",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/feiga-malnik",
+      "accessed": "2026-10-22",
+      "role": "historical identity and fate evidence"
+    }
+  ],
+  "verification": {
+    "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+    "reviewedAt": "2026-10-22",
+    "evidence": {
+      "identity": true,
+      "jewishVictim": true,
+      "fate": true
+    },
+    "reviewedCandidateHash": "6be03f5d71596e78c76026bd0323113cbffac5ae5f732d46ac08a22a18e144f7"
+  },
+  "discovery": {
+    "collection": "ushmm-identification-cards",
+    "residence": "Kovno",
+    "country": "Lithuania",
+    "period": "1944",
+    "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/feiga-malnik"
+  },
+  "birth": {
+    "display": "1905"
+  },
+  "fate": {
+    "status": "murdered",
+    "display": "Perished in Stutthof after deportation in 1944."
+  },
+  "places": [
+    {
+      "display": "Birthplace: Lithuania"
+    },
+    {
+      "display": "Documented residence: Kovno"
+    }
+  ],
+  "biography": "She worked as a beautician in Kovno and ran a shop with her husband, Josef.",
+  "facts": [
+    {
+      "text": "Deported to Stutthof in 1944."
+    }
+  ],
+  "uncertainty": "The source gives no exact death date.",
+  "originalUrl": "https://encyclopedia.ushmm.org/content/en/id-card/feiga-malnik",
+  "media": [
+    {
+      "url": "assets/portraits/ushmm-feiga-malnik.gif",
+      "sourceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/feiga-malnik",
+      "alt": "Feiga Malnik",
+      "width": 164,
+      "height": 198,
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      }
+    }
+  ]
+}

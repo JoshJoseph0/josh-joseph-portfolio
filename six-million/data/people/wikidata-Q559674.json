@@ -1,0 +1,1520 @@
+{
+  "id": "wikidata-Q559674",
+  "displayName": "Hermann van Pels",
+  "alternativeNames": [],
+  "sourceId": "Q559674",
+  "originalUrl": "https://www.wikidata.org/wiki/Q559674",
+  "retrievedAt": "2026-10-21T21:32:34.207Z",
+  "birth": null,
+  "fate": {
+    "status": "murdered",
+    "display": "October 1944; murdered in the gas chambers at Auschwitz-Birkenau."
+  },
+  "fateClassificationNote": "Death as a result of Nazi persecution; specific circumstances are described without inferring a direct execution.",
+  "places": [],
+  "facts": [],
+  "biography": "Hermann van Pels helped prepare the Secret Annex hiding place in Amsterdam.",
+  "uncertainty": "The institution supports October 1944; this project does not assert an exact day.",
+  "apiClaims": {
+    "birth": [
+      {
+        "display": "1898-03-31",
+        "raw": {
+          "time": "+1898-03-31T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "value": {
+          "time": "+1898-03-31T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "rank": "normal",
+        "datatype": "time",
+        "references": [
+          {
+            "hash": "22d9a3024633fcea226f949429477a8e7bfed248",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "b62f3fa8bab7eb5e1bfe16d03cda082d25315c85",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 63056,
+                      "id": "Q63056"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P535": [
+                {
+                  "snaktype": "value",
+                  "property": "P535",
+                  "hash": "4f4f6117ce872f9cbc110b266a99d94e47c72db5",
+                  "datavalue": {
+                    "value": "16636666",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "a199b7ca2f74c595eb47d15ae2e7a3588a0f6bfa",
+                  "datavalue": {
+                    "value": "https://www.findagrave.com/memorial/16636666",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "fdcd920bfa832dcb8c9d0fce31e5bde7f2134ea7",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-11-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P535",
+              "P854",
+              "P813"
+            ]
+          },
+          {
+            "hash": "7229a95c8ae8fef77e7977be80867700eb96206d",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "330b308dbc916d1b5cdfafddbbca54c594f940ec",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1074931,
+                      "id": "Q1074931"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P2949": [
+                {
+                  "snaktype": "value",
+                  "property": "P2949",
+                  "hash": "db9e0a745b612bfe76bd688c936113c38a5632af",
+                  "datavalue": {
+                    "value": "Van_Pels-1",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "fdcd920bfa832dcb8c9d0fce31e5bde7f2134ea7",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-11-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P2949",
+              "P813"
+            ]
+          },
+          {
+            "hash": "66ff1bd6493710834986245a2b0b050d76fc145a",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "40cb46fcf1b404637afde8d360b10d069987cc6e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 110279963,
+                      "id": "Q110279963"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P13306": [
+                {
+                  "snaktype": "value",
+                  "property": "P13306",
+                  "hash": "a67474ef118cf09ca31de2aa04dac5cc59cac44a",
+                  "datavalue": {
+                    "value": "f2be330a-b82f-4172-99f1-c86590e17e55",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "acfd04f5f90428fecdc959166de89b55c5863cf3",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-02-22T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "2c1441111aaa2e6da8e465694dd80cef624d1bda",
+                  "datavalue": {
+                    "value": "Hermann van Pels",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P13306",
+              "P813",
+              "P1810"
+            ]
+          },
+          {
+            "hash": "79e5f75c7b1fd1eaac9eda7255ba578f9f00e6f5",
+            "snaks": {
+              "P1476": [
+                {
+                  "snaktype": "value",
+                  "property": "P1476",
+                  "hash": "0c41e95fdf423752917db6d1f8114d0117a47043",
+                  "datavalue": {
+                    "value": {
+                      "text": "Hermann van Pels",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "70151b4ed6619bd4e71f7a71541549364b9a75aa",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 136324932,
+                      "id": "Q136324932"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "60bbdb33256c704074782d3dc941909ffe684843",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-10-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P13820": [
+                {
+                  "snaktype": "value",
+                  "property": "P13820",
+                  "hash": "3e5cbcbc37924102f425d7c7d33b3eda6b165a44",
+                  "datavalue": {
+                    "value": "9276945d-3ec3-4d82-aad1-8708abc63e7f",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P1476",
+              "P248",
+              "P813",
+              "P13820"
+            ]
+          }
+        ],
+        "qualifiers": {},
+        "statementId": "Q559674$89E02DB3-AB5C-4FD0-AA6E-3C7BB1131EAA"
+      }
+    ],
+    "death": [
+      {
+        "display": "1944-10-06",
+        "raw": {
+          "time": "+1944-10-06T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "value": {
+          "time": "+1944-10-06T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "rank": "preferred",
+        "datatype": "time",
+        "references": [
+          {
+            "hash": "22d9a3024633fcea226f949429477a8e7bfed248",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "b62f3fa8bab7eb5e1bfe16d03cda082d25315c85",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 63056,
+                      "id": "Q63056"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "a199b7ca2f74c595eb47d15ae2e7a3588a0f6bfa",
+                  "datavalue": {
+                    "value": "https://www.findagrave.com/memorial/16636666",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ],
+              "P535": [
+                {
+                  "snaktype": "value",
+                  "property": "P535",
+                  "hash": "4f4f6117ce872f9cbc110b266a99d94e47c72db5",
+                  "datavalue": {
+                    "value": "16636666",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "fdcd920bfa832dcb8c9d0fce31e5bde7f2134ea7",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-11-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P854",
+              "P535",
+              "P813"
+            ]
+          },
+          {
+            "hash": "7229a95c8ae8fef77e7977be80867700eb96206d",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "330b308dbc916d1b5cdfafddbbca54c594f940ec",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1074931,
+                      "id": "Q1074931"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P2949": [
+                {
+                  "snaktype": "value",
+                  "property": "P2949",
+                  "hash": "db9e0a745b612bfe76bd688c936113c38a5632af",
+                  "datavalue": {
+                    "value": "Van_Pels-1",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "fdcd920bfa832dcb8c9d0fce31e5bde7f2134ea7",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-11-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P2949",
+              "P813"
+            ]
+          }
+        ],
+        "qualifiers": {},
+        "statementId": "Q559674$36237365-5680-41ba-8232-919cb420cbcf"
+      },
+      {
+        "display": "1944-10-03",
+        "raw": {
+          "time": "+1944-10-03T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "value": {
+          "time": "+1944-10-03T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "rank": "normal",
+        "datatype": "time",
+        "references": [
+          {
+            "hash": "79e5f75c7b1fd1eaac9eda7255ba578f9f00e6f5",
+            "snaks": {
+              "P1476": [
+                {
+                  "snaktype": "value",
+                  "property": "P1476",
+                  "hash": "0c41e95fdf423752917db6d1f8114d0117a47043",
+                  "datavalue": {
+                    "value": {
+                      "text": "Hermann van Pels",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "70151b4ed6619bd4e71f7a71541549364b9a75aa",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 136324932,
+                      "id": "Q136324932"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "60bbdb33256c704074782d3dc941909ffe684843",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-10-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P13820": [
+                {
+                  "snaktype": "value",
+                  "property": "P13820",
+                  "hash": "3e5cbcbc37924102f425d7c7d33b3eda6b165a44",
+                  "datavalue": {
+                    "value": "9276945d-3ec3-4d82-aad1-8708abc63e7f",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P1476",
+              "P248",
+              "P813",
+              "P13820"
+            ]
+          }
+        ],
+        "qualifiers": {},
+        "statementId": "Q559674$5F235A72-B5D5-429D-AC0F-54BF9CE43690"
+      },
+      {
+        "display": "1945-03-15",
+        "raw": {
+          "time": "+1945-03-15T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "value": {
+          "time": "+1945-03-15T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "rank": "normal",
+        "datatype": "time",
+        "references": [
+          {
+            "hash": "66ff1bd6493710834986245a2b0b050d76fc145a",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "40cb46fcf1b404637afde8d360b10d069987cc6e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 110279963,
+                      "id": "Q110279963"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P13306": [
+                {
+                  "snaktype": "value",
+                  "property": "P13306",
+                  "hash": "a67474ef118cf09ca31de2aa04dac5cc59cac44a",
+                  "datavalue": {
+                    "value": "f2be330a-b82f-4172-99f1-c86590e17e55",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "acfd04f5f90428fecdc959166de89b55c5863cf3",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-02-22T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "2c1441111aaa2e6da8e465694dd80cef624d1bda",
+                  "datavalue": {
+                    "value": "Hermann van Pels",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P13306",
+              "P813",
+              "P1810"
+            ]
+          }
+        ],
+        "qualifiers": {},
+        "statementId": "Q559674$DFF467F6-1049-421B-A89E-14A8AF2B91BA"
+      }
+    ],
+    "birthPlaces": [
+      {
+        "id": "Q32027446",
+        "display": "Gehrde",
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 32027446,
+          "id": "Q32027446"
+        },
+        "rank": "normal",
+        "datatype": "wikibase-item",
+        "references": [
+          {
+            "hash": "22d9a3024633fcea226f949429477a8e7bfed248",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "b62f3fa8bab7eb5e1bfe16d03cda082d25315c85",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 63056,
+                      "id": "Q63056"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "a199b7ca2f74c595eb47d15ae2e7a3588a0f6bfa",
+                  "datavalue": {
+                    "value": "https://www.findagrave.com/memorial/16636666",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ],
+              "P535": [
+                {
+                  "snaktype": "value",
+                  "property": "P535",
+                  "hash": "4f4f6117ce872f9cbc110b266a99d94e47c72db5",
+                  "datavalue": {
+                    "value": "16636666",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "fdcd920bfa832dcb8c9d0fce31e5bde7f2134ea7",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-11-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P854",
+              "P535",
+              "P813"
+            ]
+          },
+          {
+            "hash": "7229a95c8ae8fef77e7977be80867700eb96206d",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "330b308dbc916d1b5cdfafddbbca54c594f940ec",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1074931,
+                      "id": "Q1074931"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P2949": [
+                {
+                  "snaktype": "value",
+                  "property": "P2949",
+                  "hash": "db9e0a745b612bfe76bd688c936113c38a5632af",
+                  "datavalue": {
+                    "value": "Van_Pels-1",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "fdcd920bfa832dcb8c9d0fce31e5bde7f2134ea7",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-11-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P2949",
+              "P813"
+            ]
+          },
+          {
+            "hash": "79e5f75c7b1fd1eaac9eda7255ba578f9f00e6f5",
+            "snaks": {
+              "P1476": [
+                {
+                  "snaktype": "value",
+                  "property": "P1476",
+                  "hash": "0c41e95fdf423752917db6d1f8114d0117a47043",
+                  "datavalue": {
+                    "value": {
+                      "text": "Hermann van Pels",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "70151b4ed6619bd4e71f7a71541549364b9a75aa",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 136324932,
+                      "id": "Q136324932"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "60bbdb33256c704074782d3dc941909ffe684843",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-10-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P13820": [
+                {
+                  "snaktype": "value",
+                  "property": "P13820",
+                  "hash": "3e5cbcbc37924102f425d7c7d33b3eda6b165a44",
+                  "datavalue": {
+                    "value": "9276945d-3ec3-4d82-aad1-8708abc63e7f",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P1476",
+              "P248",
+              "P813",
+              "P13820"
+            ]
+          }
+        ],
+        "qualifiers": {},
+        "statementId": "Q559674$706c57a9-97cb-4fb4-879e-eb848d4170ed"
+      }
+    ],
+    "deathPlaces": [
+      {
+        "id": "Q663764",
+        "display": "Auschwitz II-Birkenau concentration camp",
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 663764,
+          "id": "Q663764"
+        },
+        "rank": "preferred",
+        "datatype": "wikibase-item",
+        "references": [
+          {
+            "hash": "66ff1bd6493710834986245a2b0b050d76fc145a",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "40cb46fcf1b404637afde8d360b10d069987cc6e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 110279963,
+                      "id": "Q110279963"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P13306": [
+                {
+                  "snaktype": "value",
+                  "property": "P13306",
+                  "hash": "a67474ef118cf09ca31de2aa04dac5cc59cac44a",
+                  "datavalue": {
+                    "value": "f2be330a-b82f-4172-99f1-c86590e17e55",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "acfd04f5f90428fecdc959166de89b55c5863cf3",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-02-22T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "2c1441111aaa2e6da8e465694dd80cef624d1bda",
+                  "datavalue": {
+                    "value": "Hermann van Pels",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P13306",
+              "P813",
+              "P1810"
+            ]
+          },
+          {
+            "hash": "79e5f75c7b1fd1eaac9eda7255ba578f9f00e6f5",
+            "snaks": {
+              "P1476": [
+                {
+                  "snaktype": "value",
+                  "property": "P1476",
+                  "hash": "0c41e95fdf423752917db6d1f8114d0117a47043",
+                  "datavalue": {
+                    "value": {
+                      "text": "Hermann van Pels",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "70151b4ed6619bd4e71f7a71541549364b9a75aa",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 136324932,
+                      "id": "Q136324932"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "60bbdb33256c704074782d3dc941909ffe684843",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-10-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P13820": [
+                {
+                  "snaktype": "value",
+                  "property": "P13820",
+                  "hash": "3e5cbcbc37924102f425d7c7d33b3eda6b165a44",
+                  "datavalue": {
+                    "value": "9276945d-3ec3-4d82-aad1-8708abc63e7f",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P1476",
+              "P248",
+              "P813",
+              "P13820"
+            ]
+          }
+        ],
+        "qualifiers": {
+          "P7452": [
+            {
+              "snaktype": "value",
+              "property": "P7452",
+              "hash": "f9f842b41f249e5504d48025c7ad6d7b5bfc7496",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 71536040,
+                  "id": "Q71536040"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            }
+          ]
+        },
+        "statementId": "Q559674$537bd150-47cb-3672-98a7-4a9967c54501"
+      },
+      {
+        "id": "Q7341",
+        "display": "Auschwitz",
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 7341,
+          "id": "Q7341"
+        },
+        "rank": "normal",
+        "datatype": "wikibase-item",
+        "references": [
+          {
+            "hash": "7229a95c8ae8fef77e7977be80867700eb96206d",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "330b308dbc916d1b5cdfafddbbca54c594f940ec",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1074931,
+                      "id": "Q1074931"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P2949": [
+                {
+                  "snaktype": "value",
+                  "property": "P2949",
+                  "hash": "db9e0a745b612bfe76bd688c936113c38a5632af",
+                  "datavalue": {
+                    "value": "Van_Pels-1",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "fdcd920bfa832dcb8c9d0fce31e5bde7f2134ea7",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-11-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P2949",
+              "P813"
+            ]
+          },
+          {
+            "hash": "22d9a3024633fcea226f949429477a8e7bfed248",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "b62f3fa8bab7eb5e1bfe16d03cda082d25315c85",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 63056,
+                      "id": "Q63056"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P854": [
+                {
+                  "snaktype": "value",
+                  "property": "P854",
+                  "hash": "a199b7ca2f74c595eb47d15ae2e7a3588a0f6bfa",
+                  "datavalue": {
+                    "value": "https://www.findagrave.com/memorial/16636666",
+                    "type": "string"
+                  },
+                  "datatype": "url"
+                }
+              ],
+              "P535": [
+                {
+                  "snaktype": "value",
+                  "property": "P535",
+                  "hash": "4f4f6117ce872f9cbc110b266a99d94e47c72db5",
+                  "datavalue": {
+                    "value": "16636666",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "fdcd920bfa832dcb8c9d0fce31e5bde7f2134ea7",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2023-11-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P854",
+              "P535",
+              "P813"
+            ]
+          }
+        ],
+        "qualifiers": {},
+        "statementId": "Q559674$AE072122-A05C-4A56-AB6A-9244B364DF93"
+      }
+    ],
+    "identifiers": {
+      "P535": [
+        {
+          "value": "16636666",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "7229a95c8ae8fef77e7977be80867700eb96206d",
+              "snaks": {
+                "P248": [
+                  {
+                    "snaktype": "value",
+                    "property": "P248",
+                    "hash": "330b308dbc916d1b5cdfafddbbca54c594f940ec",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 1074931,
+                        "id": "Q1074931"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P2949": [
+                  {
+                    "snaktype": "value",
+                    "property": "P2949",
+                    "hash": "db9e0a745b612bfe76bd688c936113c38a5632af",
+                    "datavalue": {
+                      "value": "Van_Pels-1",
+                      "type": "string"
+                    },
+                    "datatype": "external-id"
+                  }
+                ],
+                "P813": [
+                  {
+                    "snaktype": "value",
+                    "property": "P813",
+                    "hash": "fdcd920bfa832dcb8c9d0fce31e5bde7f2134ea7",
+                    "datavalue": {
+                      "value": {
+                        "time": "+2023-11-01T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 11,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P248",
+                "P2949",
+                "P813"
+              ]
+            },
+            {
+              "hash": "f33ac31b6fc586f0c9813039cf7e291ab828a980",
+              "snaks": {
+                "P143": [
+                  {
+                    "snaktype": "value",
+                    "property": "P143",
+                    "hash": "3c76388b7f08a44b48cf51ce3a782292e5a01616",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 32176383,
+                        "id": "Q32176383"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P4656": [
+                  {
+                    "snaktype": "value",
+                    "property": "P4656",
+                    "hash": "a3914838e11ef32c59308f232917b5f3466bfb47",
+                    "datavalue": {
+                      "value": "https://nb.wikipedia.org/wiki/Hermann_van_Pels",
+                      "type": "string"
+                    },
+                    "datatype": "url"
+                  }
+                ],
+                "P813": [
+                  {
+                    "snaktype": "value",
+                    "property": "P813",
+                    "hash": "fdcd920bfa832dcb8c9d0fce31e5bde7f2134ea7",
+                    "datavalue": {
+                      "value": {
+                        "time": "+2023-11-01T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 11,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P143",
+                "P4656",
+                "P813"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "Q559674$672B1708-FD63-4E8A-A2C4-2BEABBA6B353"
+        }
+      ],
+      "P2949": [
+        {
+          "value": "Van_Pels-1",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {
+            "P1810": [
+              {
+                "snaktype": "value",
+                "property": "P1810",
+                "hash": "fbd3e2403ba83598aafef443773db944f285c37e",
+                "datavalue": {
+                  "value": "Hermann van Pels (31 Mar 1898 - 15 Mar 1945)",
+                  "type": "string"
+                },
+                "datatype": "string"
+              }
+            ]
+          },
+          "statementId": "Q559674$33646D67-E9CF-4A85-B529-31EC000AD899"
+        }
+      ],
+      "P7624": [
+        {
+          "value": "4278879",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q559674$a6492d5e-49f2-629c-3472-4dec824fa1a1"
+        },
+        {
+          "value": "11606367",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q559674$c4f97181-4c57-6742-70b8-1034a9a33777"
+        }
+      ],
+      "P2671": [
+        {
+          "value": "/g/1228rq16",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q559674$15E8E6DA-E104-4DD9-AB4B-B97292B56DBB"
+        }
+      ],
+      "P2600": [
+        {
+          "value": "6000000010641638096",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q559674$73EBCF2C-A662-414C-9FE5-813BED5AEA4E"
+        }
+      ],
+      "P6327": [
+        {
+          "value": "97056",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q559674$26A7C299-547D-4745-879F-52BCE1EE284F"
+        }
+      ],
+      "P13306": [
+        {
+          "value": "f2be330a-b82f-4172-99f1-c86590e17e55",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q559674$E54A411A-C97F-4440-97CB-810A769D361A"
+        }
+      ],
+      "P13820": [
+        {
+          "value": "9276945d-3ec3-4d82-aad1-8708abc63e7f",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q559674$5761D40C-9C3B-4AE5-B69A-E2A7CC0044EB"
+        }
+      ],
+      "P8168": [
+        {
+          "value": "Q1743706",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [
+            {
+              "hash": "d2d89bc5010561acf419946bd7242e79a7557da6",
+              "snaks": {
+                "P248": [
+                  {
+                    "snaktype": "value",
+                    "property": "P248",
+                    "hash": "e4afc4ad60f2160201385d29d076e0794f815f1e",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 90405608,
+                        "id": "Q90405608"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P813": [
+                  {
+                    "snaktype": "value",
+                    "property": "P813",
+                    "hash": "4c468a744183c8181c6925b182a097a3fbac227b",
+                    "datavalue": {
+                      "value": {
+                        "time": "+2026-04-21T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 11,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "snaks-order": [
+                "P248",
+                "P813"
+              ]
+            }
+          ],
+          "qualifiers": {},
+          "statementId": "Q559674$E407CDF4-2452-4080-B99F-CB1F6F8E9360"
+        }
+      ]
+    }
+  },
+  "media": [],
+  "verificationStatus": "verified",
+  "publicationStatus": "approved",
+  "rights": {
+    "status": "cleared",
+    "license": "CC0-1.0",
+    "scope": "CC0 licence applies to imported Wikidata structured data only. Summaries are original project text written from linked evidence, not reproduced archive prose. No images.",
+    "url": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+    "attribution": "Structured data from Wikidata contributors; historical evidence linked to the named institution.",
+    "editorial": "Original factual summaries created for this project; no additional licence for project text is asserted."
+  },
+  "sources": [
+    {
+      "institution": "Anne Frank House",
+      "url": "https://www.annefrank.org/en/anne-frank/main-characters/hermann-van-pels/",
+      "role": "historical identity and fate evidence",
+      "accessed": "2026-10-21"
+    },
+    {
+      "institution": "Anne Frank House",
+      "url": "https://www.annefrank.org/en/anne-frank/main-characters/peter-van-pels/",
+      "role": "Explicitly identifies Peter and his parents Hermann and Auguste as a Jewish family.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "institution": "Wikidata contributors",
+      "url": "https://www.wikidata.org/wiki/Q559674",
+      "role": "CC0 structured data",
+      "revision": 2518754118
+    }
+  ],
+  "discovery": {
+    "collection": "anne-frank-house",
+    "evidenceUrl": "https://www.annefrank.org/en/anne-frank/main-characters/hermann-van-pels/",
+    "residence": "Amsterdam",
+    "household": "secret-annex-residents"
+  },
+  "verification": {
+    "method": "AI-assisted institutional source cross-check; independent historian review not yet performed",
+    "reviewedAt": "2026-10-21",
+    "evidence": {
+      "identity": true,
+      "jewishVictim": true,
+      "fate": true
+    },
+    "reviewedCandidateHash": "411384439480fa94622aeee7d8a61394e743843973635a8ec19d1813f8760c2a"
+  }
+}

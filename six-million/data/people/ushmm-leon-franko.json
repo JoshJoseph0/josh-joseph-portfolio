@@ -1,0 +1,80 @@
+{
+  "id": "ushmm-leon-franko",
+  "sourceId": "ushmm:id-card:leon-franko",
+  "displayName": "Leon Franko",
+  "alternativeNames": [],
+  "verificationStatus": "verified",
+  "publicationStatus": "approved",
+  "rights": {
+    "status": "cleared",
+    "license": "original-factual-summary",
+    "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+    "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+  },
+  "sources": [
+    {
+      "institution": "United States Holocaust Memorial Museum",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/leon-franko",
+      "accessed": "2026-10-22",
+      "role": "historical identity and fate evidence"
+    }
+  ],
+  "verification": {
+    "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+    "reviewedAt": "2026-10-22",
+    "evidence": {
+      "identity": true,
+      "jewishVictim": true,
+      "fate": true
+    },
+    "reviewedCandidateHash": "613cd5166c1ba75d171241f99322e2d6ad0f9b5c7bb6d99917d2e6d307867d8a"
+  },
+  "discovery": {
+    "collection": "ushmm-identification-cards",
+    "residence": "Kastoria",
+    "country": "Greece",
+    "period": "1944",
+    "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/leon-franko"
+  },
+  "birth": {
+    "display": "1920"
+  },
+  "fate": {
+    "status": "murdered",
+    "display": "Perished after deportation to Auschwitz in 1944."
+  },
+  "places": [
+    {
+      "display": "Birthplace: Bitola, Yugoslavia"
+    },
+    {
+      "display": "Documented residence: Kastoria"
+    }
+  ],
+  "biography": "He was a fabric merchant from a Ladino-speaking Jewish family in Bitola. He later fled to Greece.",
+  "facts": [
+    {
+      "text": "Deported by train from Salonika to Auschwitz on 1 April 1944."
+    }
+  ],
+  "uncertainty": "The source does not establish an exact death date.",
+  "originalUrl": "https://encyclopedia.ushmm.org/content/en/id-card/leon-franko",
+  "media": [
+    {
+      "url": "assets/portraits/ushmm-leon-franko.gif",
+      "sourceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/leon-franko",
+      "alt": "Leon Franko",
+      "width": 142,
+      "height": 198,
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      }
+    }
+  ]
+}

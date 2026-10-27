@@ -1,0 +1,80 @@
+{
+  "id": "ushmm-ludmilla-schatz",
+  "sourceId": "ushmm:id-card:ludmilla-schatz",
+  "displayName": "Ludmilla Schatz",
+  "alternativeNames": [],
+  "verificationStatus": "verified",
+  "publicationStatus": "approved",
+  "rights": {
+    "status": "cleared",
+    "license": "original-factual-summary",
+    "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+    "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+  },
+  "sources": [
+    {
+      "institution": "United States Holocaust Memorial Museum",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/ludmilla-schatz",
+      "accessed": "2026-10-22",
+      "role": "historical identity and fate evidence"
+    }
+  ],
+  "verification": {
+    "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+    "reviewedAt": "2026-10-22",
+    "evidence": {
+      "identity": true,
+      "jewishVictim": true,
+      "fate": true
+    },
+    "reviewedCandidateHash": "3fd6d2b274ad9359524d6c3f236f58e0c67db1fac83bbcacf3fdaa967454b18c"
+  },
+  "discovery": {
+    "collection": "ushmm-identification-cards",
+    "residence": "Nantes",
+    "country": "France",
+    "period": "1942",
+    "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/ludmilla-schatz"
+  },
+  "birth": {
+    "display": "10 November 1896"
+  },
+  "fate": {
+    "status": "murdered",
+    "display": "Perished at Auschwitz after deportation on 20 July 1942."
+  },
+  "places": [
+    {
+      "display": "Birthplace: Tulchin, Ukraine"
+    },
+    {
+      "display": "Documented residence: Nantes"
+    }
+  ],
+  "biography": "She was a piano teacher who emigrated from Ukraine to France.",
+  "facts": [
+    {
+      "text": "Deported to Auschwitz on 20 July 1942."
+    }
+  ],
+  "uncertainty": "The deportation date is documented; no exact death date is asserted.",
+  "originalUrl": "https://encyclopedia.ushmm.org/content/en/id-card/ludmilla-schatz",
+  "media": [
+    {
+      "url": "assets/portraits/ushmm-ludmilla-schatz.gif",
+      "sourceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/ludmilla-schatz",
+      "alt": "Ludmilla Schatz",
+      "width": 157,
+      "height": 199,
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      }
+    }
+  ]
+}

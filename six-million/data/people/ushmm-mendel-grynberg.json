@@ -1,0 +1,75 @@
+{
+  "id": "ushmm-mendel-grynberg",
+  "sourceId": "ushmm:id-card:mendel-grynberg",
+  "displayName": "Mendel Grynberg",
+  "alternativeNames": [],
+  "verificationStatus": "verified",
+  "publicationStatus": "approved",
+  "rights": {
+    "status": "cleared",
+    "license": "original-factual-summary",
+    "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+    "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+  },
+  "sources": [
+    {
+      "institution": "United States Holocaust Memorial Museum",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/mendel-grynberg",
+      "accessed": "2026-10-22",
+      "role": "historical identity and fate evidence"
+    }
+  ],
+  "verification": {
+    "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+    "reviewedAt": "2026-10-22",
+    "evidence": {
+      "identity": true,
+      "jewishVictim": true,
+      "fate": true
+    },
+    "reviewedCandidateHash": "b9245949142245ab285988c309ca12097db0f4763bf473c0f7d5a8adc5a132e8"
+  },
+  "discovery": {
+    "collection": "ushmm-identification-cards",
+    "residence": "Bialystok",
+    "country": "Poland",
+    "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/mendel-grynberg"
+  },
+  "birth": {
+    "display": "1910"
+  },
+  "fate": {
+    "status": "murdered",
+    "display": "Perished after June 1941; the location, date and circumstances are not known."
+  },
+  "places": [
+    {
+      "display": "Birthplace: Sokolow Podlaski, Poland"
+    },
+    {
+      "display": "Documented residence: Bialystok"
+    }
+  ],
+  "biography": "He was a shoemaker from Sokolow Podlaski. He fled with his family to Bialystok after Germany invaded Poland.",
+  "facts": [],
+  "uncertainty": "The institution explicitly states that the circumstances and exact date of his death are unknown.",
+  "originalUrl": "https://encyclopedia.ushmm.org/content/en/id-card/mendel-grynberg",
+  "media": [
+    {
+      "url": "assets/portraits/ushmm-mendel-grynberg.gif",
+      "sourceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/mendel-grynberg",
+      "alt": "Mendel Grynberg",
+      "width": 159,
+      "height": 194,
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      }
+    }
+  ]
+}

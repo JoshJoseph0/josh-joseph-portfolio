@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A statistical memorial to approximately six million Jewish people murdered during the Holocaust.">
+  <title>Six Million — The Field</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css?v=20261026-pages">
+  <script defer src="config.js?v=20261026"></script>
+  <script defer src="src/api/connection.js?v=20261027-view"></script>
+  <script defer src="assets/vendor/p5-1.11.3.min.js" onerror="document.getElementById('status').textContent='The drawing library could not load. Check your connection and reload. The historical explanation remains available below.'"></script>
+  <script defer src="src/field-grid.js?v=20261026-pages"></script>
+  <script defer src="src/camera.js?v=20261026-pages"></script>
+  <script defer src="src/field-camera.js?v=20261026-pages"></script>
+  <script defer src="src/ink.js?v=20261026-pages"></script>
+  <script defer src="src/lod.js?v=20261026-pages"></script>
+  <script defer src="src/raster.js?v=20261026-pages"></script>
+  <script defer src="src/points.js?v=20261026-pages"></script>
+  <script defer src="src/field-renderer.js?v=20261026-pages"></script>
+  <script defer src="src/api/client.js?v=20261026-pages"></script>
+  <script defer src="src/api/wikidata.js?v=20261026-pages"></script>
+  <script defer src="src/records.js?v=20261026-pages"></script>
+  <script defer src="src/discovery.js?v=20261026-pages"></script>
+  <script defer src="src/storage/browser-assignments.js?v=20261026-pages"></script>
+  <script defer src="src/api/record-buffer.js?v=20261026-pages"></script>
+  <script defer src="src/storage/shared-assignments.js?v=20261026-pages"></script>
+  <script defer src="src/search.js?v=20261026-pages"></script>
+  <script defer src="src/ui.js?v=20261027-view"></script>
+  <script defer src="src/interactions.js?v=20261026-pages"></script>
+  <script defer src="src/field-sketch.js?v=20261026-pages"></script>
+</head>
+<body class="field-experience">
+  <a class="skip-link" href="#navigation">Skip to navigation</a>
+  <main>
+    <header class="masthead">
+      <div class="identity"><h1>SIX MILLION</h1><p>An interactive memorial to the Jewish lives murdered during the Holocaust.</p></div>
+      <nav class="site-nav" aria-label="Main navigation">
+        <button data-dialog="about-dialog" aria-label="About the memorial">About</button>
+        <button data-dialog="records-dialog" aria-label="Explore documented lives">Sources</button>
+        <button data-dialog="methodology-dialog">Methodology</button>
+      </nav>
+    </header>
+    <p id="connection-notice" class="connection-notice" role="status" hidden></p>
+    <section id="memorial" aria-label="Interactive memorial">
+      <div id="canvas-host"></div>
+      <p id="canvas-description" class="sr-only">A finite plane of six million stable statistical dots represents approximately six million Jewish people murdered during the Holocaust. You begin within the field. Scroll or pinch to zoom, drag or use focused arrow keys to move. R returns to the start; The widest view shows at most 0.45% of the field; the minimap on the right shows your position in the whole. At close zoom select any dot; Enter selects the dot nearest the centre. Sources provides searchable profiles without precise pointing. Red and grey are aggregate proportions, not proof of individual identity.</p>
+      <p id="status" role="status">Preparing the memorial…</p>
+    </section>
+    <nav id="navigation" class="zoom-controls" aria-label="Memorial navigation">
+      <button id="zoom-in" aria-label="Zoom in">+</button>
+      <button id="zoom-out" aria-label="Zoom out">&#8722;</button>
+      <button id="overview" aria-label="Return to start" title="Return to start (R)"><svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7.5"/><circle cx="10" cy="10" r="1.5"/></svg></button>
+      <button id="fit-field" aria-label="Show widest view" title="Widest view (maximum 0.45%)">&#9633;</button>
+    </nav>
+    <aside class="field-location" aria-label="Your location in the field">
+      <p class="map-label">Your place in the field</p>
+      <canvas id="minimap" width="320" height="192" role="img" aria-label="Current viewport within the finite field"></canvas>
+      <p class="field-total">6,000,000<span>individual lives</span></p>
+      <p id="field-scale" aria-live="off"></p>
+    </aside>
+    <p class="instructions"><span class="desktop-hint">Scroll to zoom</span><span class="touch-hint">Pinch to zoom</span><i aria-hidden="true">&#183;</i>Drag to move<i aria-hidden="true">&#183;</i><span id="selection-hint">Select any dot</span></p>
+    <p id="view-caption" class="sr-only" role="status"></p>
+  </main>
+  <dialog id="about-dialog" aria-labelledby="about-heading">
+    <button class="close" aria-label="Close explanation">×</button>
+    <p class="eyebrow">Reading the memorial</p>
+    <h2 id="about-heading">Scale, evidence, individual lives.</h2>
+    <p>One dot is one statistical unit within the estimate. The field has a finite boundary and exactly six million stable positions. You begin inside it. At most 0.45% of the field can be in view at once. The minimap shows your place within the whole; move closer to encounter individual marks.</p>
+    <p>Approximately six million Jewish people were murdered by Nazi Germany and its allies and collaborators during the Holocaust.</p>
+    <p>The six million slots here give a fixed visual form to a historical estimate. They are not six million individually verified archival records, and their positions have no geographical meaning.</p>
+    <ul class="legend">
+      <li><span class="marker red" aria-hidden="true"></span><span><strong>Red</strong> — approximately five-sixths, reflecting the share of names documented by Yad Vashem. A red dot is not proof that Six Million holds a biography for that position.</span></li>
+      <li><span class="marker" aria-hidden="true"></span><span><strong>Grey</strong> — the remaining share of the statistical estimate. This does not establish that an individual is historically unidentified.</span></li>
+    </ul>
+    <p id="assignment-explanation">These are approximate aggregate proportions, not a mapping of archival names to particular dots. Each dot starts unassigned. When the shared service is connected, selecting any dot permanently associates an available approved person with it in the database. Every visitor then sees that same person at that dot. Colours remain aggregate statistical proportions and do not indicate assignment status.</p>
+    <p><a href="https://www.yadvashem.org/press-release/11-november-2025-08-44.html" target="_blank" rel="noopener noreferrer">Yad Vashem: five million names recovered, November 2025</a></p>
+    <p id="memory-state"></p>
+    <p id="collection-note">The local record collection is loading. Archival knowledge is much larger than this project's collection. No identities or photographs have been fabricated.</p>
+    <p>At a distance, average dot coverage represents density. Multiresolution point batches reveal the actual fixed positions as you approach. The browser never draws all six million positions every frame.</p>
+    <p>This first version focuses on Jewish victims. Future historical cohorts may overlap and must not be summed. Children would be an age-based lens.</p>
+    <p><a id="institutional-source" href="https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution" target="_blank" rel="noopener noreferrer">Historical estimate and methodology: United States Holocaust Memorial Museum ↗</a></p>
+    <p><a href="docs/methodology.md">Project methodology and limitations</a></p>
+  </dialog>
+  <dialog id="methodology-dialog" aria-labelledby="methodology-heading"><button class="close" aria-label="Close methodology">&#215;</button><p class="eyebrow">Reading the field</p><h2 id="methodology-heading">A finite estimate. Individual evidence.</h2><p>Exactly 6,000,000 deterministic statistical positions form a staggered plane of 3,000 columns and 2,000 rows. Small, bounded offsets are fixed by each slot ID. Their positions are not geographical.</p><p>The scale indicator counts the actual jittered dot centres inside the canvas viewport, including those behind interface text. It measures the visible spatial window, not biography coverage or a task to complete.</p><p>At distant zoom, average circle area and aggregate red/grey proportions produce a density image. Intermediate levels use bounded representative point batches. Only close zoom resolves the true individual positions. The overview does not claim six million dots are individually distinguishable.</p><p>Only source-checked approved profiles can be associated with a dot. With the shared service connected, assignments are shared across visitors and saved permanently in the database. External discoveries and live Wikidata claims cannot approve themselves. Historical source checks are AI-assisted; independent historian review has not been performed.</p><p>Photographs require a separate image-rights record, attribution and permission or a documented public-domain/open-licence basis. A public archive page alone does not clear reuse.</p><p><a href="docs/methodology.md">Full methodology and limitations</a></p></dialog>
+  <dialog id="records-dialog" aria-labelledby="records-heading">
+    <button class="close" aria-label="Close linked records">×</button>
+    <p class="eyebrow">The record collection</p>
+    <h2 id="records-heading">Historical sources &amp; individual lives</h2>
+    <p id="source-intro">Approved profiles below are distinct from external discoveries awaiting review.</p>
+    <details id="archival-sources"><summary>Archival collections from EHRI</summary><p>Collection metadata helps locate evidence; it does not verify an individual victim. Retrieved through the documented EHRI interfaces.</p><ul id="archival-list"></ul><p id="archival-state" role="status"></p></details>
+    <label for="record-search">Search names, alternative spellings or places</label>
+    <input id="record-search" type="search" maxlength="120" autocomplete="off" placeholder="Search approved profiles…">
+    <p id="record-state" role="status">The record index is loading…</p>
+    <p id="buffer-state" role="status">Preparing approved profiles…</p>
+    <ul id="record-list"></ul>
+    <label class="external-option"><input id="external-search" type="checkbox"> Also search Wikidata (unverified discovery)</label>
+    <section id="external-results" hidden aria-labelledby="external-heading">
+      <h3 id="external-heading">External discovery</h3>
+      <p>These results are not confirmed Holocaust victims and are never linked to memorial dots. Your query is sent to Wikidata only when this option is selected.</p>
+      <p id="external-state" role="status"></p>
+      <ul id="external-list"></ul>
+    </section>
+    <p>Dot colours express aggregate proportions. The approved profiles are a small source-checked collection; live discoveries remain unverified until reviewed.</p>
+  </dialog>
+  <dialog id="person-dialog" aria-labelledby="person-heading">
+    <button class="close" aria-label="Close historical record">×</button>
+    <p class="eyebrow">A source-linked record</p>
+    <h2 id="person-heading">Historical record</h2>
+    <div id="person-content" aria-live="polite"></div>
+  </dialog>
+  <noscript><p class="noscript">JavaScript is needed to explore the field. The Holocaust claimed approximately six million Jewish lives. <a href="https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution">Read the USHMM historical explanation.</a></p></noscript>
+</body>
+</html>

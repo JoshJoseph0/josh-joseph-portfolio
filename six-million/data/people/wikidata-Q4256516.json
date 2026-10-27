@@ -1,0 +1,971 @@
+{
+  "id": "wikidata-Q4256516",
+  "displayName": "Auguste van Pels",
+  "alternativeNames": [
+    "Auguste Röttgen"
+  ],
+  "sourceId": "Q4256516",
+  "originalUrl": "https://www.wikidata.org/wiki/Q4256516",
+  "retrievedAt": "2026-10-21T21:32:34.207Z",
+  "birth": null,
+  "fate": {
+    "status": "murdered",
+    "display": "1945; died during transport from Raguhn toward Theresienstadt."
+  },
+  "fateClassificationNote": "Death as a result of Nazi persecution; specific circumstances are described without inferring a direct execution.",
+  "places": [],
+  "facts": [],
+  "biography": "Auguste van Pels went into hiding in Amsterdam with her husband Hermann and their son Peter.",
+  "uncertainty": "Witnesses give conflicting accounts of how she died. No precise date or cause is asserted here.",
+  "apiClaims": {
+    "birth": [
+      {
+        "display": "1900-09-29",
+        "raw": {
+          "time": "+1900-09-29T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "value": {
+          "time": "+1900-09-29T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "rank": "normal",
+        "datatype": "time",
+        "references": [
+          {
+            "hash": "b1fb30fb10f6dcf69f863ffa1c01eedf86408c5d",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "b62f3fa8bab7eb5e1bfe16d03cda082d25315c85",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 63056,
+                      "id": "Q63056"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P535": [
+                {
+                  "snaktype": "value",
+                  "property": "P535",
+                  "hash": "6da4c0a4cdb6ee33e0df52566d0a766577a00956",
+                  "datavalue": {
+                    "value": "19185832",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "0be02734dd33d912c570173e02594cece5a03598",
+                  "datavalue": {
+                    "value": "Auguste Van Pels",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "e5f60ab0b03700bb883efce38f8022d023bc49fb",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2017-10-09T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P535",
+              "P1810",
+              "P813"
+            ]
+          },
+          {
+            "hash": "308331074224c44d22a5d19479d58707f05dda05",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "40cb46fcf1b404637afde8d360b10d069987cc6e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 110279963,
+                      "id": "Q110279963"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P13306": [
+                {
+                  "snaktype": "value",
+                  "property": "P13306",
+                  "hash": "ad4488ed70b38db75b3a23805018235b8eaf4e83",
+                  "datavalue": {
+                    "value": "982bf0a2-e3e7-4ea4-8381-7c162508dc23",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "acfd04f5f90428fecdc959166de89b55c5863cf3",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-02-22T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "d3e6ff969846a7b1b4461879f9895e4ed6162845",
+                  "datavalue": {
+                    "value": "Augusta Pels Van-Roettgen",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P13306",
+              "P813",
+              "P1810"
+            ]
+          },
+          {
+            "hash": "a82a35fa83796a8708c527b7665b835fa6cc3068",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "40cb46fcf1b404637afde8d360b10d069987cc6e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 110279963,
+                      "id": "Q110279963"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P13306": [
+                {
+                  "snaktype": "value",
+                  "property": "P13306",
+                  "hash": "b3c21b2a7cc8e12b21567e19237a309655c102b1",
+                  "datavalue": {
+                    "value": "10b54466-be66-49a2-94c7-7b6b4f9759a2",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "acfd04f5f90428fecdc959166de89b55c5863cf3",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-02-22T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "418313420cab82c1ddb77de4889882baf0677f74",
+                  "datavalue": {
+                    "value": "Auguste van Pels-Röttgen",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P13306",
+              "P813",
+              "P1810"
+            ]
+          },
+          {
+            "hash": "ca1ae0e0c64fd219b83e7a4645f9b42f73679abb",
+            "snaks": {
+              "P1476": [
+                {
+                  "snaktype": "value",
+                  "property": "P1476",
+                  "hash": "2986f01d1ef75e500bab5cbc4d4b984b1d27224f",
+                  "datavalue": {
+                    "value": {
+                      "text": "Auguste van Pels - Röttgen",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "70151b4ed6619bd4e71f7a71541549364b9a75aa",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 136324932,
+                      "id": "Q136324932"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "60bbdb33256c704074782d3dc941909ffe684843",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-10-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P13820": [
+                {
+                  "snaktype": "value",
+                  "property": "P13820",
+                  "hash": "dcf26dfaa31a61de15c231764acf5d122b3a207b",
+                  "datavalue": {
+                    "value": "0855fb95-33ad-4cc8-a549-21853833eff5",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P1476",
+              "P248",
+              "P813",
+              "P13820"
+            ]
+          }
+        ],
+        "qualifiers": {},
+        "statementId": "Q4256516$EEC1A5B9-403B-49D9-B56E-1B89C92EBBB1"
+      }
+    ],
+    "death": [
+      {
+        "display": "1945-04-09",
+        "raw": {
+          "time": "+1945-04-09T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "value": {
+          "time": "+1945-04-09T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        },
+        "rank": "normal",
+        "datatype": "time",
+        "references": [
+          {
+            "hash": "a82a35fa83796a8708c527b7665b835fa6cc3068",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "40cb46fcf1b404637afde8d360b10d069987cc6e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 110279963,
+                      "id": "Q110279963"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P13306": [
+                {
+                  "snaktype": "value",
+                  "property": "P13306",
+                  "hash": "b3c21b2a7cc8e12b21567e19237a309655c102b1",
+                  "datavalue": {
+                    "value": "10b54466-be66-49a2-94c7-7b6b4f9759a2",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "acfd04f5f90428fecdc959166de89b55c5863cf3",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-02-22T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "418313420cab82c1ddb77de4889882baf0677f74",
+                  "datavalue": {
+                    "value": "Auguste van Pels-Röttgen",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P13306",
+              "P813",
+              "P1810"
+            ]
+          },
+          {
+            "hash": "657cae2b6c20af9149131617bafe65c795f05328",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "9123b0de1cc9c3954366ba797d598e4e1ea4146f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 10000,
+                      "id": "Q10000"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "33eebacb79d2c199c239412f4ea29c7b7620a0d8",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-03-11T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143",
+              "P813"
+            ]
+          },
+          {
+            "hash": "308331074224c44d22a5d19479d58707f05dda05",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "40cb46fcf1b404637afde8d360b10d069987cc6e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 110279963,
+                      "id": "Q110279963"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P13306": [
+                {
+                  "snaktype": "value",
+                  "property": "P13306",
+                  "hash": "ad4488ed70b38db75b3a23805018235b8eaf4e83",
+                  "datavalue": {
+                    "value": "982bf0a2-e3e7-4ea4-8381-7c162508dc23",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "acfd04f5f90428fecdc959166de89b55c5863cf3",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-02-22T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "d3e6ff969846a7b1b4461879f9895e4ed6162845",
+                  "datavalue": {
+                    "value": "Augusta Pels Van-Roettgen",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P13306",
+              "P813",
+              "P1810"
+            ]
+          }
+        ],
+        "qualifiers": {},
+        "statementId": "Q4256516$E736FE5D-C981-4661-AC19-99D2962F9560"
+      }
+    ],
+    "birthPlaces": [
+      {
+        "id": "Q14906499",
+        "display": "Buer",
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 14906499,
+          "id": "Q14906499"
+        },
+        "rank": "normal",
+        "datatype": "wikibase-item",
+        "references": [
+          {
+            "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+            "snaks": {
+              "P143": [
+                {
+                  "snaktype": "value",
+                  "property": "P143",
+                  "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 48183,
+                      "id": "Q48183"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P143"
+            ]
+          },
+          {
+            "hash": "308331074224c44d22a5d19479d58707f05dda05",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "40cb46fcf1b404637afde8d360b10d069987cc6e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 110279963,
+                      "id": "Q110279963"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P13306": [
+                {
+                  "snaktype": "value",
+                  "property": "P13306",
+                  "hash": "ad4488ed70b38db75b3a23805018235b8eaf4e83",
+                  "datavalue": {
+                    "value": "982bf0a2-e3e7-4ea4-8381-7c162508dc23",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "acfd04f5f90428fecdc959166de89b55c5863cf3",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-02-22T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "d3e6ff969846a7b1b4461879f9895e4ed6162845",
+                  "datavalue": {
+                    "value": "Augusta Pels Van-Roettgen",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P13306",
+              "P813",
+              "P1810"
+            ]
+          },
+          {
+            "hash": "a82a35fa83796a8708c527b7665b835fa6cc3068",
+            "snaks": {
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "40cb46fcf1b404637afde8d360b10d069987cc6e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 110279963,
+                      "id": "Q110279963"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P13306": [
+                {
+                  "snaktype": "value",
+                  "property": "P13306",
+                  "hash": "b3c21b2a7cc8e12b21567e19237a309655c102b1",
+                  "datavalue": {
+                    "value": "10b54466-be66-49a2-94c7-7b6b4f9759a2",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "acfd04f5f90428fecdc959166de89b55c5863cf3",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-02-22T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "418313420cab82c1ddb77de4889882baf0677f74",
+                  "datavalue": {
+                    "value": "Auguste van Pels-Röttgen",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P248",
+              "P13306",
+              "P813",
+              "P1810"
+            ]
+          },
+          {
+            "hash": "ca1ae0e0c64fd219b83e7a4645f9b42f73679abb",
+            "snaks": {
+              "P1476": [
+                {
+                  "snaktype": "value",
+                  "property": "P1476",
+                  "hash": "2986f01d1ef75e500bab5cbc4d4b984b1d27224f",
+                  "datavalue": {
+                    "value": {
+                      "text": "Auguste van Pels - Röttgen",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ],
+              "P248": [
+                {
+                  "snaktype": "value",
+                  "property": "P248",
+                  "hash": "70151b4ed6619bd4e71f7a71541549364b9a75aa",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 136324932,
+                      "id": "Q136324932"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "60bbdb33256c704074782d3dc941909ffe684843",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-10-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P13820": [
+                {
+                  "snaktype": "value",
+                  "property": "P13820",
+                  "hash": "dcf26dfaa31a61de15c231764acf5d122b3a207b",
+                  "datavalue": {
+                    "value": "0855fb95-33ad-4cc8-a549-21853833eff5",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P1476",
+              "P248",
+              "P813",
+              "P13820"
+            ]
+          }
+        ],
+        "qualifiers": {},
+        "statementId": "Q4256516$8ad035df-4c7e-78f0-73e0-66109972dce0"
+      }
+    ],
+    "deathPlaces": [
+      {
+        "id": "Q707933",
+        "display": "Raguhn",
+        "value": {
+          "entity-type": "item",
+          "numeric-id": 707933,
+          "id": "Q707933"
+        },
+        "rank": "normal",
+        "datatype": "wikibase-item",
+        "references": [],
+        "qualifiers": {},
+        "statementId": "q4256516$2B1BF493-4646-4029-8A05-42E0A5290433"
+      }
+    ],
+    "identifiers": {
+      "P7571": [
+        {
+          "value": "943116",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q4256516$25bcabe4-488d-261e-cd24-76d58d832a13"
+        }
+      ],
+      "P535": [
+        {
+          "value": "19185832",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q4256516$CEF30572-94D0-42E4-8842-499AA0DBDC83"
+        }
+      ],
+      "P2949": [
+        {
+          "value": "Roettgen-1",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {
+            "P1810": [
+              {
+                "snaktype": "value",
+                "property": "P1810",
+                "hash": "d5e777972456dc8b1a399831993684f97a7fd4f8",
+                "datavalue": {
+                  "value": "Auguste Gusti, Petronella van Pels (Roettgen) aka van Daan (29 Sep 1900 - 1945)",
+                  "type": "string"
+                },
+                "datatype": "string"
+              }
+            ]
+          },
+          "statementId": "Q4256516$90D7003C-6175-493A-9537-9608FE5AB4FC"
+        }
+      ],
+      "P7624": [
+        {
+          "value": "4278885",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q4256516$6a0d70ed-4e60-ce39-5e77-ee10e53bec3d"
+        },
+        {
+          "value": "11606353",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q4256516$6286bf91-4c60-fb2f-83e6-06eb0f3614d0"
+        }
+      ],
+      "P2671": [
+        {
+          "value": "/g/1226sk64",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q4256516$25E684BD-0754-40C0-AC33-ED0E9E1530C2"
+        }
+      ],
+      "P2600": [
+        {
+          "value": "6000000010641992140",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q4256516$3B2D3E08-68F4-45A5-BBB0-D4478D313DBA"
+        }
+      ],
+      "P13306": [
+        {
+          "value": "10b54466-be66-49a2-94c7-7b6b4f9759a2",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q4256516$69563F64-7AD4-4151-A6EA-2CA6D61F1CC8"
+        },
+        {
+          "value": "982bf0a2-e3e7-4ea4-8381-7c162508dc23",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q4256516$DA457D46-B99C-4B54-8241-9045E856F37F"
+        }
+      ],
+      "P13820": [
+        {
+          "value": "0855fb95-33ad-4cc8-a549-21853833eff5",
+          "rank": "normal",
+          "datatype": "external-id",
+          "references": [],
+          "qualifiers": {},
+          "statementId": "Q4256516$707DD669-4A1E-4866-AD7E-39086C9A53C4"
+        }
+      ]
+    }
+  },
+  "media": [],
+  "verificationStatus": "verified",
+  "publicationStatus": "approved",
+  "rights": {
+    "status": "cleared",
+    "license": "CC0-1.0",
+    "scope": "CC0 licence applies to imported Wikidata structured data only. Summaries are original project text written from linked evidence, not reproduced archive prose. No images.",
+    "url": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+    "attribution": "Structured data from Wikidata contributors; historical evidence linked to the named institution.",
+    "editorial": "Original factual summaries created for this project; no additional licence for project text is asserted."
+  },
+  "sources": [
+    {
+      "institution": "Anne Frank House",
+      "url": "https://www.annefrank.org/en/anne-frank/main-characters/auguste-van-pels/",
+      "role": "historical identity and fate evidence",
+      "accessed": "2026-10-21"
+    },
+    {
+      "institution": "Anne Frank House",
+      "url": "https://www.annefrank.org/en/anne-frank/main-characters/peter-van-pels/",
+      "role": "Explicitly identifies Peter and his parents Hermann and Auguste as a Jewish family.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "institution": "Wikidata contributors",
+      "url": "https://www.wikidata.org/wiki/Q4256516",
+      "role": "CC0 structured data",
+      "revision": 2493744304
+    }
+  ],
+  "discovery": {
+    "collection": "anne-frank-house",
+    "evidenceUrl": "https://www.annefrank.org/en/anne-frank/main-characters/auguste-van-pels/",
+    "residence": "Amsterdam",
+    "household": "secret-annex-residents"
+  },
+  "verification": {
+    "method": "AI-assisted institutional source cross-check; independent historian review not yet performed",
+    "reviewedAt": "2026-10-21",
+    "evidence": {
+      "identity": true,
+      "jewishVictim": true,
+      "fate": true
+    },
+    "reviewedCandidateHash": "503e62506025d1ca7f8eef9ad6de92c6ae4e82f015cf9467897ded88b12bf917"
+  }
+}

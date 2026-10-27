@@ -1,0 +1,80 @@
+{
+  "id": "ushmm-hela-riemer",
+  "sourceId": "ushmm:id-card:hela-riemer",
+  "displayName": "Hela Riemer",
+  "alternativeNames": [],
+  "verificationStatus": "verified",
+  "publicationStatus": "approved",
+  "rights": {
+    "status": "cleared",
+    "license": "original-factual-summary",
+    "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+    "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+  },
+  "sources": [
+    {
+      "institution": "United States Holocaust Memorial Museum",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/hela-riemer",
+      "accessed": "2026-10-22",
+      "role": "historical identity and fate evidence"
+    }
+  ],
+  "verification": {
+    "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+    "reviewedAt": "2026-10-22",
+    "evidence": {
+      "identity": true,
+      "jewishVictim": true,
+      "fate": true
+    },
+    "reviewedCandidateHash": "5232ae7e1e70b0a27dcfb61621dd0ecc923c80bdd81afae031f3f784cc01f1b8"
+  },
+  "discovery": {
+    "collection": "ushmm-identification-cards",
+    "residence": "Dukla",
+    "country": "Poland",
+    "period": "1942",
+    "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/hela-riemer"
+  },
+  "birth": {
+    "display": "3 April 1901"
+  },
+  "fate": {
+    "status": "murdered",
+    "display": "13 August 1942; shot near Dukla."
+  },
+  "places": [
+    {
+      "display": "Birthplace: Dukla, Poland"
+    },
+    {
+      "display": "Documented residence: Dukla"
+    }
+  ],
+  "biography": "She married Elimelech Riemer and lived in Berlin before returning to Poland.",
+  "facts": [
+    {
+      "text": "She was taken with other Jews from Dukla to a nearby forest."
+    }
+  ],
+  "uncertainty": null,
+  "originalUrl": "https://encyclopedia.ushmm.org/content/en/id-card/hela-riemer",
+  "media": [
+    {
+      "url": "assets/portraits/ushmm-hela-riemer.gif",
+      "sourceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/hela-riemer",
+      "alt": "Hela Riemer",
+      "width": 139,
+      "height": 199,
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      }
+    }
+  ]
+}

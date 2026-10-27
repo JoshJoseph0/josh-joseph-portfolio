@@ -1,0 +1,80 @@
+{
+  "id": "ushmm-ida-baehr-lang",
+  "sourceId": "ushmm:id-card:ida-baehr-lang",
+  "displayName": "Ida Baehr Lang",
+  "alternativeNames": [],
+  "verificationStatus": "verified",
+  "publicationStatus": "approved",
+  "rights": {
+    "status": "cleared",
+    "license": "original-factual-summary",
+    "scope": "Original short factual summary and bibliographic link only; no institutional prose, photograph or bulk database is republished.",
+    "termsUrl": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use"
+  },
+  "sources": [
+    {
+      "institution": "United States Holocaust Memorial Museum",
+      "url": "https://encyclopedia.ushmm.org/content/en/id-card/ida-baehr-lang",
+      "accessed": "2026-10-22",
+      "role": "historical identity and fate evidence"
+    }
+  ],
+  "verification": {
+    "method": "AI-assisted individual institutional source check; independent historian review not yet performed",
+    "reviewedAt": "2026-10-22",
+    "evidence": {
+      "identity": true,
+      "jewishVictim": true,
+      "fate": true
+    },
+    "reviewedCandidateHash": "3d20a2c65acda945fda3de5ada827ecd121951f123d5319dd72dc54477b83e14"
+  },
+  "discovery": {
+    "collection": "ushmm-identification-cards",
+    "residence": "Lambsheim",
+    "country": "Germany",
+    "period": "1942",
+    "evidenceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/ida-baehr-lang"
+  },
+  "birth": {
+    "display": "2 February 1909"
+  },
+  "fate": {
+    "status": "murdered",
+    "display": "Perished at Auschwitz after deportation in September 1942."
+  },
+  "places": [
+    {
+      "display": "Birthplace: Ruchheim, Germany"
+    },
+    {
+      "display": "Documented residence: Lambsheim"
+    }
+  ],
+  "biography": "She worked in her parents' shop and later lived with her husband and daughter in Lambsheim.",
+  "facts": [
+    {
+      "text": "Deported to Auschwitz in September 1942 after detention in France."
+    }
+  ],
+  "uncertainty": "The cited record supplies no exact day of death.",
+  "originalUrl": "https://encyclopedia.ushmm.org/content/en/id-card/ida-baehr-lang",
+  "media": [
+    {
+      "url": "assets/portraits/ushmm-ida-baehr-lang.gif",
+      "sourceUrl": "https://encyclopedia.ushmm.org/content/en/id-card/ida-baehr-lang",
+      "alt": "Ida Baehr Lang",
+      "width": 162,
+      "height": 199,
+      "rights": {
+        "basis": "source-terms",
+        "publicDisplayAllowed": true,
+        "attribution": "United States Holocaust Memorial Museum, Holocaust Encyclopedia.",
+        "rightsholder": "Original photographer not identified on the source ID-card page; supplied by United States Holocaust Memorial Museum.",
+        "reviewedAt": "2026-10-25",
+        "permissionReference": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+        "usageConditions": "Attributed noncommercial educational website use under the Museum terms, section II and FAQ (a). No individual additional restriction is displayed on this ID-card page. Not an open licence or assertion of public-domain status."
+      }
+    }
+  ]
+}
