@@ -2,12 +2,16 @@
  * Refill is single-flight and bounded. An exhausted approved index is not polled.
  */
 class HistoricalRecordBuffer {
-  constructor(records, assignments, api, { target = 50, threshold = 5, onState = () => {} } = {}) {
+  constructor(records, assignments, api, { target = 50, threshold = 5, deferredPeople = [], minimumDiscoveries = 0, onState = () => {} } = {}) {
     Object.assign(this, { records, assignments, api, target, threshold, onState });
+    this.deferredPeople = new Set(deferredPeople); this.minimumDiscoveries = minimumDiscoveries;
     this.available = new Map(); this.attempted = new Set();
     this.order = assignments.ensureDiscovery(records);
     this.live = new Map(); this.liveAttempted = new Set(); this.liveStatus = 'idle';
     this.status = 'idle'; this.exhausted = false; this.controller = new AbortController();
+  }
+  eligible(record) {
+    return !this.deferredPeople.has(record.personId) || this.assignments.assignedPeople.size >= this.minimumDiscoveries;
   }
   emit() { this.onState(this); }
   start() { return this.refill(); }
@@ -20,7 +24,7 @@ class HistoricalRecordBuffer {
   }
   async prepare() {
     this.order = this.assignments.ensureDiscovery(this.records);
-    const eligible = this.order.map(id => this.records.byPerson.get(id)).filter(record => record &&
+    const eligible = this.order.map(id => this.records.byPerson.get(id)).filter(record => record && this.eligible(record) &&
       !this.assignments.assignedPeople.has(record.personId) && !this.attempted.has(record.personId));
     const batch = [];
     for (const record of eligible) {
@@ -30,7 +34,7 @@ class HistoricalRecordBuffer {
       // load only on selection, rather than downloading fifty at entry.
       this.available.set(record.personId, record); batch.push(record);
     }
-    this.exhausted = !this.records.records.some(record => !this.assignments.assignedPeople.has(record.personId) && !this.attempted.has(record.personId));
+    this.exhausted = !this.records.records.some(record => this.eligible(record) && !this.assignments.assignedPeople.has(record.personId) && !this.attempted.has(record.personId));
     this.status = this.available.size ? 'ready' : 'unavailable'; this.emit();
     // Enrichment runs independently of rendering and local profile availability.
     this.liveRequest = (this.liveRequest || Promise.resolve()).then(() => this.enrich(batch));

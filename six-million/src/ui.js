@@ -6,9 +6,9 @@ class MemorialUI {
     this.caption = document.getElementById('view-caption');
     this.minimap = document.getElementById('minimap').getContext('2d');
     if (app.connection && !app.connection.configured) {
-      document.getElementById('assignment-explanation').textContent = 'This viewing edition provides the statistical field and the approved profile collection. No dot-to-person associations are saved here; use Sources to read individual biographies and photographs. Colours remain aggregate statistical proportions.';
+      document.getElementById('assignment-explanation').textContent = 'Selecting a dot discovers a source-checked profile in a shuffled order unique to this browser. The same dot remembers its person here, including after a reload. Clearing browser storage resets these associations; other visitors have their own discoveries. Colours remain aggregate statistical proportions.';
       const hint = document.getElementById('selection-hint');
-      if (hint) hint.textContent = 'Explore lives in Sources';
+      if (hint) hint.textContent = 'Select any dot';
     }
     document.querySelectorAll('[data-dialog]').forEach(button => button.addEventListener('click', () => {
       if (button.dataset.dialog === 'records-dialog') this.search.query(document.getElementById('record-search').value, document.getElementById('external-search').checked);
@@ -79,7 +79,7 @@ class MemorialUI {
           : buffer.liveStatus === 'unavailable' ? 'Live Wikidata is unavailable. Approved local biographies still work.'
           : buffer.liveStatus === 'ready' ? 'Live Wikidata statements have been retrieved and remain separate from historical approval.' : '');
     document.getElementById('memory-state').textContent = this.app.assignments.problem ||
-      (this.app.variant === 'field'
+      (this.app.variant === 'field' && this.app.connection?.configured
         ? 'Dot-to-person associations are permanently saved in the shared database. Every visitor sees the same person at the same dot. Colour remains an aggregate statistical proportion.'
         : 'Dot-to-person associations are saved only in this browser. Clearing site storage removes them. Other visitors may encounter a different person at the same dot.');
     if (this.app.variant === 'field' && buffer?.availablePeople !== undefined) {
@@ -116,10 +116,7 @@ class MemorialUI {
     if (!dialog.open) dialog.showModal();
   }
   async openSharedSlot(slot) {
-    if (this.app.connection && !this.app.connection.configured) {
-      this.openUnavailable('This viewing edition does not save dot assignments. Explore the approved biographies and photographs through Sources.');
-      return;
-    }
+    const local = this.app.connection && !this.app.connection.configured;
     this.abort?.abort();
     const request = this.slotRequest = (this.slotRequest || 0) + 1;
     const dialog = document.getElementById('person-dialog');
@@ -127,12 +124,12 @@ class MemorialUI {
     document.getElementById('person-content').textContent = 'Checking this dot in the shared database…';
     if (!dialog.open) dialog.showModal();
     try {
-      if (!this.app.buffer || this.indexError) throw new Error(this.app.connection.unavailableMessage());
+      if (!this.app.buffer || this.indexError) throw new Error(this.indexError ? 'The approved profiles could not load. Please reload.' : 'The profiles are still loading. Please try again shortly.');
       if (this.app.buffer.status === 'unavailable') await this.app.buffer.start();
       const person = await this.app.buffer.take(slot);
       if (request !== this.slotRequest || !dialog.open) return;
       if (person) this.openPerson(person);
-      else this.openUnavailable('No further approved profile is available for this dot yet. This dot remains unassigned until more approved people are added to the database. Existing assignments are permanent.');
+      else this.openUnavailable(local ? 'You have reached the end of the profiles currently available for random discovery. Familiar figures are held back until 300 distinct discoveries; the collection needs more approved profiles to reach that point. Revisit discovered dots or explore the full collection through Sources.' : 'No further approved profile is available for this dot yet. This dot remains unassigned until more approved people are added to the database. Existing assignments are permanent.');
     } catch (error) {
       if (request === this.slotRequest && dialog.open) this.openUnavailable(error.message + ' Click this dot again to retry; any saved assignment is preserved.');
     }

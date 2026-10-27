@@ -19,12 +19,18 @@ class VisitorDiscovery {
       return ((n ^ n >>> 14) >>> 0) / 4294967296;
     };
   }
-  static order(records, seed) {
+  // Editorial pacing, separate from historical metadata. These profiles remain
+  // searchable, but do not enter early dot discovery.
+  static laterProfiles = Object.freeze(['wikidata-Q4583', 'wikidata-Q7339', 'wikidata-Q7337',
+    'wikidata-Q69984', 'wikidata-Q559674', 'wikidata-Q4256516', 'wikidata-Q63477',
+    'wikidata-Q152441', 'wikidata-Q707554', 'wikidata-Q215572']);
+  static order(records, seed, { balanceNeighbours = true } = {}) {
     const pool = [...records].sort((a, b) => a.personId.localeCompare(b.personId, 'en'));
     const random = VisitorDiscovery.random(seed);
     for (let i = pool.length - 1; i > 0; i--) {
       const j = Math.floor(random() * (i + 1)); [pool[i], pool[j]] = [pool[j], pool[i]];
     }
+    if (!balanceNeighbours) return pool.map(record => record.personId);
     const order = [], weights = [['household', 8], ['collection', 2], ['residence', 1], ['country', 0.5], ['period', 0.25]];
     let previous;
     for (let next = 0; next < pool.length; next++) {

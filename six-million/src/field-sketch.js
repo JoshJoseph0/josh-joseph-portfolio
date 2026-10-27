@@ -16,7 +16,9 @@ function setup() {
   const grid = new FieldGrid(), camera = new FieldCamera(grid, width, height);
   const connection = new MemorialConnection(window.MEMORIAL_CONFIG);
   const records = new RecordStore(grid, (url, options) => connection.record(url, options));
-  const assignments = new SharedAssignments();
+  const assignments = connection.configured ? new SharedAssignments() : new BrowserAssignments(grid, {
+    key: 'six-million.viewing-random.field-v1', allowAllSlots: true, randomOnly: true
+  });
   const app = { variant: 'field', grid, camera, records, assignments, connection, point: {}, bounds: {},
     api: new WikidataApi(new HistoricalApiClient()), invalidate: invalidateMemorial,
     zoom(factor) { camera.zoomAt(factor, camera.width / 2, camera.height / 2); invalidateMemorial(); },
@@ -36,7 +38,14 @@ function setup() {
     pixelDensity(fieldPixelDensity(w, h)); resizeCanvas(w, h, true); camera.resize(w, h); invalidateMemorial();
   }).observe(host);
   records.loadIndex().then(async () => {
-    app.buffer = new SharedRecordBuffer(records, assignments, app.api, { onState: () => app.ui.bufferChanged(), connection });
+    if (connection.configured) {
+      app.buffer = new SharedRecordBuffer(records, assignments, app.api, { onState: () => app.ui.bufferChanged(), connection });
+    } else {
+      assignments.restore(records);
+      app.buffer = new HistoricalRecordBuffer(records, assignments, app.api, {
+        onState: () => app.ui.bufferChanged(), deferredPeople: VisitorDiscovery.laterProfiles, minimumDiscoveries: 300
+      });
+    }
     try { await app.buffer.start(); }
     catch {
       assignments.problem = connection.unavailableMessage();

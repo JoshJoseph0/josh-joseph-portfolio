@@ -71,3 +71,18 @@ Read the [current Field and source expansion report](field-implementation-report
 A 128-bit browser seed initializes a deterministic pseudorandom generator. Canonicalizing the approved ID set makes the input reproducible; seeded Fisher-Yates removes source-index, name and fame ordering. A bounded 64-entry lookahead then softly reduces adjacent documented household/collection/residence/country/period repetition. Unknown attributes incur no penalty, no identity is inferred and no demographic quota is invented. This is a diversity-conditioned sequence, not a claim that all final permutations are equally likely. Swapping into a consumed prefix avoids quadratic array shifting. Existing stored sequences are retained; newly approved IDs append in seeded order. Different browser profiles can encounter different people at the same slot.
 
 Fifteen new USHMM identification-card profiles broaden the original ten. Each contains original short factual prose, an individual institutional source, explicit fate/identity evidence and a SHA-256-pinned editorial review entry. Seven reviewed survivors are excluded; two ambiguous/scope-dependent records remain under review. None of the 39 unique SPARQL discoveries has publication approval. EHRI's 25 retained collection references are archival metadata, not people or evidence of murder. Name matches only create review candidates; no automatic person merges occur. See the current report for exact access methods, genuine HTTP responses and institutional reuse limits.
+
+
+## GitHub Pages browser-local discovery
+
+Without a shared API, selecting any field dot opens an approved profile and saves
+only its identifier and dot association in this browser. Reloading preserves that
+association; clearing site storage resets it. No visitor data is sent to a server.
+A fresh browser seed produces a Fisher–Yates shuffle, independent of index order.
+The Frank family, the other Secret Annex residents, Janusz Korczak, Emanuel
+Ringelblum and Felix Nussbaum are withheld from dot discovery until 300 distinct
+people have been assigned in that browser. This is editorial pacing, not an
+unrestricted random sample. All approved profiles remain accessible in Sources.
+The current 25-profile collection has only 15 profiles eligible for early discovery;
+it cannot reach the 300-person threshold without additional approved records.
+Exhaustion is shown honestly, with no repeated or invented identities.
