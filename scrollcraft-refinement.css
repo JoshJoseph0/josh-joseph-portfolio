@@ -1,0 +1,46 @@
+/* Scrollcraft pass: preserve the existing scene, clarify its entry and exit. */
+.hero-context{position:absolute;z-index:8;left:var(--pad);bottom:74px;display:flex;align-items:flex-end;gap:36px;max-width:calc(100% - 2 * var(--pad));color:var(--ink)}
+.hero-context p{font-size:18px;line-height:1.35;max-width:25ch;text-wrap:pretty}
+.hero-work-link{display:inline-flex;align-items:center;gap:18px;min-height:44px;white-space:nowrap;font-size:17px;text-decoration:none;border-bottom:1px solid currentColor}
+.hero-work-link span{display:inline-block;transition:transform 200ms ease-out}
+.hero-work-link:hover span{transform:translateY(4px)}
+.minimal-hero .wordmark{visibility:visible;opacity:0;pointer-events:none}
+.minimal-hero.name-docked .wordmark,.minimal-hero .wordmark:focus-visible{opacity:1;pointer-events:auto}
+.minimal-hero .wordmark:focus-visible{color:var(--ink);background:var(--paper)}
+.reading-thread{position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--ink);transform:scaleX(0);transform-origin:left;pointer-events:none}
+.about-v6 .section-lead h2,.play-invitation h2{ text-wrap:balance }
+.about-v6 p,.play-invitation>p{text-wrap:pretty}
+.minimal-hero .hero-life-toggle{font-size:14px;opacity:1}
+/* A six-across shelf needs a wide stage. Smaller laptops get readable covers. */
+@media(min-width:901px) and (max-width:1199px){
+ .hero-context{left:auto;right:var(--pad);top:10%;bottom:auto;display:block;max-width:25ch}
+ .hero-work-link{margin-top:18px}
+ .project-overview h2{font-size:16vw}
+ .project-overview .work-carousel-heading{margin-bottom:48px}
+ html:not(.horizontal-active) .project-overview .projects-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:64px 5vw;padding-inline:2vw}
+ .project-overview .work-card-caption h3{font-size:24px}
+ .project-overview .work-card-caption p{font-size:16px}
+ .project-cover-word,.project-cover-george .project-cover-word{font-size:34px}
+ .project-cover-word>span,.project-cover-george .project-cover-word>span{font-size:15px}
+ .project-flow>span{font-size:23px;padding:14px}
+ .project-overview .work-card-art{aspect-ratio:.85}
+}
+@media(min-width:1200px){
+ .hero-context{left:auto;right:var(--pad);top:18%;bottom:auto;display:block;max-width:25ch}
+ .hero-context p{font-size:21px}
+ .hero-work-link{margin-top:18px}
+ .horizontal-active .project-overview .work-card-caption h3{font-size:21px}
+ .horizontal-active .project-overview .work-card-caption p{font-size:14px;line-height:1.4}
+ .horizontal-active .project-overview .projects-grid{top:43%}
+}
+@media(max-width:700px){
+ .hero-context{bottom:100px;display:block}
+ .hero-context p{font-size:18px;max-width:24ch}
+ .hero-work-link{margin-top:16px;font-size:17px}
+ .minimal-hero .hero-life-toggle{font-size:13px}
+ .project-overview .work-card-caption h3{font-size:21px}
+ .project-overview .work-card-caption p{font-size:15px;line-height:1.4;max-width:19ch}
+}
+@media(max-height:740px) and (min-width:701px) and (max-width:900px){.hero-context{bottom:65px}.hero-context p{font-size:16px}}
+@media(prefers-reduced-motion:reduce){.hero-work-link span{transition:none}.hero-work-link:hover span{transform:none}}
+html[data-reduced-motion="true"] .hero-work-link span{transition:none;transform:none}

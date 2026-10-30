@@ -8,7 +8,7 @@
  const heading=title,headingLines=[...title.querySelectorAll('.project-heading-line')];
  root.dataset.projectLayout='overview';
  const cards=[...work.querySelectorAll('.work-card')],names=cards.map(card=>card.querySelector('h3').textContent);
- const media=matchMedia('(min-width: 901px) and (min-height: 651px) and (prefers-reduced-motion: no-preference)'),fine=matchMedia('(pointer: fine)');
+ const media=matchMedia('(min-width: 1200px) and (min-height: 651px) and (prefers-reduced-motion: no-preference)'),fine=matchMedia('(pointer: fine)');
  const position=document.createElement('div');position.className='story-position';position.setAttribute('aria-hidden','true');position.innerHTML='<span class="story-scroll"><span>↓</span>Scroll to explore</span>';stage.append(position);
  let context,split,timeline,trigger,flight,lenis,tick,enabled=false,keyboard=false,frame=0,mode='none';
  function navigation(){
@@ -84,6 +84,7 @@
     .to(yellow,{x:()=>-innerWidth*.6,y:()=>innerHeight*.15,duration:1.05},0)
     .to(orb,{x:()=>-innerWidth*.43,scale:()=>Math.hypot(innerWidth*.66,Math.max(innerWidth*.27,innerHeight-innerWidth*.27))*1.1/(innerWidth*.5),duration:1.05},.15)
     .to(intro.querySelector('.hero-life-toggle'),{opacity:0,duration:.3},.85)
+    .to(intro.querySelector('.hero-context'),{opacity:0,y:-18,duration:.3},0)
     .fromTo(work,{x:()=>innerWidth},{x:0,duration:.75},.42)
     .from(headingLines,{yPercent:110,stagger:.07,duration:.5,ease:'power2.out'},.57)
     .from(cards,{'--depth-y':'80px',stagger:.06,duration:.45,ease:'power2.out'},.68)
@@ -98,7 +99,10 @@
   const card=cards.find(c=>'#'+c.id===hash);let y;
   if(hash==='#work'||card){y=trigger.end;}
   else {let target;try{target=document.querySelector(hash);}catch{return false;}if(!target)return false;y=target.getBoundingClientRect().top+scrollY-header.offsetHeight-24;}
-  jump(y);return true;
+  jump(y);
+  const destination=card||document.getElementById(hash.slice(1));
+  if(destination){destination.setAttribute('tabindex','-1');destination.focus({preventScroll:true});}
+  return true;
  }
  document.addEventListener('click',e=>{
   const a=e.target.closest('a[href]');if(!a||e.button||e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;

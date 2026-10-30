@@ -25,7 +25,8 @@
   const r=button.getBoundingClientRect();if(r.width&&r.top<sr.bottom)result.push({x:r.left-sr.left+(world?.cameraX||0)-8,y:r.top-sr.top-4,w:r.width+16,h:r.height+36});
   // Leave project cards and captions clear while the crowd shares their floor.
   const floor=canvas.getBoundingClientRect();
-  for(const el of document.querySelectorAll('#work .work-card,#work .project-section-note')){
+  for(const el of document.querySelectorAll('.hero-context,#work .work-card,#work .project-section-note')){
+   if(Number(getComputedStyle(el).opacity)<.1)continue;
    const box=el.getBoundingClientRect();if(!box.width||box.bottom<floor.top||box.top>floor.bottom)continue;
    result.push({x:box.left-sr.left+(world?.cameraX||0)-10,y:box.top-sr.top-8,w:box.width+20,h:box.height+40});
   }

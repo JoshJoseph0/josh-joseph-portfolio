@@ -41,3 +41,10 @@ Fixed mobile project-number edge clearance, short-laptop gallery alignment, scre
 Exercised the original 20 and the new 20 playground pieces. Checked form feedback, no-results search, undo, reorder, disclosures, timer reset/pause, audio start/stop, code-viewer layout, and a downloaded standalone orbit demo. Updated the small project-search experiment to include all six projects. Browser checks found no horizontal page overflow, missing images, or console errors in the final tested states. Internal assets, fragment targets, unique experiment IDs, PDF signatures and changed JavaScript syntax also passed.
 
 Screenshots and responsive measurements are saved outside the published site in the task's outputs/portfolio/qa folder. This is browser-based QA at the tested sizes; it is not a claim of certification or identical behaviour in every browser/device.
+
+
+## Scrollcraft refinement — 30 October 2026
+
+Preserved the side-scrolling scene, oversized name docking, shared crowd and tilted project shelf. Added a live practice description and explicit project link, fading that small introduction during the existing scene transition. Crowd pathfinding now reserves that text area. Added a thin reading-progress line, larger phone captions, a three-column natural-flow gallery for 901–1199px laptops, and focus transfer for desktop scene anchors. The home link now appears when reached by keyboard before the name docks.
+
+Visual checks used browser iframe viewports at 1440×900, 1024×768 and 390×844, plus the browser's ordinary viewport. Checked the opening, an intermediate scene frame, project destination, paused-motion fallback and keyboard home-link focus. Pausing motion disables the pinned scene; restoring it re-enables the existing choreography. Homepage local references (57) resolve, and changed JavaScript passes syntax checks. Browser iframe checks are not physical-device testing or a full audit of the unchanged playground/case-study interactions. No new media or paid dependencies.
