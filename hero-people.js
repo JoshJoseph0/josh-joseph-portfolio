@@ -13,7 +13,7 @@
   if(!world)return;
   // Scrolling moves the camera through a persistent world. Nobody is faded or reset.
   world.cameraX=reduced.matches||root.dataset.reducedMotion==='true'?0:Math.max(0,Number(root.dataset.heroCameraX||0));
-  if(pointer)world.pointer={x:pointer.x+world.cameraX,y:pointer.y};else world.pointer=null;
+  if(pointer&&!motionOff()&&progress()<.18&&!document.body.classList.contains('crowd-carrying'))world.pointer={x:pointer.x+world.cameraX,y:pointer.y};else world.pointer=null;
  }
  function rectangles(){
   const result=[],sr=scene.getBoundingClientRect(),selector=document.querySelector('.name-flight')?'.name-flight>span':'#intro h1>span';
@@ -78,7 +78,7 @@
  }
  function draw(){
   if(!world)return;camera();ctx.clearRect(0,0,width,height);const visiblePeople=world.visible();visiblePeople.map(p=>({p,q:world.sample(p)})).sort((a,b)=>a.q.y-b.q.y).forEach(({p,q})=>person(p,q));
-  canvas.dataset.sittingPeople=String(visiblePeople.filter(p=>p.sitBlend>.5).length);canvas.dataset.textingPeople=String(visiblePeople.filter(p=>p.phoneBlend>.5).length);canvas.dataset.visiblePeople=String(visiblePeople.length);canvas.dataset.cameraX=world.cameraX.toFixed(1);canvas.dataset.walkerCount=String(world.people.length);pickup?.paint();
+  canvas.dataset.sittingPeople=String(visiblePeople.filter(p=>p.sitBlend>.5).length);canvas.dataset.textingPeople=String(visiblePeople.filter(p=>p.phoneBlend>.5).length);canvas.dataset.visiblePeople=String(visiblePeople.length);canvas.dataset.cameraX=world.cameraX.toFixed(1);canvas.dataset.followingPeople=String(world.pointer?world.people.filter(p=>p.followingPointer&&!p.held).length:0);canvas.dataset.walkerCount=String(world.people.length);pickup?.paint();
  }
  function report(){
   canvas.dataset.hitTargets=JSON.stringify(world.visible().map(p=>{const q=world.sample(p);return {id:p.id,x:+q.x.toFixed(1),y:+q.y.toFixed(1)};}));
@@ -98,8 +98,9 @@
  }
  const pickup=window.installPortfolioPickup?.({getWorld:()=>world,canvas,scene,draw,reduced:()=>reduced.matches||root.dataset.reducedMotion==='true'});
  button.addEventListener('click',()=>{paused=!paused;sync();});
- scene.addEventListener('pointermove',e=>{if(e.pointerType!=='mouse')return;const r=scene.getBoundingClientRect();pointer={x:e.clientX-r.left,y:e.clientY-r.top};},{passive:true});scene.addEventListener('pointerleave',()=>{pointer=null;});
+ scene.addEventListener('pointermove',e=>{if(e.pointerType!=='mouse'||e.target.closest('a,button,input,select,textarea')){pointer=null;return;}const r=scene.getBoundingClientRect();pointer={x:e.clientX-r.left,y:e.clientY-r.top};},{passive:true});scene.addEventListener('pointerleave',()=>{pointer=null;});
  // The walking loop already paints the latest camera each frame. Paused scenes still follow scroll.
+ addEventListener('blur',()=>{pointer=null;});
  document.addEventListener('heroscenechange',()=>{if(!frame)draw();});document.addEventListener('herovisibility',sync);
  document.addEventListener('motionpreference',sync);document.addEventListener('visibilitychange',sync);document.addEventListener('keydown',sync);document.addEventListener('pointerdown',sync);reduced.addEventListener('change',sync);
  new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;sync();},{threshold:.01}).observe(canvas);

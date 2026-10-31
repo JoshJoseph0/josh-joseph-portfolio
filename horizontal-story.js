@@ -136,9 +136,9 @@
  work.addEventListener('click',e=>{
   const link=e.target.closest('.work-card>a');if(!link||e.defaultPrevented||e.button||e.ctrlKey||e.metaKey||e.shiftKey||e.altKey||keyboard||root.dataset.reducedMotion==='true'||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
   e.preventDefault();if(opening)return;
-  const art=link.querySelector('.work-card-art'),state=Flip.getState(art);opening=document.createElement('div');opening.className='project-opening projects-v17';opening.setAttribute('aria-hidden','true');const clone=art.cloneNode(true);opening.append(clone);body.append(opening);root.classList.add('project-is-opening');
+  const art=link.querySelector('.work-card-art'),front=art.querySelector('.project-cover')||art,state=Flip.getState(front);opening=document.createElement('div');opening.className='project-opening projects-v17';opening.setAttribute('aria-hidden','true');const clone=art.cloneNode(true);clone.setAttribute('data-flip-id',front.getAttribute('data-flip-id'));opening.append(clone);body.append(opening);root.classList.add('project-is-opening');
   Object.assign(clone.style,{left:'0px',top:'0px',width:'100vw',height:'100vh',borderRadius:'0px'});
-  const navigate=()=>location.assign(link.href);tween=Flip.from(state,{targets:clone,duration:.6,ease:'power3.inOut',absolute:true,scale:true,onComplete:navigate});navigationTimer=setTimeout(navigate,1000);
+  const navigate=()=>location.assign(link.href);tween=Flip.from(state,{targets:clone,duration:.45,ease:'power3.inOut',absolute:true,scale:true,onComplete:navigate});navigationTimer=setTimeout(navigate,1000);
  });
  for(const card of cards){
   const link=card.querySelector('a'),art=card.querySelector('.work-card-art');

@@ -98,6 +98,24 @@
    if(!point)return false;
    const home=origin.homeX;this.place(p,point);p.homeX=home;return true;
   }
+  followPointer(p,idle){
+   const pointer=this.pointer,distance=pointer?Math.hypot(pointer.x-p.x,pointer.y-p.y):Infinity;
+   if(!pointer||distance>(p.followingPointer?480:360)){
+    if(p.followingPointer){p.followingPointer=false;p.path=[];p.goal=null;}
+    return;
+   }
+   if(p.pointerCheckAt===undefined){p.pointerCheckAt=this.clock+(p.id%7)*.08;return;}
+   if(idle||this.clock<p.pointerCheckAt)return;
+   p.pointerCheckAt=this.clock+.7+(p.id%5)*.06;
+   // Each walker keeps a separate place around the cursor, rather than piling onto it.
+   if(p.followingPointer&&Math.hypot(pointer.x-p.pointerTargetX,pointer.y-p.pointerTargetY)<24)return;
+   for(const radius of [48+(p.id%4)*13,110,170,230])for(let i=0;i<8;i++){
+    const angle=p.id*2.3999632297+i*Math.PI/4,goal={x:pointer.x+Math.cos(angle)*radius,y:pointer.y+Math.sin(angle)*radius};
+    if(!this.free(goal,16))continue;
+    const path=this.route(p,goal);if(!path.length)continue;
+    p.followingPointer=true;p.pointerTargetX=pointer.x;p.pointerTargetY=pointer.y;p.goal=goal;p.path=path;return;
+   }
+  }
   setObstacles(rectangles){this.obstacles=rectangles;}
   advance(delta){
    this.accumulator+=clamp(delta,0,.1);
@@ -120,13 +138,14 @@
     const texting=this.clock<p.phoneUntil;
     p.phoneBlend+=((texting&&p.actualSpeed<3?1:0)-p.phoneBlend)*(1-Math.exp(-dt*5));
     const idle=this.clock<p.idleUntil||p.sitBlend>.001;
-    if(!idle&&!p.path.length)this.newGoal(p);
+    this.followPointer(p,idle);
+    if(!idle&&!p.path.length&&!p.followingPointer)this.newGoal(p);
     while(p.path.length>1&&this.clear(p,p.path[1]))p.path.shift();
     while(p.path.length>1&&Math.hypot(p.path[0].x-p.x,p.path[0].y-p.y)<15)p.path.shift();
     const next=p.path[0];let targetAngle=p.angle,targetSpeed=0;
     if(next&&!idle){
      const dx=next.x-p.x,dy=next.y-p.y,distance=Math.hypot(dx,dy);
-     if(distance<8&&p.path.length===1){p.path=[];p.goal=null;this.newGoal(p);targetSpeed=p.cruise*.65;}
+     if(distance<8&&p.path.length===1){p.path=[];if(!p.followingPointer){p.goal=null;this.newGoal(p);targetSpeed=p.cruise*.65;}}
      else{
       let sx=dx/(distance||1),sy=dy/(distance||1),yieldFactor=1;
       // Small anticipatory sidesteps, rather than oscillating repulsion forces.
@@ -143,7 +162,7 @@
       }
       targetAngle=Math.atan2(sy,sx);const error=Math.abs(deltaAngle(p.angle,targetAngle));
       const arrival=p.path.length===1?clamp(distance/40,.12,1):1;
-      targetSpeed=p.cruise*Math.max(.2,1-error/Math.PI*.85)*arrival*yieldFactor;
+      targetSpeed=p.cruise*(p.followingPointer?1.15:1)*Math.max(.2,1-error/Math.PI*.85)*arrival*yieldFactor;
      }
     }
     const maxTurn=1.65*dt;p.angle+=clamp(deltaAngle(p.angle,targetAngle),-maxTurn,maxTurn);
@@ -166,7 +185,7 @@
     p.stuck=targetSpeed>5&&distance<.015?p.stuck+dt:0;
     if(p.stuck>.7&&this.clock>p.repathAt){if(!this.detour(p))this.newGoal(p);p.repathAt=this.clock+.8;p.stuck=0;}
     p.waiting=!texting&&!sitting&&p.sitBlend<.01&&p.actualSpeed<1.5?p.waiting+dt:0;
-    if(p.waiting>1.1){this.detour(p);p.waiting=0;}
+    if(p.waiting>1.1&&!p.followingPointer){this.detour(p);p.waiting=0;}
     if(!texting&&p.sitBlend<.01&&this.pointer&&p.id%5===0&&this.clock>p.waveCooldown&&Math.hypot(p.x-this.pointer.x,p.y-this.pointer.y)<42){p.waveUntil=this.clock+1.15;p.waveCooldown=this.clock+9;}
    }
   }

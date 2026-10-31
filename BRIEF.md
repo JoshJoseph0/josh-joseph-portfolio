@@ -32,3 +32,9 @@ Do not introduce video, new claims, stock imagery, extra scroll scenes, a second
 Keep the existing reference lock and six-project journey. Changes serve continuity and feedback: align the second name line with the header as it docks; reduce wheel lag and cover response time; immediately clear cover offsets for keyboard or motion-preference changes; suspend smoothing in hidden tabs and reconcile pointer capability changes. Keep native touch scrolling and the existing static reduced-motion route. No new renderer, assets, effects or design tokens.
 
 The requested threejs-animation plugin was checked in the available tools, local plugin cache and plugin search; no matching plugin was available. Continue with the established GSAP system within Josh's authorised animation scope.
+
+## Approved project selection revision - 31 October 2026
+
+Josh chose A (Pull & peek), asking for a more modern card and people attracted to the mouse. Keep the established orange shelf, tilted covers, two fonts, six projects, name docking and horizontal handoff. Refine the card to an 8px edge, flatter perspective and a quieter shadow; move the existing index into the caption. A 320ms cover lift reveals a concise project note. Keep ordinary one-click case-study links, add an explicit touch peek control, support keyboard focus and static reduced motion. Six Million gets a quiet detail fade instead of a playful lift. Reserve space above the covers so the interaction never collides with the heading.
+
+The existing crowd will gently route nearby walkers toward individually spaced points around the mouse, respecting obstacles, personal space, sitting, phone breaks and pickup. Stop attracting when the pointer leaves, enters a control, the scene scrolls away, motion is paused, or reduced motion is enabled. No new libraries, cursor replacement, confetti or sound.
