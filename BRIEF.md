@@ -26,3 +26,9 @@ Primary reference: the current public portfolio and repository design notes. Sec
 Keep Anton display and Barlow Condensed text, ink on paper, orange gallery, green/yellow hero accents and individual project-cover colours. Add an explicit practice description and work link; keep moving artwork behind live controls. Give smaller laptops a readable three-column gallery in natural flow. Keep the original desktop side-scroll above that breakpoint. Make in-page keyboard destinations receive focus, and keep the hero home link focusable even before docking. Add a quiet reading line to orient the longer vertical route.
 
 Do not introduce video, new claims, stock imagery, extra scroll scenes, a second smoothing engine or a replacement renderer. The existing GSAP system already implements the signature, so another engine would compete with it.
+
+## Motion continuity pass - 31 October 2026
+
+Keep the existing reference lock and six-project journey. Changes serve continuity and feedback: align the second name line with the header as it docks; reduce wheel lag and cover response time; immediately clear cover offsets for keyboard or motion-preference changes; suspend smoothing in hidden tabs and reconcile pointer capability changes. Keep native touch scrolling and the existing static reduced-motion route. No new renderer, assets, effects or design tokens.
+
+The requested threejs-animation plugin was checked in the available tools, local plugin cache and plugin search; no matching plugin was available. Continue with the established GSAP system within Josh's authorised animation scope.
