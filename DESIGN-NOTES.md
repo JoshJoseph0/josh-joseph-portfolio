@@ -66,3 +66,11 @@ Fixed invisible hero controls remaining interactive after their opacity reaches 
 In the same one-second desktop wheel-scroll probe, canvas paints changed from 226 over 99 browser animation frames to 99 over 99 frames (about 56% fewer paints). This measures duplicate work, not a guaranteed frame rate or a physical-device benchmark. Kept all six projects, content, typography, colours and choreography.
 
 Verified paused crowd camera movement, faded control inertness and reverse-scroll restoration; repeated desktop intermediate frames, project navigation/Back/Escape, resize, pause toggle, keyboard and reduced-motion checks, plus touch-emulated 320/390px and 1024px layouts. No JavaScript errors, missing images or page overflow in those checks. Physical phones and a full DevTools/GPU trace remain unverified.
+
+## MengTo Skills follow-up - 31 October 2026
+
+Reviewed MengTo/Skills at a45892d2fdadab75b31fb16abecc02f101b31c43. Applied animation-systems, cinematic-gsap-lenis-motion-system and gsap-scrolltrigger-storytelling as supporting implementation/verification guidance. Kept the existing reference lock: one hero-to-project scene, direct scroll mapping, short cover feedback, native touch flow and static reduced motion. Did not adopt the example's slower hover/scrub defaults, new cursors, blurs, visual styles or extra scenes.
+
+Additional viewport checks found the fixed Move a person control overlapping a project caption at 768px. Extended its existing phone placement/hiding rule from 700px to the existing 900px tablet layout boundary. The same button, appearance and pickup/cancel interaction remain.
+
+Verified 375x812, 768x1024, 1199x900, 1200x650 and 1200x651; pinning changes at the intended 1200px/651px boundary, all six projects remain accessible, no horizontal page overflow or JavaScript errors. Tablet control does not overlap captions while traversing the gallery, and pickup/Escape cancellation works. With JavaScript disabled at 1440x900, the name and all six project links remain visible in natural flow. Repeated the existing desktop, phone touch-emulation, keyboard, resize, reverse-scroll and reduced-motion suite. Inspected rendered tablet, short-desktop and no-JavaScript screenshots. Physical devices and other browser engines remain outside these browser checks.

@@ -79,8 +79,8 @@ window.installPortfolioPickup=({getWorld,canvas,draw,reduced})=>{
   const overview=document.documentElement.dataset.projectLayout==='overview';
   let mobileTop=overview?hb+8:hb-54;
   if(overview&&hb<82)mobileTop=(document.querySelector('.project-section-note')?.getBoundingClientRect().top||innerHeight)+10;
-  if(innerWidth<=700&&overview&&(mobileTop<82||mobileTop>innerHeight-50)&&!held)control.hidden=true;
-  const top=innerWidth<=700&&mobileTop>=82&&mobileTop<innerHeight-50?mobileTop+'px':'';
+  if(innerWidth<=900&&overview&&(mobileTop<82||mobileTop>innerHeight-50)&&!held)control.hidden=true;
+  const top=innerWidth<=900&&mobileTop>=82&&mobileTop<innerHeight-50?mobileTop+'px':'';
   control.style.top=top;control.style.bottom=top?'auto':'';cancelButton.style.top=top;cancelButton.style.bottom=top?'auto':'';
   if(held){
    const p=held.p,d=held.landing?.point||destination(),r=canvas.getBoundingClientRect(),w=getWorld();
