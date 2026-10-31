@@ -56,3 +56,13 @@ Preserved the palette, Anton/Barlow Condensed, content, six projects, people, co
 References: existing live site and notes remain the visual target; Refero bundled motion guidance supplies continuity, shorter feedback and interruptibility. Scrollcraft verification guidance informs intermediate-frame, reverse-scroll and fallback checks. No new visual direction or media.
 
 QA: Chrome desktop 1440x900 at opening, 25/50/75/100% of the pinned scene, then reverse to 50% and opening. Docked name lines align within .001px. Project opening and browser Back restore the page without an overlay. Keyboard navigation removes the pin and reaches project links; dynamic reduced motion clears hover offsets and removes the pin. Checked 320x700, 390x844, 1024x768 and desktop reduced motion; six cards, loaded images, no horizontal page overflow or JavaScript errors. Screenshots and test results are kept outside the published repository. These are browser checks, not physical-phone testing.
+
+## Genjutsu follow-up - 31 October 2026
+
+Used AThevon/genjutsu at 1f518a71378b15d423389e546e767cffc86e14c3 as an audit of the established direction. Modules read: design-audit, motion-principles, gsap, canvas-generative and mobile-principles. No new interaction concept, design system, dependency or visual effect.
+
+Fixed invisible hero controls remaining interactive after their opacity reaches zero. They become inert only while faded out in the horizontal scene, and restore on reverse scroll or scene teardown. The walking canvas now uses its pending animation frame instead of repainting again for each scene-update event; paused people still redraw as the camera moves.
+
+In the same one-second desktop wheel-scroll probe, canvas paints changed from 226 over 99 browser animation frames to 99 over 99 frames (about 56% fewer paints). This measures duplicate work, not a guaranteed frame rate or a physical-device benchmark. Kept all six projects, content, typography, colours and choreography.
+
+Verified paused crowd camera movement, faded control inertness and reverse-scroll restoration; repeated desktop intermediate frames, project navigation/Back/Escape, resize, pause toggle, keyboard and reduced-motion checks, plus touch-emulated 320/390px and 1024px layouts. No JavaScript errors, missing images or page overflow in those checks. Physical phones and a full DevTools/GPU trace remain unverified.

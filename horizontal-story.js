@@ -5,6 +5,7 @@
  gsap.registerPlugin(ScrollTrigger,Flip,SplitText);
  const shell=document.createElement('div'),stage=document.createElement('div');shell.className='horizontal-story';stage.className='horizontal-stage';intro.before(shell);shell.append(stage);stage.append(intro,work);
  const orb=intro.querySelector('.semi-orb'),green=intro.querySelector('.hero-green'),yellow=intro.querySelector('.hero-yellow'),title=work.querySelector('h2'),name=intro.querySelector('h1'),wordmark=header.querySelector('.wordmark');
+ const sceneControls=[intro.querySelector('.hero-context'),intro.querySelector('.hero-life-toggle')].filter(Boolean);
  const heading=title,headingLines=[...title.querySelectorAll('.project-heading-line')];
  root.dataset.projectLayout='overview';
  const cards=[...work.querySelectorAll('.work-card')],names=cards.map(card=>card.querySelector('h3').textContent);
@@ -28,6 +29,8 @@
  }
  function render(){
   surfaces();navigation();
+  // Fading out a control must also remove its invisible hit and focus targets.
+  for(const control of sceneControls)control.inert=enabled&&Number(gsap.getProperty(control,'opacity'))<.01;
   body.classList.toggle('name-docked',flight&&timeline?(enabled?timeline.time()>.65:timeline.progress()>.85):scrollY>Math.min(innerHeight*.35,240));
   const phase=enabled&&timeline?Math.min(1,Math.max(0,(timeline.time()-.05)/1.35)):timeline?timeline.progress():Math.min(1,scrollY/Math.max(1,intro.offsetHeight*.9));
   root.dataset.heroSceneProgress=phase.toFixed(5);
@@ -52,6 +55,7 @@
  function stopSmoothing(){if(tick)gsap.ticker.remove(tick);tick=null;lenis?.destroy();lenis=null;root.dataset.scrollEngine='native';}
  function jump(y){if(lenis)lenis.scrollTo(y,{immediate:true,force:true});else scrollTo({top:y,behavior:'instant'});ScrollTrigger.update();render();}
  function teardown(){
+  sceneControls.forEach(control=>{control.inert=false;});
   stopSmoothing();context?.revert();context=null;split?.revert();split=null;flight?.remove();flight=null;timeline=null;trigger=null;enabled=false;mode='none';
   root.classList.remove('horizontal-active');body.classList.remove('name-flight-active','project-scene-view');header.style.removeProperty('--takeover-mask');header.style.removeProperty('--green-mask');position.style.opacity='0';
   cards.forEach(c=>c.querySelector('.work-card-art').style.removeProperty('--horizontal-drift'));

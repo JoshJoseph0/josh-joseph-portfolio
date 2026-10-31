@@ -99,7 +99,8 @@
  const pickup=window.installPortfolioPickup?.({getWorld:()=>world,canvas,scene,draw,reduced:()=>reduced.matches||root.dataset.reducedMotion==='true'});
  button.addEventListener('click',()=>{paused=!paused;sync();});
  scene.addEventListener('pointermove',e=>{if(e.pointerType!=='mouse')return;const r=scene.getBoundingClientRect();pointer={x:e.clientX-r.left,y:e.clientY-r.top};},{passive:true});scene.addEventListener('pointerleave',()=>{pointer=null;});
- document.addEventListener('heroscenechange',draw);document.addEventListener('herovisibility',sync);
+ // The walking loop already paints the latest camera each frame. Paused scenes still follow scroll.
+ document.addEventListener('heroscenechange',()=>{if(!frame)draw();});document.addEventListener('herovisibility',sync);
  document.addEventListener('motionpreference',sync);document.addEventListener('visibilitychange',sync);document.addEventListener('keydown',sync);document.addEventListener('pointerdown',sync);reduced.addEventListener('change',sync);
  new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;sync();},{threshold:.01}).observe(canvas);
  new ResizeObserver(resize).observe(scene);document.fonts.ready.then(()=>{fontsReady=true;resize();});addEventListener('pagehide',()=>cancelAnimationFrame(frame));addEventListener('pageshow',sync);
